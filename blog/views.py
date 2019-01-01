@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def allblogs(request):
+def getAllBlogs(request):
 	return render(request, 'blog/summary.html')
