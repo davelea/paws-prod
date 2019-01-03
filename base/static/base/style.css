@@ -99,3 +99,7 @@ nav {
   font-size: 25px;
   line-height: 50px;
 }
+
+.paws-pricing-card__secondary-title {
+  color: #6c757d;
+}

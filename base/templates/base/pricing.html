@@ -1,94 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
-	
-		<title>Paws Around Motown: Pricing</title>
-	
-		<!-- Bootstrap core CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-		 crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-		 crossorigin="anonymous">
-	
-		{% load static %}
-		<link rel="stylesheet" type="text/css" href="{% static 'base/style.css' %}">
-	
-	</head>
-	
-	<body>
-	
-		<!-- Header -->
-		<header>
-			<!-- Navigation -->
-			<nav class="navbar navbar-expand-md navbar-dark sticky-top">
-				<div class="container">
-					<a class="navbar-brand" href="/">
-						<img class="paws-header__logo" src="https://pawsaroundmotown.com/images/pawsaroundmotown-horizontal-crop.png" />
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-					 aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarResponsive">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="/">Home</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/about">About</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Pricing
-									<span class="sr-only">(current)</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link active" href="/blog">Blog</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/team">Our Team</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/faq">FAQ</a>
-							</li>
-						</ul>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Paws Around Motown: Pricing</title>
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+	 crossorigin="anonymous">
+
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'base/style.css' %}">
+
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header>
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-md navbar-dark sticky-top">
+			<div class="container">
+				<a class="navbar-brand" href="/">
+					<img class="paws-header__logo" src="https://pawsaroundmotown.com/images/pawsaroundmotown-horizontal-crop.png" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+				 aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="/">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Pricing
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="/blog">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/team">Our Team</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/faq">FAQ</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Page Content -->
+	<div class="container">
+
+		<ol class="breadcrumb mt-4">
+			<li class="breadcrumb-item">
+				<a href="/home">Home</a>
+			</li>
+			<li class="breadcrumb-item active">Pricing</li>
+		</ol>
+
+		<!-- Page Heading/Breadcrumbs -->
+		<h1 class="mt-4 mb-3">Pricing</h1>
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-sm-12 col-md-6 my-3">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Dog Walking</h4>
+							<div class="card-text">
+								<p>20, 30, 45, or 60 minute on leash exercise in your pet’s neighborhood. All private walks include water
+									refresh, lots of love and praise, and a visit update via email.</p>
+								<h5 class="paws-pricing-card__secondary-title">Pricing</h5>
+								<ul>
+									<li>20 Minutes - $16</li>
+									<li>30 Minutes - $18</li>
+									<li>45 Minutes - $22</li>
+									<li>20 Minutes - $16</li>
+									<li>Add $5 if walk is before 8 am or after 8 pm</li>
+									<li>Add $5 for each additional dog, if more than 2 dogs</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
-			</nav>
-		</header>
 
-    <!-- Page Content -->
-    <div class="container">
+				<div class="col-sm-12 col-md-6 my-3">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Pet Sitting</h4>
+							<div class="card-text">
+								<p>These 45 minute visits include a walk (optional) or private exercise, feeding and water refresh, litter box
+									maintenance, mail and newspaper retrieval, light and window treatment rotation, and plant watering.</p>
+								<h5 class="paws-pricing-card__secondary-title">Pricing</h5>
+								<ul>
+									<li>$22 per visit</li>
+									<li>We require a minimum of three visits per day for dogs and one visit per day for cats</li>
+									<li>Add $5 if visit is before 8 am or after 8 pm</li>
+									<li>If you have more than two pets, add $5 for each additional dog and $3 for each additional cat</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 
-			<ol class="breadcrumb mt-4">
-				<li class="breadcrumb-item">
-					<a href="/home">Home</a>
-				</li>
-				<li class="breadcrumb-item active">Pricing</li>
-			</ol>
+			</div>
+			<!-- /.row -->
 
-      <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Pricing</h1>
+			<div class="row">
 
-      <div class="row">
+				<div class="col-sm-12 col-md-6 my-3">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Overnight Pet Sitting</h4>
+							<div class="card-text">
+								<p>Pet sitter spends the night with your pet in your home for a minimum of 12 hours (7 pm to 7 am). Includes a
+									minimum of three walks (dinner, bedtime, and morning), feeding and water refresh, medication administration,
+									litter box maintenance, mail and newspaper retrieval, light and window treatment rotation, plant watering, and
+									anything else that's part of your pet's routine.</p>
+								<h5 class="paws-pricing-card__secondary-title">Pricing</h5>
+								<ul>
+									<li>$150 per night</li>
+									<li>Additional fees may be required for an excessive number of pets</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 
-        <!-- Post Content Column -->
-        <div class="col-lg-12 mb-4">
+				<div class="col-sm-12 col-md-6 my-3">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Everything But The Slumber</h4>
+							<div class="card-text">
+								<p>All the thrills of the overnight stay without pet sitters sleeping in your home. We will spend 3 hours with
+									your pets in the evening and then come back in the morning for breakfast! Includes private exercise, feeding
+									and water refresh, medication administration, litter box maintenance, mail and newspaper retrieval, light and
+									window treatment rotation, and plant watering.</p>
+								<h5 class="paws-pricing-card__secondary-title">Pricing</h5>
+								<ul>
+									<li>$80 per sit</li>
+									<li>If you have more than two pets, add $5 for each additional dog and $3 for each additional cat</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 
+			</div>
+			<!-- /.row -->
 
-        </div>
+			<div class="row">
 
-      </div>
-      <!-- /.row -->
+				<div class="col-sm-12 col-md-6 my-3">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Vacation Visit Packages</h4>
+							<div class="card-text">
+								<p>Each 30 minute visit includes private exercise, feeding and water refresh, medication administration, litter
+									box maintenance, mail and newspaper retrieval, light and window treatment rotation, plant watering, and home
+									security checks.</p>
+								<h5 class="paws-pricing-card__secondary-title">Pricing</h5>
+								<ul>
+									<li>3 visits - $63 per day</li>
+									<li>4 visits - $80 per day</li>
+									<li>Add $5 for visits before 8 am or after 8 pm</li>
+									<li>Add $5 for each additional dog and $3 for each additional cat if more than 2 dogs or cats</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 
-    </div>
-    <!-- /.container -->
+				<div class="col-sm-12 col-md-6 my-3">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Basic Obedience Training</h4>
+							<div class="card-text">
+								<p>Have Becky, our owner and certified dog trainer, come to your home and work with you and your dog, on a
+									weekly basis, to learn basic obedience cues: sit, down, loose leash walking, etc.</p>
+								<h5 class="paws-pricing-card__secondary-title">Pricing</h5>
+								<ul>
+									<li>$50 per session</li>
+									<li>Each session lasts approxmately 45 to 60 minutes</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- /.row -->
+
+			<div class="row">
+
+				<div class="col-sm-12 col-md-6 my-3">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Lunch and Learn</h4>
+							<div class="card-text">
+								<p>Have Becky come and walk your dog at lunch time while training on a foundation of proper and polite walking
+									skills. Space is limited.</p>
+								<h5 class="paws-pricing-card__secondary-title">Pricing</h5>
+								<ul>
+									<li>$40 per session</li>
+									<li>Each session lasts between 30 to 45 minutes</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 my-3">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Yard Waste Cleanup Service</h4>
+							<div class="card-text">
+								<h5 class="paws-pricing-card__secondary-title">Pricing</h5>
+								<ul>
+									<li>Spring Cleanup/Initial Cleanup Service</li>
+									<ul>
+										<li>Before we begin regular service we will do a first time clean up</li>
+										<li>$30 for one dog</li>
+										<li>Add $5 for each additional dog</li>
+									</ul>
+									<li>Regular Service</li>
+									<ul>
+										<li>One time per week</li>
+										<li>$16 for one dog</li>
+										<li>Add $4 for each additional dog</li>
+									</ul>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- /.row -->
+
+			<div class="row">
+
+				<div class="col-sm-12 col-md-6 my-3">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Pet Taxi</h4>
+							<div class="card-text">
+								<p>Transportation of pets and pet care supplies to and from boarding facilities, friends and family, trainers,
+									veterinarians, or other locations.</p>
+								<h5 class="paws-pricing-card__secondary-title">Pricing</h5>
+								<ul>
+									<li>$20 base charge (includes up to 10 miles)</li>
+									<li>$.50 per additional mile (after base miles)</li>
+									<li>$.50 per minute for any wait time</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- /.row -->
+
+			<div class="row">
+
+				<div class="col-sm-12 col-md-12 my-3">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Additional Fees</h4>
+							<div class="card-text">
+								<h5 class="paws-pricing-card__secondary-title">Last Minute Requests</h5>
+								<p>If a service is requested less than 24 hours in advance, there will be an additional $5 surcharge.</p>
+
+								<h5 class="paws-pricing-card__secondary-title">Early and Late Walks/Visits</h5>
+								<p>Normal visit hours are from 8 am until 8 pm. We will provide visits outside of our normal business hours for
+									an additional $5 per walk/visit.</p>
+
+								<h5 class="paws-pricing-card__secondary-title">Cancellations</h5>
+								<p>During non-holiday periods, cancellations must be received no later than 24 hours in advance. Less than
+									24-hour notice will result in clients being billed 50% of the cancelled service. Cancellation fees may be
+									waived due to inclement weather conditions. Cancellations made the day of service, vacation visits, and during
+									holiday weeks and peak vacation periods may not be refunded or credited.</p>
+
+								<h5 class="paws-pricing-card__secondary-title">Holiday Services</h5>
+								<p>Additional $10 charge for each visit ($50 dollars for an overnight visit) on the following holidays:
+									New Years Day, Easter, Memorial Day, Fourth of July, Labor Day, Thanksgiving Day, Christmas Eve, Christmas
+									Day, New Years Eve</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- /.row -->
+
+		</div>
+		<!-- /.container -->
+
+	</div>
+
 
 	<!-- Footer -->
 	<footer class="py-5 bg-dark">
