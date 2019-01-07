@@ -8,3 +8,6 @@ def pricing(request):
 
 def about(request):
 	return render(request, 'base/about.html')
+
+def faq(request):
+	return render(request, 'base/faq.html')
