@@ -5,12 +5,10 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Paws Around Motown - Professional Dog Walking and Pet Services around Metro Detroit">
-	<meta name="author" content="Becky Lea">
-	<meta name="keywords" content="Dogs,Walking,Metro Detroit,Puppies,Dog Walkers,Dog Walking,Berkley,Royal Oak,Ferndale,Huntington Woods,Pleasant Ridge,Oak Park, West Bloomfield,Waterford,Lathrup Village,Franklin,Beverly Hills,Detroit">
-	<meta name="google-site-verification" content="4MW2Yc1iry7pSGIfxv86ruYNMnBaBHNztJS2Q7Q7WDE">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-	<title>Paws Around Motown</title>
+	<title>Paws Around Motown: About</title>
 
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
@@ -30,7 +28,7 @@
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-md navbar-dark sticky-top">
 			<div class="container">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="/">
 					<img class="paws-header__logo" src="https://pawsaroundmotown.com/images/pawsaroundmotown-horizontal-crop.png" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -39,10 +37,8 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home
-								<span class="sr-only">(current)</span>
-							</a>
+						<li class="nav-item">
+							<a class="nav-link" href="/">Home</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="/about">About</a>
@@ -54,10 +50,11 @@
 							<a class="nav-link" href="/blog">Blog</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/team">Our Family</a>
+							<a class="nav-link" href="/team">Our Team</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/faq">FAQ</a>
+							<a class="nav-link active" href="#">FAQ
+								<span class="sr-only">(current)</span></a>
 						</li>
 					</ul>
 				</div>
@@ -66,111 +63,121 @@
 	</header>
 
 	<!-- Page Content -->
-	<div class="row paws-hero__container">
-		<div class="container">
-			<div class="row align-items-center pt-lg-5 pb-lg-5">
-				<div class="jumbotron col-sm-12 col-md-8 offset-md-4 col-lg-5 offset-lg-7 mb-0">
-					<h1 class="display-8">Professional Dog Walking &amp; More</h1>
-					<p class="lead">Find out how we can enrich your pet's life and simplify yours!</p>
-					<hr class="my-4">
-					<p>We service most of Oakland County and would love to work with you to meet your needs.</p>
-					<p class="lead">
-						<a class="btn btn-primary btn-lg" href="/request-more-information" role="button">Request Services &raquo;</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<div class="container">
 
-		<div class="row">
-			<div class="col-sm-12 col-md-6 col-lg-4 my-4">
-				<div class="paws__pricing-card card">
-					<div class="card-body">
-						<h4 class="card-title">Dog Walking</h4>
-						<ul class="card-text">
-							<li>30, 45, and 60 minute sessions</li>
-							<li>Discounted weekly rates</li>
-							<li>Free consultations</li>
-						</ul>
-					</div>
-					<div class="card-footer">
-						<a href="/pricing#dog-walking" class="btn btn-primary">Find Out More &raquo;</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-6 col-lg-4 my-4">
-				<div class="paws__pricing-card card">
-					<div class="card-body">
-						<h4 class="card-title">Overnight Pet Care</h4>
-						<ul class="card-text">
-							<li>Keep your pets in the comfort and safety of their own home</li>
-							<li>Keep your pets on their regular routine</li>
-							<li>Great for animals who suffer from separation anxiety of who need personalized attention</li>
-						</ul>
-					</div>
-					<div class="card-footer">
-						<a href="/pricing#overnights" class="btn btn-primary">Find Out More &raquo;</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-6 col-lg-4 my-4">
-				<div class="paws__pricing-card card">
-					<div class="card-body">
-						<h4 class="card-title">And more!</h4>
-						<ul class="card-text">
-							<li>In-home dog training</li>
-							<li>Vacation visits</li>
-							<li>Yard waste clean up</li>
-							<li>Pet transportation</li>
-						</ul>
-					</div>
-					<div class="card-footer">
-						<a href="/pricing" class="btn btn-primary">Find Out More &raquo;</a>
-					</div>
-				</div>
+		<ol class="breadcrumb mt-4">
+			<li class="breadcrumb-item">
+				<a href="/">Home</a>
+			</li>
+			<li class="breadcrumb-item active">FAQ</li>
+		</ol>
+
+		<!-- Page Heading/Breadcrumbs -->
+		<h1 class="mt-4 mb-3">Frequently Asked Questions</h1>
+
+		<div class="container">
+
+			<div class="row py-3">
+				<img class="rounded mx-auto d-block" height="400" src="{% static 'base/images/dog-ear.jpg' %}" alt="Dog with one ear up" />
 			</div>
 
-		</div>
-		<!-- /.row -->
+			<div class="row py-3">
 
-		<div class="row">
-			<div class="container">
-				<hr class="featurette-divider">
-				<div class="row">
-					<div class="col-md-7">
-						<h2 class="featurette-heading">Have a rowdy pup?
-							<span class="text-muted">Let us work with them!</span>
-						</h2>
-						<p>Our owner, Becky, is a certified dog obedience trainer. Schedule her for trainings with you and your dog, or
-							for one-on-one walking traning sessions with your dog.</p>
+				<div class="col accordion" id="accordionExample">
+
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+								 aria-controls="collapseOne">
+									How many walkers/sitters will be assigned to me?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+							<div class="card-body">
+								You will have two dedicated walkers/sitters assigned to you. In addition to your dedicated walkers/sitters, we
+								assign a third emergency back up to ensure we always have you covered.
+							</div>
+						</div>
 					</div>
-					<div class="col-md-5 order-md-1">
-						<img class="featurette-image img-fluid mx-auto" src="http://www.animalbehaviorcollege.com/alumni/logos/ABCCertifiedTrainer.gif"
-						 alt="Animal Behavior College Certified Dog Trainer" />
+
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h2 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+								 aria-expanded="false" aria-controls="collapseTwo">
+									Who will have access to my house keys and property?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							<div class="card-body">
+								We ask each each client to provide three keys. Two keys are assigned to your dedicated walkers/sitters, and the
+								third is stored in our office. All keys are marked without personal information, and stored securely at all
+								times.
+							</div>
+						</div>
 					</div>
+
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+								 aria-expanded="false" aria-controls="collapseThree">
+									Who will enter my house/property?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+							<div class="card-body">
+								Only an employee of Paws Around Motown will ever enter your house/property.
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header" id="headingFour">
+							<h2 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+								 aria-expanded="false" aria-controls="collapseFour">
+									How will I know my dog was walked and/or visited while I'm not home?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+							<div class="card-body">
+								Paws Around Motown utilizes pet sitting software to keep you updated. Upon completion of our visit, you will
+								receive a text or email update which includes a GPS check-in/check-out, photo of your pet, and visit notes.
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header" id="headingFive">
+							<h2 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+								 aria-expanded="false" aria-controls="collapseFive">
+									Have any other questions?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+							<div class="card-body">
+								Feel free to <a href="mailto:support@pawsaroundmotown.com">email us</a>, or call us at <a href="tel:729-6772">248-729-6772</a>
+							</div>
+						</div>
+					</div>
+
 				</div>
-				<hr class="featurette-divider">
-				<div class="row">
-					<div class="col-md-7">
-						<h2 class="featurette-heading">Check out our interview on
-							<span class="text-muted">City Cable 15 in Southfield.</span>
-						</h2>
-						<p>We had a blast filming with Jasper, Winston, and Mocha!</p>
-					</div>
-					<div class="col-md-5 embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7FhwCYasLX8?rel=0&amp;showinfo=0"
-						 allowfullscreen></iframe>
-					</div>
-				</div>
-				<hr class="featurette-divider">
+
 			</div>
+			<!-- /.row -->
+
 		</div>
-		<!-- /.row -->
+		<!-- /.container -->
 
 	</div>
-	<!-- /.container -->
 
 	<!-- Footer -->
 	<footer class="py-5 bg-dark">
@@ -183,16 +190,16 @@
 							<div class="col-sm-6 col-lg-6">
 								<ul class="navbar-nav ml-auto">
 									<li class="nav-item">
-										<a href="/">Home</a>
+										<a class="" href="/">Home</a>
 									</li>
 									<li class="nav-item">
-										<a href="/about">About</a>
+										<a class="" href="/about">About</a>
 									</li>
 									<li class="nav-item">
-										<a href="/pricing">Pricing</a>
+										<a class="" href="/pricing">Pricing</a>
 									</li>
 									<li class="nav-item">
-										<a href="/blog">Blog</a>
+										<a class="" href="/blog">Blog</a>
 									</li>
 								</ul>
 							</div>

@@ -34,7 +34,7 @@ nav {
   }
 }
 
-.card {
+.paws__pricing-card {
   height: 100%;
 }
 
@@ -100,6 +100,6 @@ nav {
   line-height: 50px;
 }
 
-.paws-pricing-card__secondary-title {
+.paws-heading_secondary {
   color: #6c757d;
 }

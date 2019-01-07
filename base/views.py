@@ -5,3 +5,15 @@ def home(request):
 
 def pricing(request):
 	return render(request, 'base/pricing.html')
+
+def about(request):
+	return render(request, 'base/about.html')
+
+def team(request):
+	return render(request, 'base/team.html')
+
+def faq(request):
+	return render(request, 'base/faq.html')
+
+def rfi(request):
+	return render(request, 'base/request-more-information.html')
