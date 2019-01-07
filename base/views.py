@@ -14,3 +14,6 @@ def team(request):
 
 def faq(request):
 	return render(request, 'base/faq.html')
+
+def rfi(request):
+	return render(request, 'base/request-more-information.html')

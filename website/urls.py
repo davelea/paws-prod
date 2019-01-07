@@ -26,5 +26,7 @@ urlpatterns = [
     path('about/', base.views.about, name="about"),
     path('team/', base.views.team, name="team"),
     path('faq/', base.views.faq, name="faq"),
+    path('request-more-information/', base.views.rfi, name="rfi"),
+    path('rfi/', base.views.rfi, name="rfi"),
     path('blog/', include('blog.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
