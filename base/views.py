@@ -5,3 +5,6 @@ def home(request):
 
 def pricing(request):
 	return render(request, 'base/pricing.html')
+
+def about(request):
+	return render(request, 'base/about.html')
