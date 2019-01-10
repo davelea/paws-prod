@@ -7,7 +7,7 @@ nav {
 }
 
 .paws-hero__container {
-  background: url('https://pawsaroundmotown.com/images/homedog.jpg') center center no-repeat scroll;
+  background: url('./images/homedog.jpg') center center no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
