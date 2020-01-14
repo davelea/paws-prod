@@ -111,4 +111,5 @@ nav {
 
 .paws__pricing-card img {
   border-radius: .25rem;
+  max-width: 100%;
 }
