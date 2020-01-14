@@ -105,11 +105,13 @@ nav {
 }
 
 .paws__pricing-card-image {
+  align-items: flex-start;
   display: flex;
   margin-bottom: .75rem;
 }
 
 .paws__pricing-card img {
   border-radius: .25rem;
+  height: auto;
   max-width: 100%;
 }
