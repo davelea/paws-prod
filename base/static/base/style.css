@@ -103,3 +103,12 @@ nav {
 .paws-heading_secondary {
   color: #6c757d;
 }
+
+.paws__pricing-card-image {
+  display: flex;
+  margin-bottom: .75rem;
+}
+
+.paws__pricing-card img {
+  border-radius: .25rem;
+}
