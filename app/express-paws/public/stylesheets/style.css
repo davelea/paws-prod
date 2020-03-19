@@ -1,8 +1,117 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+nav {
+  background-color: #4D5061;
 }
 
-a {
-  color: #00B7FF;
+.paws-header__logo {
+	height: 100px;
+}
+
+.paws-hero__container {
+  background: url('./images/homedog.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .paws-header__logo {
+    height: 130px;
+  }
+
+  .paws-hero__container {
+    background: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .paws-header__logo {
+    height: 100px;
+  }
+}
+
+.paws__pricing-card {
+  height: 100%;
+}
+
+.btn-primary {
+  background-color: #2292A4;
+  border-color: #2292A4;
+  color: #F5EFED;
+}
+
+.featurette-divider {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.paws-footer__links {
+  color: #fff;
+}
+
+.paws-footer__contact {
+  color: #fff
+}
+
+.paws-footer__social {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.paws-footer__social-link_facebook {
+  background-color: #3b5998;
+  transition: all .2s ease-in-out;
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.paws-footer__social-link_instagram {
+  background-color: #3f729b;
+  transition: all .2s ease-in-out;
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.paws-footer__social-link_google {
+  background-color: #dd4b39;
+  transition: all .2s ease-in-out;
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.paws-heading_secondary {
+  color: #6c757d;
+}
+
+.paws__pricing-card-image {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: .75rem;
+}
+
+.paws__pricing-card img {
+  border-radius: .25rem;
+  height: auto;
+  max-width: 100%;
 }
