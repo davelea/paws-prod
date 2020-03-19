@@ -1,0 +1,25 @@
+//- components/header.pug
+header
+    nav.navbar.navbar-expand-md.navbar-dark.sticky-top
+      div.container
+        a.navbar-brand(href='/')
+          img.paws-header__logo(src='/images/pawsaroundmotown-horizontal-crop.png', alt='Paws Around Motown')
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label="Toggle navigation")
+          span.navbar-toggler-icon
+        div#navbarResponsive.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item.active
+              a.nav-link(href='/') Home
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='/about') About
+            li.nav-item
+              a.nav-link(href='/pricing') Pricing
+            li.nav-item
+              a.nav-link(href='/blog') Blog
+            li.nav-item
+              a.nav-link(href='/team') Our Team
+            li.nav-item
+              a.nav-link(href='/faq') FAQ
+            li.nav-item
+              a.nav-link(href='https://www.timetopet.com/portal/pawsaroundmotown') Customer Portal
