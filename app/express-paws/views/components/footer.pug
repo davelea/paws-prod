@@ -1,0 +1,49 @@
+//- components/footer.pug
+footer.py-5.bg-dark
+  div.container
+    div.row
+      div.paws-footer__links.col-sm.col-md-6.col-lg-8
+        h2 Links
+        div.container
+          div.row
+            div.col-sm-6.col-lg-6
+              ul.navbar-nav.ml-auto
+                li.nav-item
+                  a(href='/') Home
+                li.nav-item
+                  a(href='/about') About
+                li.nav-item
+                  a(href='/pricing') Pricing
+            div.col-sm-6.col-lg-6
+              ul.navbar-nav.ml-auto
+                li.nav-item
+                  a(href='/blog') Blog
+                li.nav-item
+                  a(href='/team') Our Team
+                li.nav-item
+                  a(href='/faq') FAQ
+      div.paws-footer__contact.col-sm.col-md-6.col-lg-4
+        h2 Contact Information
+        address
+          i.fas.fa-map-marker-alt  41000 Woodward Ave #350
+          br
+          | &nbsp;&nbsp;&nbsp; Bloomfield Hills, MI 48304
+          br
+        address
+          i.fas.fa-phone
+          a(href='tel:248-729-6772')  248-729-6772
+          br
+          i.far.fa-envelope
+          a(href='mailto:support@pawsaroundmotown.com')  support@pawsaroundmotown.com
+    p.m-0.text-center.text-white Paws Around Motown LLC &copy; 2014-#{new Date().getFullYear()}
+    div.paws-footer__social.container.text-center
+      ul.list-inline
+        li.list-inline-item
+          a.paws-footer__social-link_facebook(href='https://www.facebook.com/pawsaroundmotown')
+            i.fab.fa-facebook-f
+        li.list-inline-item
+          a.paws-footer__social-link_instagram(href='https://www.instagram.com/pawsaroundmotown')
+            i.fab.fa-instagram
+        li.list-inline-item
+          a.paws-footer__social-link_google(href='https://goo.gl/maps/9ac8XNrH7NJ2')
+            i.fab.fa-google
