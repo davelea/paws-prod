@@ -2,8 +2,93 @@ extends layout
 
 block header
   include components/header.pug
+  script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js' integrity='sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut' crossorigin='anonymous')
+  script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js' integrity='sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k' crossorigin='anonymous')
 
 block content
+  div.container
+    +breadcrumb('Home', '/', 'FAQ')
+    
+    h1.mt-4.mb-3 Frequently Asked Questions
+    div.container
+      div.row.py-3
+        img.rounded.mx-auto.d-block(height='400' src='images/dog-ear.jpg' alt='Dog with one ear up')
+      div.row.py-3
+        div#accordionExample.col.accordion
+          div.card
+            div#headingOne.card-header
+              h2.mb-0
+                button.btn.btn-link(type='button' data-toggle='collapse' data-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne')
+                  | How many walkers/sitters will be assigned to me?
+            div#collapseOne.collapse.show(aria-labelledby='headingOne' data-parent='#accordionExample')
+              div.card-body
+                | You will have two dedicated walkers/sitters assigned to you. In addition to your dedicated
+                | walkers/sitters, we
+                | assign a third emergency back up to ensure we always have you covered.
+          div.card
+            div#headingTwo.card-header
+              h2.mb-0
+                button.btn.btn-link.collapsed(type='button' data-toggle='collapse' data-target='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo')
+                  | Who will have access to my house keys and property?
+            div#collapseTwo.collapse(aria-labelledby='headingTwo' data-parent='#accordionExample')
+              div.card-body
+                | We ask each each client to provide three keys. Two keys are assigned to your dedicated walkers/sitters,
+                | and the
+                | third is stored in our office. All keys are marked without personal information, and stored securely at
+                | all
+                | times.
+          div.card
+            div#headingThree.card-header
+              h2.mb-0
+                button.btn.btn-link.collapsed(type='button' data-toggle='collapse' data-target='#collapseThree' aria-expanded='false' aria-controls='collapseThree')
+                  | Who will enter my house/property?
+            div#collapseThree.collapse(aria-labelledby='headingThree' data-parent='#accordionExample')
+              div.card-body
+                | Only an employee of Paws Around Motown will ever enter your house/property.
+          div.card
+            div#headingFour.card-header
+              h2.mb-0
+                button.btn.btn-link.collapsed(type='button' data-toggle='collapse' data-target='#collapseFour' aria-expanded='false' aria-controls='collapseFour')
+                  | How will I know my dog was walked and/or visited while I&apos;m not home?
+            div#collapseFour.collapse(aria-labelledby='headingFour' data-parent='#accordionExample')
+              div.card-body
+                | Paws Around Motown utilizes a pet sitting app, called HANDLR, to keep you updated.
+                | You will receive a real-time push notification when we check in and check out with a
+                | GPS location so you know where we are. By clicking the chat bubble, you may then have
+                | real-time communication with your walker/sitter through the app during your walk or visit.
+                | Upon completion of our visit, you will receive photo(s) of your pet(s), a typed update of
+                | how everything went, and you can even click the &ldquo;Handled&rdquo; button to view where we went
+                | with your pets. Our clients often tell us that this is the best part of their day!
+          div.card
+            div#headingFive.card-header
+              h2.mb-0
+                button.btn.btn-link.collapsed(type='button' data-toggle='collapse' data-target='#collapseFive' aria-expanded='false' aria-controls='collapseFive')
+                  | Are you licensed, bonded, and insured?
+            div#collapseFive.collapse(aria-labelledby='headingFive' data-parent='#accordionExample')
+              div.card-body
+                | Yes! Paws Around Motown is licensed with the state of Michigan. Every employee is bonded
+                | and insured through our pet sitting insurance company, Pet Sitters Associates, LLC.
+          div.card
+            div#headingSix.card-header
+              h2.mb-0
+                button.btn.btn-link.collapsed(type='button' data-toggle='collapse' data-target='#collapseSix' aria-expanded='false' aria-controls='collapseSix')
+                  | Have all employees undergone background checks?
+            div#collapseSix.collapse(aria-labelledby='headingSix' data-parent='#accordionExample')
+              div.card-body
+                | Yes, all employees must undergo and pass a background check prior to being employed by Paws Around
+                | Motown.
+          div.card
+            div#headingSeven.card-header
+              h2.mb-0
+                button.btn.btn-link.collapsed(type='button' data-toggle='collapse' data-target='#collapseSeven' aria-expanded='false' aria-controls='collapseSeven')
+                  | Have any other questions?
+            div#collapseSeven.collapse(aria-labelledby='headingSeven' data-parent='#accordionExample')
+              div.card-body
+                | Feel free to 
+                a(href='mailto:support@pawsaroundmotown.com') email us
+                | , or call us at 
+                a(href='tel:729-6772') 248-729-6772
 
 block footer
   include components/footer.pug
