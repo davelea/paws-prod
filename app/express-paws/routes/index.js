@@ -23,7 +23,7 @@ router.get('/faq', function(req, res, next) {
 });
 
 router.get('/request-more-information', function(req, res, next) {
-  res.render('rfi');
+  res.render('request-more-information');
 });
 
 module.exports = router;
