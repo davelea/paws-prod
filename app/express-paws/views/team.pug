@@ -4,6 +4,16 @@ block header
   include components/header.pug
 
 block content
+  div.container
+    +breadcrumb('Home', '/', 'Our Team')
+
+    h1.mt-4.mb-3 Our Team
+
+    div.container
+      div.row.py-3
+        img.rounded.mx-auto.d-block.py-3(height='400' src='images/becky.jpg' alt="Becky")
+        img.rounded.mx-auto.d-block.py-3(height='400' src='images/megan.jpg' alt="Megan")
+        img.rounded.mx-auto.d-block.py-3(height='400' src='images/kaylee.jpg' alt="Kaylee")
 
 block footer
   include components/footer.pug
