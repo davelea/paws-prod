@@ -3,23 +3,23 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Paws Around Motown'} );
+  res.render('index', { title: 'Paws Around Motown', page: 'home'} );
 });
 
 router.get('/pricing', function(req, res, next) {
-  res.render('pricing', { title: 'Paws Around Motown: Pricing'});
+  res.render('pricing', { title: 'Paws Around Motown: Pricing', page: 'pricing'});
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'Paws Around Motown: About Us'});
+  res.render('about', { title: 'Paws Around Motown: About Us', page: 'about'});
 });
 
 router.get('/team', function(req, res, next) {
-  res.render('team', { title: 'Paws Around Motown: Our Team'});
+  res.render('team', { title: 'Paws Around Motown: Our Team', page: 'team'});
 });
 
 router.get('/faq', function(req, res, next) {
-  res.render('faq', { title: 'Paws Around Motown: FAQ'});
+  res.render('faq', { title: 'Paws Around Motown: FAQ', page: 'faq'});
 });
 
 router.get('/request-more-information', function(req, res, next) {

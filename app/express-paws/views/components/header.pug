@@ -8,18 +8,29 @@ header
           span.navbar-toggler-icon
         div#navbarResponsive.collapse.navbar-collapse
           ul.navbar-nav.ml-auto
-            li.nav-item.active
+            li.nav-item(class=(page=='home') ? 'active' : '')
               a.nav-link(href='/') Home
-                span.sr-only (current)
-            li.nav-item
+                if page === 'home'
+                  span.sr-only (current)
+            li.nav-item(class=(page=='about') ? 'active' : '')
               a.nav-link(href='/about') About
-            li.nav-item
+                if page === 'about'
+                  span.sr-only (current)
+            li.nav-item(class=(page=='pricing') ? 'active' : '')
               a.nav-link(href='/pricing') Pricing
-            li.nav-item
+                if page === 'pricing'
+                  span.sr-only (current)
+            li.nav-item(class=(page=='blog') ? 'active' : '')
               a.nav-link(href='/blog') Blog
-            li.nav-item
+                if page === 'blog'
+                  span.sr-only (current)
+            li.nav-item(class=(page=='team') ? 'active' : '')
               a.nav-link(href='/team') Our Team
-            li.nav-item
+                if page === 'team'
+                  span.sr-only (current)
+            li.nav-item(class=(page=='faq') ? 'active' : '')
               a.nav-link(href='/faq') FAQ
+                if page === 'faq'
+                  span.sr-only (current)
             li.nav-item
               a.nav-link(href='https://www.timetopet.com/portal/pawsaroundmotown') Customer Portal
