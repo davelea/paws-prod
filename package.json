@@ -1,6 +1,6 @@
 {
-  "name": "express-paws",
-  "version": "0.0.0",
+  "name": "paws-around-motown",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
