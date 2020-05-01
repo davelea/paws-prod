@@ -1,0 +1,32 @@
+//- components/header.pug
+header
+    nav.navbar.navbar-expand-md.navbar-dark.sticky-top
+      div.container
+        a.navbar-brand(href='/')
+          img.paws-header__logo(src='/images/pawsaroundmotown-horizontal-crop.png', alt='Paws Around Motown')
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label="Toggle navigation")
+          span.navbar-toggler-icon
+        div#navbarResponsive.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item(class=(page=='home') ? 'active' : '')
+              a.nav-link(href='/') Home
+                if page === 'home'
+                  span.sr-only (current)
+            li.nav-item(class=(page=='about') ? 'active' : '')
+              a.nav-link(href='/about') About
+                if page === 'about'
+                  span.sr-only (current)
+            li.nav-item(class=(page=='pricing') ? 'active' : '')
+              a.nav-link(href='/pricing') Pricing
+                if page === 'pricing'
+                  span.sr-only (current)
+            li.nav-item(class=(page=='team') ? 'active' : '')
+              a.nav-link(href='/team') Our Team
+                if page === 'team'
+                  span.sr-only (current)
+            li.nav-item(class=(page=='faq') ? 'active' : '')
+              a.nav-link(href='/faq') FAQ
+                if page === 'faq'
+                  span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='https://www.timetopet.com/portal/pawsaroundmotown') Customer Portal

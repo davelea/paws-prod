@@ -1,0 +1,75 @@
+extends layout
+
+block header
+  include components/header.pug
+
+block content
+  div.paws-hero__container
+    div.container
+      div.row.align-items-center.pt-lg-5.pb-lg-5
+        div.jumbotron.col-sm-12.col-md-8.offset-md-4.col-lg-5.offset-lg-7.mb-0
+          h1.display-8 Professional Dog Walking &amp; More
+          p.lead Find out how we can enrich your pet's life and simplify yours!
+          hr.my-4
+          p We service most of Oakland County and would love to work with you to meet your needs.
+          p.lead
+            a.btn.btn-primary.btn-lg(href='/request-more-information' role='button') Request Services &raquo;
+  div.container
+    //- service cards
+    div.row
+      div.col-sm-12.col-md-6.col-lg-4.my-4
+        div.paws__pricing-card.card
+          div.card-body
+            h4.card-title Dog Walking
+            ul.card-text
+              li 30, 45, and 60 minute sessions
+              li Discounted weekly rates
+              li Free consultations
+          div.card-footer
+            a.btn.btn-primary(href='/pricing#dog-walking') Find Out More &raquo;
+      div.col-sm-12.col-md-6.col-lg-4.my-4
+        div.paws__pricing-card.card
+          div.card-body
+            h4.card-title Overnight Pet Care
+            ul.card-text
+              li Keep your pets in the comfort and safety of their own home
+              li Keep your pets on their regular routine
+              li Great for animals who suffer from separation anxiety of who need personalized attention
+          div.card-footer
+            a.btn.btn-primary(href='/pricing#overnights') Find Out More &raquo;
+      div.col-sm-12.col-md-6.col-lg-4.my-4
+        div.paws__pricing-card.card
+          div.card-body
+            h4.card-title And more!
+            ul.card-text
+              li In-home dog training
+              li Vacation visits
+              li Yard waste clean up
+              li Pet transportation
+          div.card-footer
+            a.btn.btn-primary(href='/pricing') Find Out More &raquo;
+    //- feature sections
+    div.row
+      div.container
+        hr.featurette-divider
+        div.row
+          div.col-md-7
+            h2.featurette-heading Have a rowdy pup?
+              span.text-muted  Let us work with them!
+            p 
+              | Our owner, Becky, is a certified dog obedience trainer. Schedule her for trainings 
+              | with you and your dog, or for one-on-one walking traning sessions with your dog.
+          div.col-md-5.order-md-1
+            img.featurette-image.img-fluid.mx-auto(src='http://www.animalbehaviorcollege.com/alumni/logos/ABCCertifiedTrainer.gif' alt='Animal Behavior College Certified Dog Trainer')
+        hr.featurette-divider
+        div.row
+          div.col-md-7
+            h2.featurette-heading Check out our interview on
+              span.text-muted  City Cable 15 in Southfield.
+            p We had a blast filming with Jasper, Winston, and Mocha!
+          div.col-md-5.embed-responsive.embed-responsive-16by9
+            iframe.embed-responsive-item(src='https://www.youtube.com/embed/7FhwCYasLX8?rel=0&amp;showinfo=0' allowfullscreen)
+        hr.featurette-divider
+
+block footer
+  include components/footer.pug
