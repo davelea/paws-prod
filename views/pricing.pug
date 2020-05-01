@@ -1,0 +1,202 @@
+extends layout
+
+block header
+  include components/header.pug
+
+block content
+  div.container
+    +breadcrumb('Home', '/', 'Pricing')
+
+    h1.mt-4.mb-3 Pricing
+    div.container
+      div.row
+        div.col-sm-12.col-md-6.my-3
+          div.paws__pricing-card.card
+            div.card-body
+              h4#dog-walking.card-title Dog Walking and Let Outs
+              div.paws__pricing-card-image
+                img(src='images/pricing-dog-walking.jpg')
+              div.card-text
+                p
+                  | Whether you have an unruly pet or your pet just needs to get out for a break, we&rsquo;ve got you covered!
+                  | A properly exercised dog is a happy dog, and happy dogs make for happy families! Paws Around Motown
+                  | provides safe, private, on-leash exercise for your beloved pup! These range from 20 to 60 minutes, and always
+                  | include fresh water, undivided attention, positive reinforcement, and a safe environment for your pet to expel
+                  | their extra energy! Walk hours are between the hours of 8 am and 8 pm, but early and late walks can be added
+                  | for a small fee.
+                h5.paws-heading_secondary Pricing
+                ul
+                  li 20 Minutes - $18
+                  li 30 Minutes - $20
+                  li 45 Minutes - $26
+                  li 60 Minutes - $30
+                  li Add $5.50 if walk is before 8 am or after 8 pm
+                  li Add $5.50 for each additional dog if more than 2 dogs
+                  li On demand walks/visits may require an additional fee
+
+        div.col-sm-12.col-md-6.my-3
+          div.paws__pricing-card.card
+            div.card-body
+              h4#pet-sitting.card-title Pet Sitting
+              div.paws__pricing-card-image
+                img(src='images/pricing-dog-watching-tv.jpg')
+              div.card-text
+                p
+                  | Going out of town and prefer your pet stay in the comfort of their own home? Not all pets require an
+                  | overnight companion. Paws Around Motown provides private vacation services that allow your pet to stay
+                  | in their own safe and comfortable environment! We will come by multiple times per day (minimum of 3 per
+                  | day for dogs, and once per day for cats) to provide your pet with individualized care! This service includes
+                  | but is not limited to; bringing in the mail, bringing the trash cans in and out, litter box maintenance,
+                  | medication administration, feedings, fresh water, and private exercise and play! Visit hours are between the
+                  | hours of 8 am and 8 pm, but early and late visits can be added for a small fee.
+                h5.paws-heading_secondary Pricing
+                ul
+                  li $24 per visit
+                  li
+                    | This visit is 45 minutes in length. We require a minimum of three visits per day for dogs and one
+                    | visit per day for cats
+                  li Add $5.50 if visit is before 8 am or after 8 pm
+                  li Add $5.50 for each additional dog and $3.50 for each additional cat if more than 2 dogs or cats
+
+      div.row
+        div.col-sm-12.col-md-6.my-3
+          div.paws__pricing-card.card
+            div.card-body
+              h4#overnights.card-title Overnight Pet Sitting
+              div.paws__pricing-card-image
+                img(src='images/pricing-cats-pajamas.jpg')
+              div.card-text
+                p
+                  | If you feel like your pet needs a bedtime companion, then overnight pet sitting is for you! This
+                  | service is designed for pets who require the snuggles of a human to get through the night. We will provide 12
+                  | hours of overnight care for your beloved baby. This service also includes the same things as our pet sitting
+                  | visits, but with the undivided attention of an overnight companion. Typically paired with at least one midday
+                  | service, this can provide your pet with the normalcy of having their routines undisturbed! This is a custom
+                  | quoted service and available on a first come, first serve basis!
+                h5.paws-heading_secondary Pricing
+                ul
+                  li
+                    a(href='tel:248-729-6772') Call
+                    |  for a custom quote
+
+        div.col-sm-12.col-md-6.my-3
+          div.paws__pricing-card.card
+            div.card-body
+              h4#everything-but-the-slumber.card-title Everything But The Slumber
+              div.paws__pricing-card-image
+                img(src='images/pricing-pet-cuddling.jpg')
+              div.card-text
+                p
+                  | This service is designed for pets that don&rsquo;t necessarily need a sleeping companion, but would benefit
+                  | from an extended period of time with their pet sitter before bedtime. With Everything but the Slumber, your
+                  | pet(s) get 3 hours of undivided attention in the evening and all of the bells and whistles of an overnight pet
+                  | sitting service, without someone sleeping in your home! We will return first thing in the morning for 1 hour to have breakfast
+                  | and another private walk.
+                h5.paws-heading_secondary Pricing
+                ul
+                  li $110 per sit
+                  li
+                    | Add $5.50 for each additional dog and $3.50 for each additional cat if more than 2 dogs or cats
+
+      div.row
+        div.col-sm-12.col-md-6.my-3
+          div.paws__pricing-card.card
+            div.card-body
+              h4#obedience-training.card-title Basic Obedience Training
+              div.paws__pricing-card-image
+                img(src='images/pricing-dog-training.jpg')
+              div.card-text
+                p
+                  | Have a certified dog trainer come to your home and work with you and your dog, on a
+                  | weekly basis, to learn basic obedience cues: sit, down, loose leash walking, etc.
+                h5.paws-heading_secondary Pricing
+                ul
+                  li $85 per session
+                  li Each session lasts approxmately 45 to 60 minutes
+
+        div.col-sm-12.col-md-6.my-3
+          div.paws__pricing-card.card
+            div.card-body
+              h4#lunch-and-learn.card-title Lunch and Learn
+              div.paws__pricing-card-image
+                img(src='images/pricing-dog-training-v2.jpg')
+              div.card-text
+                p
+                  | Need assistance with the consistency and repetition of training?
+                  | Have a certified trainer come and walk your dog at lunchtime while
+                  | training on a foundation of proper and polite walking skills.
+                  | A minimum of two sessions per week is required for this service
+                  | with a weekly to bi-weekly Basic Obedience Training session booked
+                  | for a trainer to work with the family. Space is limited.
+                h5.paws-heading_secondary Pricing
+                ul
+                  li $55 per session
+                  li Each session lasts approxmately 30 to 45 minutes
+
+      div.row
+        div.col-sm-12.col-md-6.my-3
+          div.paws__pricing-card.card
+            div.card-body
+              h4#yard-waste-cleanup.card-title Yard Waste Cleanup Service
+              div.paws__pricing-card-image
+                img(src='images/pricing-yard-cleanup.jpg')
+              div.card-text
+                p
+                  | Why spend time you don&rsquo;t have cleaning up your pet&rsquo;s waste, when we can do it for you? Treat yourself
+                  | to weekly yard waste clean ups!
+                h5.paws-heading_secondary Pricing
+                ul
+                  li Spring Cleanup/Initial Cleanup Service
+                  ul
+                    li Before we begin regular service we will do a first time clean up
+                    li One dog - $50
+                    li Two dogs - $65
+                    li Three or more dogs - $75
+                  li Regular Service
+                  ul
+                    li One time per week
+                    li One dog - $20
+                    li Two dogs - $26
+                    li Three or more dogs - $32
+
+        div.col-sm-12.col-md-6.my-3
+          div.paws__pricing-card.card
+            div.card-body
+              h4#pet-taxi.card-title Pet Taxi
+              div.paws__pricing-card-image
+                img(src='images/pricing-pet-taxi.jpg')
+              div.card-text
+                p
+                  | Transport pets and pet care supplies to and from boarding facility, home of a family member or
+                  | friend, veterinarian, groomer, or other location.
+                h5.paws-heading_secondary Pricing
+                ul
+                  li $25 per 30 minutes
+
+      div.row
+        div.col-sm-12.col-md-12.my-3
+          div.paws__pricing-card.card
+            div.card-body
+              h4.card-title Additional Fees
+              div.card-text
+                h5.paws-heading_secondary Last Minute Requests
+                p
+                  | If a service is requested less than 24 hours in advance, there will be an additional $10 surcharge.
+                h5.paws-heading_secondary Early and Late Walks/Visits
+                p
+                  | Normal visit hours are from 8 am until 8 pm. We will provide visits outside of our normal business
+                  | hours for an additional $5.50 per walk/visit.
+                h5.paws-heading_secondary Cancellations
+                p
+                  | During non-holiday periods, cancellations must be received no later than 24 hours in advance. Less
+                  | than 24-hour notice will result in clients being billed 50% of the cancelled service. Cancellation fees may
+                  | be waived due to inclement weather conditions. Cancellations made the day of service, vacation visits,
+                  | and during holiday weeks and peak vacation periods may not be refunded or credited.
+                h5.paws-heading_secondary Holiday Services
+                p
+                  | Additional $10.50 charge for each visit on the following holidays:
+                  | New Years Day, Easter, Memorial Day, Fourth of July, Labor Day, Thanksgiving Day, Christmas Eve,
+                  | Christmas Day, New Years Eve
+
+block footer
+  include components/footer.pug
