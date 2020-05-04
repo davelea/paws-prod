@@ -1,17 +1,90 @@
-nav {
-  background-color: #4D5061;
+:root {
+  --brand-background_light: #F5F4F5;
+  --brand-background_dark: #20273E;
+  --brand-background_dark-faded: rgba(32, 39, 62, 0.7);
+  --brand-accent_light: #75A2B0;
+  --brand-accent_light-faded: rgba(117, 162, 176, 0.7);
+  --brand-accent_dark: #D23D3F;
+  --brand-primary: #E5D315;
+  --brand-primary_faded: rgba(229, 211, 21, 0.7);
+  --brand-primary_dark: #C8B912;
 }
+
+nav {
+  background-color: var(--brand-background_light);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--brand-background_dark);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--brand-background_dark-faded);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+  color: var(--brand-background_dark-faded);
+}
+
 
 .paws-header__logo {
 	height: 100px;
 }
 
-.paws-hero__container {
-  background: url('/images/homedog.jpg') center center no-repeat scroll;
+.paws-hero {
+  background: url('/images/becky-running-with-dogs_cropped.jpg') center center no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  height: 500px;
+  display: flex;
+}
+
+.paws-hero__container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, .25);
+  color: var(--brand-background_light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paws-hero__content {
+  width: 400px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.paws-hero__action-items {
+  color: white;
+}
+
+.paws-btn_primary {
+  background-color: var(--brand-primary);
+  border: var(--brand-primary);
+}
+
+.paws-btn_primary:hover {
+  background-color: var(--brand-primary_dark);
+  border: var(--brand-primary_dark);
+}
+
+.paws-btn_secondary {
+  background-color: var(--brand-accent_light-faded);
+  border: 1px solid var(--brand-accent_light-faded);
+  color: var(--brand-background_light);
+}
+
+.paws-btn_secondary:hover {
+  background-color: var(--brand-accent_light);
 }
 
 @media (max-width: 576px) {
@@ -19,12 +92,13 @@ nav {
     height: 130px;
   }
 
-  .paws-hero__container {
-    background: none;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0;
-    padding-bottom: 0;
+  .paws-hero {
+    height: 100%;
+  }
+
+  .paws-hero__content {
+    text-align: center;
+    padding: 5rem 1rem;
   }
 }
 

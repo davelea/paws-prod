@@ -4,16 +4,15 @@ block header
   include components/header.pug
 
 block content
-  div.paws-hero__container
-    div.container
-      div.row.align-items-center.pt-lg-5.pb-lg-5
-        div.jumbotron.col-sm-12.col-md-8.offset-md-4.col-lg-5.offset-lg-7.mb-0
-          h1.display-8 Professional Dog Walking &amp; More
-          p.lead Find out how we can enrich your pet's life and simplify yours!
-          hr.my-4
-          p We service most of Oakland County and would love to work with you to meet your needs.
-          p.lead
-            a.btn.btn-primary.btn-lg(href='/request-more-information' role='button') Request Services &raquo;
+  div.paws-hero
+    div.paws-hero__container
+      div.paws-hero__content.mt-6
+        h1 All-Inclusive Pet Care Services in Oakland County, Michigan
+        h3.pt-1 We do it all because we love your pets!
+        div.paws-hero__action-items.pt-1
+          a.btn.btn-secondary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown') Customer Portal
+          a.btn.paws-btn_primary.mx-1(href='/request-more-information') Register Now
+
   div.container
     //- service cards
     div.row
