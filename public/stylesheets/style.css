@@ -10,15 +10,14 @@
   --brand-primary_dark: #C8B912;
 }
 
-@font-face {
-  font-family: FrancoisOne-Regular;
-  src: local('FrancoisOne-Regular'),
-       url(/public/fonts/FrancoisOne-Regular.ttf);
-  font-weight: 400;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: FrancoisOne-Regular, Roboto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, a, button {
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -75,6 +74,14 @@ nav {
   padding: 0 1rem;
 }
 
+.paws-hero__content h1, .paws-content_mobile h1 {
+  font-weight: 700;
+}
+
+.paws-hero__content h3, .paws-content_mobile h3 {
+  font-weight: 400;
+}
+
 .paws-hero__action-items {
   color: white;
 }
@@ -127,7 +134,7 @@ nav {
   .paws-content-container_mobile {
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .paws-content_mobile {
@@ -135,8 +142,7 @@ nav {
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    text-align: left;
     padding: 0 1rem;
   }
 }
@@ -227,4 +233,37 @@ nav {
   border-radius: .25rem;
   height: auto;
   max-width: 100%;
+}
+
+.paws-testimonial__heading h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.paws-testimonial__review {
+  background-color: var(--brand-background_light);
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.paws-testimonial__review:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.paws-testimonial__quotation-mark {
+  color: var(--brand-accent_dark);
+  font-size: 4rem;
+  margin-bottom: -2.5rem;
+}
+
+.paws-testimonial__quote {
+  color: var(--brand-background_dark);
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+}
+
+.paws-testimonial__name {
+  color: var(--brand-background_dark-faded);
+  font-size: 1.25rem;
+  font-weight: 700;
 }
