@@ -7,33 +7,73 @@ block content
   div.container
     h1.mt-4.mb-3 Pricing
     div.container.pricing-container.mb-3
-      div.pricing-section
-        h2.pricing-section__title Dog Walking Services
-        p.pricing-section__summary
-        | Exercised dogs are happy dogs, and happy dogs make happy families! Paws Around Motown has you covered.
-        .pricing-section__expanded
-          p
-          | Safe, private, on-leash exercise! All services include fresh water, undivided attention, positive 
-          | reinforcement, and a safe environment for your pet to burn off extra energy!
-          p
-          | Walks are offered from 8 am to 8 pm, but early and late walks can be added for a small fee.
-          ul
-            li 20-minute walk - $18
-            li 30-minute walk - $20
-            li 45-minute walk - $26
-            li 60-minute walk - $30
-          .pricing-section__addons
-            h3 Add-Ons
-            ul
-              li Add $5.50 for before/after-hours walks
-              li Add $5.50 for walks with more than two dogs
-              li Add $5 for walks on Saturday and Sunday
-          .pricing-section__cta
-            a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
-            p
-            | Save on daily dog walks with a membership pack! Click [HERE] to find out more.
+      ul.pricing-list
+        li.pricing-list__item
+          section.pricing-list__section
+            div.pricing-list__summary
+              h2.pricing-list__summary-heading
+                button.pricing-list__summary-action
+                  i.fas.fa-chevron-right.mr-3
+                  span.pricing-list__summary-title(title="Dog Walking Services") Dog Walking Services
+              div.pricing-list__summary-description
+                p
+                | Exercised dogs are happy dogs, and happy dogs make happy families! Paws Around Motown has you covered.
+            div.pricing-list__content
+              p
+              | Safe, private, on-leash exercise! All services include fresh water, undivided attention, positive 
+              | reinforcement, and a safe environment for your pet to burn off extra energy!
+              p
+              | Walks are offered from 8 am to 8 pm, but early and late walks can be added for a small fee.
+              ul
+                li 20-minute walk - $18
+                li 30-minute walk - $20
+                li 45-minute walk - $26
+                li 60-minute walk - $30
+              .pricing-list__content-addons
+                h3 Add-Ons
+                ul
+                  li Add $5.50 for before/after-hours walks
+                  li Add $5.50 for walks with more than two dogs
+                  li Add $5 for walks on Saturday and Sunday
+              .pricing-list__content-cta
+                a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
+                p
+                | Save on daily dog walks with a membership pack! Click [HERE] to find out more.
 
-      div.pricing-section
+
+
+
+      div.pricing-section.mb-3
+        div.pricing-section__content
+          h2.pricing-section__title Dog Walking Services
+          p.pricing-section__summary
+          | Exercised dogs are happy dogs, and happy dogs make happy families! Paws Around Motown has you covered.
+          .pricing-section__expanded
+            p
+            | Safe, private, on-leash exercise! All services include fresh water, undivided attention, positive 
+            | reinforcement, and a safe environment for your pet to burn off extra energy!
+            p
+            | Walks are offered from 8 am to 8 pm, but early and late walks can be added for a small fee.
+            ul
+              li 20-minute walk - $18
+              li 30-minute walk - $20
+              li 45-minute walk - $26
+              li 60-minute walk - $30
+            .pricing-section__addons
+              h3 Add-Ons
+              ul
+                li Add $5.50 for before/after-hours walks
+                li Add $5.50 for walks with more than two dogs
+                li Add $5 for walks on Saturday and Sunday
+            .pricing-section__cta
+              a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
+              p
+              | Save on daily dog walks with a membership pack! Click [HERE] to find out more.
+        div.pricing-section__chevron.mr-3
+          a(role="button")
+            i.fas.fa-chevron-right.fa-2x
+
+      div.pricing-section.mb-3
         h2.pricing-section__title Potty Breaks
         p.pricing-section__summary
         | Just because your pet can hold it for 6-10 hours, doesn’t mean they should. We’ll let your pet outside while you’re at work!
@@ -51,7 +91,7 @@ block content
           .pricing-section__cta
             a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
 
-      div.pricing-section
+      div.pricing-section.mb-3
         h2.pricing-section__title Pooper Scooper
         p.pricing-section__summary
         | Let us do the dirty work for you with weekly pet-waste clean-ups.
@@ -74,7 +114,7 @@ block content
           .pricing-section__cta
             a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
 
-      div.pricing-section
+      div.pricing-section.mb-3
         h2.pricing-section__title Hot Diggity Dog
         p.pricing-section__summary
         | Dogs just want to have fun! We take your dog out for a day on the town to explore new smells and places, 
@@ -91,7 +131,7 @@ block content
           .pricing-section__cta
             a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
 
-      div.pricing-section
+      div.pricing-section.mb-3
         h2.pricing-section__title Drop-in Pet Sitting Service
         p.pricing-section__summary
         | Enjoy your time away with the peace of mind that your pet is enjoying life at home.
@@ -114,7 +154,7 @@ block content
             p
             | Save 5% on each service with a membership pack! Click [HERE] to learn more.
 
-      div.pricing-section
+      div.pricing-section.mb-3
         h2.pricing-section__title Everything but the Slumber Pet Sitting
         p.pricing-section__summary
         | Tuck-in and breakfast services for your pet plus a private walk!
@@ -135,7 +175,7 @@ block content
             p
             | Save 5% on each service with a membership pack! Click [HERE] to learn more.
 
-      div.pricing-section
+      div.pricing-section.mb-3
         h2.pricing-section__title Luxurious Living with Fido
         p.pricing-section__summary
         | Give your pets a dream staycation with an all-inclusive overnight stay and personalized care
@@ -176,6 +216,9 @@ block content
             em Schedule any other Paws Around Motown Service to try us out, and if you decide to book an overnight stay with us, 
             | 
             em we’ll put the cost of your test drive toward your first night stay!
+
+
+
 
 block footer
   include components/footer.pug
