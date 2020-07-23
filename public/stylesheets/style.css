@@ -306,10 +306,13 @@ nav {
 .pricing-list {
   list-style: none;
   padding: 0;
+  border: 1px solid #dddbda;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1)
 }
 
 .pricing-list__item {
   list-style-type: none;
+  border-bottom: 1px solid #dddbda;
 }
 
 .pricing-list__section {
@@ -341,7 +344,7 @@ nav {
   text-decoration: underline;
   box-shadow: none;
   outline: 0;
-  color: var(--brand-accent_light);
+  color: rgba(21, 108, 229, 0.7);
 }
 
 .pricing-list__summary-action:hover {
@@ -358,4 +361,18 @@ nav {
 .pricing-list__summary-title {
   max-width: 100%;
   align-items: center;
+}
+
+.pricing-list__summary-action i {
+  font-size: 1.75rem;
+}
+
+.pricing-list__content-cta {
+  margin-top: .5rem;
+}
+
+/* Utility Classes */
+
+.paws-hide {
+  display: none;
 }
