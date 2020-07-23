@@ -319,8 +319,9 @@ nav {
   font-size: 1.75rem;
 }
 
-.pricing-list__content-cta {
+.pricing-list__content-cta a {
   margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 @media (min-width: 768px) {
@@ -372,6 +373,10 @@ nav {
   .pricing-list__summary-title {
     font-size: 1rem;
   }
+
+  .pricing-list__content {
+    transform: translateX(0);
+  }
 }
 
 @media (max-width: 360px) {
@@ -384,4 +389,8 @@ nav {
 
 .paws-hide {
   display: none;
+}
+
+.paws-rotate-90 {
+  transform: rotate(90deg);
 }
