@@ -7,7 +7,6 @@ function addPricingEventListeners() {
 }
 
 function togglePricingVisibility(event) {
-  console.log(event.currentTarget.parentElement);
   // TODO: use closest or something cleaner
   const contentSection = event.currentTarget.parentElement.parentElement.querySelector('.pricing-list__content');
 

@@ -288,26 +288,18 @@ nav {
   border: 0;
 }
 
-.pricing-list__summary-action:active {
-  background: transparent;
+.pricing-list__summary-heading:hover .pricing-list__summary-action,
+.pricing-list__summary-action:focus {
+  color: rgba(21, 108, 229, 0.7);
 }
 
-.pricing-list__summary-action:focus {
+.pricing-list__summary-title:focus,
+.pricing-list__summary-title:active,
+.pricing-list__summary-action:active .pricing-list__summary-title {
   text-decoration: underline;
   box-shadow: none;
   outline: 0;
   color: rgba(21, 108, 229, 0.7);
-}
-
-.pricing-list__summary-action:hover {
-  text-decoration: none;
-}
-
-.pricing-list__summary-action:focus i:focus {
-  text-decoration: underline;
-  box-shadow: none;
-  outline: 0;
-  color: var(--brand-accent_light);
 }
 
 .pricing-list__summary-title {
