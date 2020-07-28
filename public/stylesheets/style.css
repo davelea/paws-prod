@@ -261,6 +261,12 @@ nav {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1)
 }
 
+.pricing-list h3 {
+  font-size: 1.25rem;
+  padding-top: .5rem;
+  font-weight: 500;
+}
+
 .pricing-list__item {
   list-style-type: none;
   border-bottom: 1px solid #dddbda;
