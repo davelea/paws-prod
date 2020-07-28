@@ -10,10 +10,6 @@ router.get('/pricing', function(req, res, next) {
   res.render('pricing', { title: 'Paws Around Motown: Pricing', page: 'pricing'});
 });
 
-router.get('/new-pricing', function(req, res, next) {
-  res.render('new-pricing', { title: 'Paws Around Motown: Pricing', page: 'new-pricing'});
-});
-
 router.get('/about', function(req, res, next) {
   res.render('about', { title: 'Paws Around Motown: About Us', page: 'about'});
 });
