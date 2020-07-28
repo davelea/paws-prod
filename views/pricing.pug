@@ -6,195 +6,212 @@ block header
 block content
   div.container
     h1.mt-4.mb-3 Pricing
-    div.container
-      div.row
-        div.col-sm-12.col-md-6.my-3
-          div.paws__pricing-card.card
-            div.card-body
-              h4#dog-walking.card-title Dog Walking and Let Outs
-              div.paws__pricing-card-image
-                img(src='images/pricing-dog-walking.jpg')
-              div.card-text
-                p
-                  | Whether you have an unruly pet or your pet just needs to get out for a break, we&rsquo;ve got you covered!
-                  | A properly exercised dog is a happy dog, and happy dogs make for happy families! Paws Around Motown
-                  | provides safe, private, on-leash exercise for your beloved pup! These range from 20 to 60 minutes, and always
-                  | include fresh water, undivided attention, positive reinforcement, and a safe environment for your pet to expel
-                  | their extra energy! Walk hours are between the hours of 8 am and 8 pm, but early and late walks can be added
-                  | for a small fee.
-                h5.paws-heading_secondary Pricing
+    div.container.pricing-container.mb-3
+      ul.pricing-list
+        li.pricing-list__item
+          section.pricing-list__section
+            div.pricing-list__summary
+              h2.pricing-list__summary-heading(id="dog-walking-services" name="Dog Walking Services")
+                button.pricing-list__summary-action
+                  i.fas.fa-chevron-right.mr-2.paws-rotate-90
+                  span.pricing-list__summary-title(title="Dog Walking Services") Dog Walking Services
+              div.pricing-list__summary-description
+                p Exercised dogs are happy dogs, and happy dogs make happy families! Paws Around Motown has you covered.
+            div.pricing-list__content
+              p
+                | Safe, private, on-leash exercise! All services include fresh water, undivided attention, positive 
+                | reinforcement, and a safe environment for your pet to burn off extra energy!
+              p Walks are offered from 8 am to 8 pm, but early and late walks can be added for a small fee.
+              ul
+                li 20-minute walk - $18
+                li 30-minute walk - $20
+                li 45-minute walk - $26
+                li 60-minute walk - $30
+              .pricing-list__content-addons
+                h3 Add-Ons
                 ul
-                  li 20 Minutes - $18
-                  li 30 Minutes - $20
-                  li 45 Minutes - $26
-                  li 60 Minutes - $30
-                  li Add $5.50 if walk is before 8 am or after 8 pm
-                  li Add $5.50 for each additional dog if more than 2 dogs
-                  li On demand walks/visits may require an additional fee
+                  li Add $10 for before/after-hours walks
+                  li Add $5 for walks with more than two dogs
+                  li Add $5 for walks on Saturday and Sunday
+              .pricing-list__content-cta
+                a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
 
-        div.col-sm-12.col-md-6.my-3
-          div.paws__pricing-card.card
-            div.card-body
-              h4#pet-sitting.card-title Pet Sitting
-              div.paws__pricing-card-image
-                img(src='images/pricing-dog-watching-tv.jpg')
-              div.card-text
+        li.pricing-list__item
+          section.pricing-list__section
+            div.pricing-list__summary
+              h2.pricing-list__summary-heading(id="potty-breaks" name="Potty Breaks")
+                button.pricing-list__summary-action
+                  i.fas.fa-chevron-right.mr-2
+                  span.pricing-list__summary-title(title="Potty Breaks") Potty Breaks
+              div.pricing-list__summary-description
                 p
-                  | Going out of town and prefer your pet stay in the comfort of their own home? Not all pets require an
-                  | overnight companion. Paws Around Motown provides private vacation services that allow your pet to stay
-                  | in their own safe and comfortable environment! We will come by multiple times per day (minimum of 3 per
-                  | day for dogs, and once per day for cats) to provide your pet with individualized care! This service includes
-                  | but is not limited to; bringing in the mail, bringing the trash cans in and out, litter box maintenance,
-                  | medication administration, feedings, fresh water, and private exercise and play! Visit hours are between the
-                  | hours of 8 am and 8 pm, but early and late visits can be added for a small fee.
-                h5.paws-heading_secondary Pricing
+                | Just because your pet can hold it for 6-10 hours, doesn’t mean they should. We’ll let your pet outside while you’re at work!
+            div.pricing-list__content.paws-hide
+              p
+              | Supervised time outdoors in your backyard with light play, a wellness check, a chance to go potty, and a water refill at each visit. 
+              ul
+                li 15-minute potty-break (in your backyard) - $17
+                li 20-minute potty-break (in your backyard) - $18
+              .pricing-list__content-addons
+                h3 Add-Ons
                 ul
-                  li $24 per visit
-                  li
-                    | This visit is 45 minutes in length. We require a minimum of three visits per day for dogs and one
-                    | visit per day for cats
-                  li Add $5.50 if visit is before 8 am or after 8 pm
-                  li Add $5.50 for each additional dog and $3.50 for each additional cat if more than 2 dogs or cats
+                  li Add $10 for before/after-hours let outs
+                  li Add $5 for let outs with more than two dogs
+                  li Add $5 for potty breaks on Saturday and Sunday
+              .pricing-list__content-cta
+                a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
 
-      div.row
-        div.col-sm-12.col-md-6.my-3
-          div.paws__pricing-card.card
-            div.card-body
-              h4#overnights.card-title Overnight Pet Sitting
-              div.paws__pricing-card-image
-                img(src='images/pricing-cats-pajamas.jpg')
-              div.card-text
+        li.pricing-list__item
+          section.pricing-list__section
+            div.pricing-list__summary
+              h2.pricing-list__summary-heading(id="pooper-scooper" name="Pooper Scooper")
+                button.pricing-list__summary-action
+                  i.fas.fa-chevron-right.mr-2
+                  span.pricing-list__summary-title(title="Pooper Scooper") Pooper Scooper
+              div.pricing-list__summary-description
                 p
-                  | If you feel like your pet needs a bedtime companion, then overnight pet sitting is for you! This
-                  | service is designed for pets who require the snuggles of a human to get through the night. We will provide 12
-                  | hours of overnight care for your beloved baby. This service also includes the same things as our pet sitting
-                  | visits, but with the undivided attention of an overnight companion. Typically paired with at least one midday
-                  | service, this can provide your pet with the normalcy of having their routines undisturbed! This is a custom
-                  | quoted service and available on a first come, first serve basis!
-                h5.paws-heading_secondary Pricing
+                | Let us do the dirty work for you with weekly pet-waste clean-ups.
+            div.pricing-list__content.paws-hide
+              p
+              | Pet messes take time to keep up with. Rather than spending time you don’t have cleaning up after your pet,
+              | or worse, letting your yard go unkempt, let us take care of the chore for you!
+              p
+              | Available for one-time or recurring poop scoop services.
+              h3 First Service or Monthly Clean Up
+              ul
+                li One dog - $50
+                li Two dogs - $65
+                li Three or more dogs - $75
+              h3 Weekly Recurring Services
+              ul
+                li One dog - $20
+                li Two dogs - $26
+                li Three or more dogs - $32
+              .pricing-list__content-cta
+                a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
+
+        li.pricing-list__item
+          section.pricing-list__section
+            div.pricing-list__summary
+              h2.pricing-list__summary-heading(id="hot-diggity-dog" name="Hot Diggity Dog")
+                button.pricing-list__summary-action
+                  i.fas.fa-chevron-right.mr-2
+                  span.pricing-list__summary-title(title="Hot Diggity Dog") Hot Diggity Dog
+              div.pricing-list__summary-description
+                p
+                | Dogs just want to have fun! We take your dog out for a day on the town to explore new smells and places, 
+                | or we have an extended backyard play session at your home!
+            div.pricing-list__content.paws-hide
+              p
+              | We pick your pet up and go to the dog-park, go to the pet-store where they can pick out their new favorite toy,
+              | or we can stay-home and play fetch until we get tired!
+              p
+              | Available 8 am to 8 pm, Mondays to Fridays.
+              ul
+                li $25 per hour, minimum booking for 2 hours.
+                li Add $5 for each additional dog (more than two)
+              .pricing-list__content-cta
+                a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
+
+        li.pricing-list__item
+          section.pricing-list__section
+            div.pricing-list__summary
+              h2.pricing-list__summary-heading(id="drop-in-pet-sitting-service" name="Drop-in Pet Sitting Service")
+                button.pricing-list__summary-action
+                  i.fas.fa-chevron-right.mr-2
+                  span.pricing-list__summary-title(title="Drop-in Pet Sitting Service") Drop-in Pet Sitting Service
+              div.pricing-list__summary-description
+                p
+                | Enjoy your time away with the peace of mind that your pet is enjoying life at home.
+            div.pricing-list__content.paws-hide
+              p
+              | All pet sitting services include daily visits, pet care tasks to your specification, and complimentary house
+              | sitting services.
+              p
+              | Available between the hours of 8 am - 8 pm, minimum 3x per day for dogs and 1x per day for cats.
+              ul
+                li 45 minute visit for up to two pets - $26
+              .pricing-list__content-addons
+                h3 Add-Ons
                 ul
-                  li
-                    a(href='tel:248-729-6772') Call
-                    |  for a custom quote
-
-        div.col-sm-12.col-md-6.my-3
-          div.paws__pricing-card.card
-            div.card-body
-              h4#everything-but-the-slumber.card-title Everything But The Slumber
-              div.paws__pricing-card-image
-                img(src='images/pricing-pet-cuddling.jpg')
-              div.card-text
+                  li Add $10 for before/after-hours visits
+                  li Add $5 for each additional dog (more than two)
+                  li Add $3 for each additional cat (more than two)
+              .pricing-list__content-cta
+                a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
+            
+        li.pricing-list__item
+          section.pricing-list__section
+            div.pricing-list__summary
+              h2.pricing-list__summary-heading(id="everything-but-the-slumber-pet-sitting" name="Everything but the Slumber Pet Sitting")
+                button.pricing-list__summary-action
+                  i.fas.fa-chevron-right.mr-2
+                  span.pricing-list__summary-title(title="Everything but the Slumber Pet Sitting") Everything but the Slumber Pet Sitting
+              div.pricing-list__summary-description
                 p
-                  | This service is designed for pets that don&rsquo;t necessarily need a sleeping companion, but would benefit
-                  | from an extended period of time with their pet sitter before bedtime. With Everything but the Slumber, your
-                  | pet(s) get 3 hours of undivided attention in the evening and all of the bells and whistles of an overnight pet
-                  | sitting service, without someone sleeping in your home! We will return first thing in the morning for 1 hour to have breakfast
-                  | and another private walk.
-                h5.paws-heading_secondary Pricing
+                | Tuck-in and breakfast services for your pet plus a private walk!
+            div.pricing-list__content.paws-hide
+              p
+              | All the bells and whistles of an overnight pet sitting service, without someone sleeping in your
+              | home! Your pet gets three hours of undivided attention in the evening, and we return first thing in
+              | the morning for a two-hour breakfast, private walk, and play.
+              ul
+                li $150 per sit for up to two pets
+              .pricing-list__content-addons
+                h3 Add-Ons
                 ul
-                  li $110 per sit
-                  li
-                    | Add $5.50 for each additional dog and $3.50 for each additional cat if more than 2 dogs or cats
+                  li Add $5 for each additional dog (more than two)
+                  li Add $3 for each additional cat (more than two)
+              .pricing-list__content-cta
+                a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
 
-      div.row
-        div.col-sm-12.col-md-6.my-3
-          div.paws__pricing-card.card
-            div.card-body
-              h4#obedience-training.card-title Basic Obedience Training
-              div.paws__pricing-card-image
-                img(src='images/pricing-dog-training.jpg')
-              div.card-text
+        li.pricing-list__item
+          section.pricing-list__section
+            div.pricing-list__summary
+              h2.pricing-list__summary-heading(id="luxurious-living-with-fido" name="Luxurious Living with Fido")
+                button.pricing-list__summary-action
+                  i.fas.fa-chevron-right.mr-2
+                  span.pricing-list__summary-title(title="Luxurious Living with Fido") Luxurious Living with Fido
+              div.pricing-list__summary-description
                 p
-                  | Have a certified dog trainer come to your home and work with you and your dog, on a
-                  | weekly basis, to learn basic obedience cues: sit, down, loose leash walking, etc.
-                h5.paws-heading_secondary Pricing
-                ul
-                  li $85 per session
-                  li Each session lasts approxmately 45 to 60 minutes
-
-        div.col-sm-12.col-md-6.my-3
-          div.paws__pricing-card.card
-            div.card-body
-              h4#lunch-and-learn.card-title Lunch and Learn
-              div.paws__pricing-card-image
-                img(src='images/pricing-dog-training-v2.jpg')
-              div.card-text
+                | Give your pets a dream staycation with an all-inclusive overnight stay and personalized care
+                | during the day.
+            div.pricing-list__content.paws-hide
+              p
+              | Our overnight pet sitting services are transparent, luxury, and all-inclusive. Perfect for that
+              | special four-legged someone who needs a human companion through the night and attentive care
+              | throughout the day.
+              p
+              | What it Includes:
+              ul
+                li A 10-hour overnight stay with your pets
+                li A morning, mid-day, and evening walk for pups
+                li Food and water at each visit, medication as needed
+                li Litter box scooped daily and/or daily yard clean up
+                li Collection of mail, packages, and newspapers
+                li Trash and recycling take-out services
+                li Light grooming
+              p
+              | Our Promise:
+              ul
+                li Focused and dedicated care from 10 pm - 8 am
+                li Long, loving walks three times per day
+                li Daily, GPS tracked communication (you’ll know we came!)
+                li Back-up staff to cover in the event of ALL emergencies!
+              p
+              | All this for a flat rate of $300 per night (no hidden fees!)
+              .pricing-list__content-cta
+                a.btn.paws-btn_primary.mx-1(href='https://www.timetopet.com/portal/pawsaroundmotown/create-account') Book Now
                 p
-                  | Need assistance with the consistency and repetition of training?
-                  | Have a certified trainer come and walk your dog at lunchtime while
-                  | training on a foundation of proper and polite walking skills.
-                  | A minimum of two sessions per week is required for this service
-                  | with a weekly to bi-weekly Basic Obedience Training session booked
-                  | for a trainer to work with the family. Space is limited.
-                h5.paws-heading_secondary Pricing
-                ul
-                  li $55 per session
-                  li Each session lasts approxmately 30 to 45 minutes
-
-      div.row
-        div.col-sm-12.col-md-6.my-3
-          div.paws__pricing-card.card
-            div.card-body
-              h4#yard-waste-cleanup.card-title Yard Waste Cleanup Service
-              div.paws__pricing-card-image
-                img(src='images/pricing-yard-cleanup.jpg')
-              div.card-text
-                p
-                  | Why spend time you don&rsquo;t have cleaning up your pet&rsquo;s waste, when we can do it for you? Treat yourself
-                  | to weekly yard waste clean ups!
-                h5.paws-heading_secondary Pricing
-                ul
-                  li Spring Cleanup/Initial Cleanup Service
-                  ul
-                    li Before we begin regular service we will do a first time clean up
-                    li One dog - $50
-                    li Two dogs - $65
-                    li Three or more dogs - $75
-                  li Regular Service
-                  ul
-                    li One time per week
-                    li One dog - $20
-                    li Two dogs - $26
-                    li Three or more dogs - $32
-
-        div.col-sm-12.col-md-6.my-3
-          div.paws__pricing-card.card
-            div.card-body
-              h4#pet-taxi.card-title Pet Taxi
-              div.paws__pricing-card-image
-                img(src='images/pricing-pet-taxi.jpg')
-              div.card-text
-                p
-                  | Transport pets and pet care supplies to and from boarding facility, home of a family member or
-                  | friend, veterinarian, groomer, or other location.
-                h5.paws-heading_secondary Pricing
-                ul
-                  li $25 per 30 minutes
-
-      div.row
-        div.col-sm-12.col-md-12.my-3
-          div.paws__pricing-card.card
-            div.card-body
-              h4.card-title Additional Fees
-              div.card-text
-                h5.paws-heading_secondary Last Minute Requests
-                p
-                  | If a service is requested less than 24 hours in advance, there will be an additional $10 surcharge.
-                h5.paws-heading_secondary Early and Late Walks/Visits
-                p
-                  | Normal visit hours are from 8 am until 8 pm. We will provide visits outside of our normal business
-                  | hours for an additional $5.50 per walk/visit.
-                h5.paws-heading_secondary Cancellations
-                p
-                  | During non-holiday periods, cancellations must be received no later than 24 hours in advance. Less
-                  | than 24-hour notice will result in clients being billed 50% of the cancelled service. Cancellation fees may
-                  | be waived due to inclement weather conditions. Cancellations made the day of service, vacation visits,
-                  | and during holiday weeks and peak vacation periods may not be refunded or credited.
-                h5.paws-heading_secondary Holiday Services
-                p
-                  | Additional $10.50 charge for each visit on the following holidays:
-                  | New Years Day, Easter, Memorial Day, Fourth of July, Labor Day, Thanksgiving Day, Christmas Eve,
-                  | Christmas Day, New Years Eve
+                |
+                em Not sure? Take us out for a test drive! 
+                p 
+                | 
+                em Schedule any other Paws Around Motown Service to try us out, and if you decide to book an overnight stay with us, 
+                | 
+                em we’ll put the cost of your test drive toward your first night stay!
+  
+  script(type='text/javascript', src='/javascript/pricing.js')
 
 block footer
   include components/footer.pug

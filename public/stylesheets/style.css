@@ -12,11 +12,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
-p, a, button {
+p,
+a,
+button {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -28,21 +35,21 @@ nav {
   color: var(--brand-background_dark);
 }
 
-.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
   color: var(--brand-background_dark-faded);
 }
 
-.navbar-light .navbar-nav .active>.nav-link, 
-.navbar-light .navbar-nav .nav-link.active, 
-.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
   color: var(--brand-background_dark-faded);
 }
 
 
 .paws-header__logo {
-	height: 100px;
+  height: 100px;
 }
 
 .paws-hero {
@@ -74,11 +81,13 @@ nav {
   padding: 0 1rem;
 }
 
-.paws-hero__content h1, .paws-content_mobile h1 {
+.paws-hero__content h1,
+.paws-content_mobile h1 {
   font-weight: 700;
 }
 
-.paws-hero__content h3, .paws-content_mobile h3 {
+.paws-hero__content h3,
+.paws-content_mobile h3 {
   font-weight: 400;
 }
 
@@ -104,53 +113,6 @@ nav {
 
 .paws-btn_secondary:hover {
   background-color: var(--brand-accent_light);
-}
-
-
-@media (min-width: 768px) {
-  .paws-content-container_mobile {
-    display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  .paws-header__logo {
-    height: 100px;
-  }
-
-  .paws-hero {
-    height: 280px;
-    background: url('/images/becky-running-with-dogs_small.jpg') center center no-repeat scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
-
-  .paws-hero__content {
-    display: none;
-  }
-
-  .paws-content-container_mobile {
-    display: flex;
-    justify-content: start;
-    align-items: flex-start;
-  }
-
-  .paws-content_mobile {
-    width: 400px;
-    flex-basis: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding: 0 1rem;
-  }
-}
-
-@media (max-width: 360px) {
-  .paws-header__logo {
-    height: 100px;
-  }
 }
 
 .paws__pricing-card {
@@ -266,4 +228,167 @@ nav {
   color: var(--brand-background_dark-faded);
   font-size: 1.25rem;
   font-weight: 700;
+}
+
+.pricing-container {
+  padding: 0;
+}
+
+.pricing-section {
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(32, 39, 62, 0.4);
+  background-color: var(--brand-background_light);
+  padding-left: 15px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-section:last-child {
+  border-bottom-width: 1px;
+}
+
+.pricing-section__expanded {
+  display: none;
+}
+
+.pricing-list {
+  list-style: none;
+  padding: 0;
+  border: 1px solid #dddbda;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1)
+}
+
+.pricing-list h3 {
+  font-size: 1.25rem;
+  padding-top: .5rem;
+  font-weight: 500;
+}
+
+.pricing-list__item {
+  list-style-type: none;
+  border-bottom: 1px solid #dddbda;
+}
+
+.pricing-list__section {
+  padding: .75rem;
+}
+
+.pricing-list__summary {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-list__summary-heading {
+  display: flex;
+  font-size: 1.75rem;
+}
+
+.pricing-list__summary-action {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+
+.pricing-list__summary-heading:hover .pricing-list__summary-action,
+.pricing-list__summary-action:focus {
+  color: rgba(21, 108, 229, 0.7);
+}
+
+.pricing-list__summary-title:focus,
+.pricing-list__summary-title:active,
+.pricing-list__summary-action:active .pricing-list__summary-title {
+  text-decoration: underline;
+  box-shadow: none;
+  outline: 0;
+  color: rgba(21, 108, 229, 0.7);
+}
+
+.pricing-list__summary-title {
+  max-width: 100%;
+  align-items: center;
+}
+
+.pricing-list__summary-action i {
+  font-size: 1.75rem;
+}
+
+.pricing-list__content-cta a {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+@media (min-width: 768px) {
+  .paws-content-container_mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .paws-header__logo {
+    height: 100px;
+  }
+
+  .paws-hero {
+    height: 280px;
+    background: url('/images/becky-running-with-dogs_small.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .paws-hero__content {
+    display: none;
+  }
+
+  .paws-content-container_mobile {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .paws-content_mobile {
+    width: 400px;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 1rem;
+  }
+
+  .pricing-list {
+    margin-left: -15px;
+    margin-right: -15px;
+    min-width: 100%;
+  }
+
+  .pricing-list__summary-heading i,
+  .pricing-list__summary-title {
+    font-size: 1rem;
+  }
+
+  .pricing-list__content {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 360px) {
+  .paws-header__logo {
+    height: 100px;
+  }
+}
+
+/* Utility Classes */
+
+.paws-hide {
+  display: none;
+}
+
+.paws-rotate-90 {
+  transform: rotate(90deg);
 }
