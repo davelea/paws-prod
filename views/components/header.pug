@@ -16,10 +16,17 @@ header
               a.nav-link(href='/about') About
                 if page === 'about'
                   span.sr-only (current)
-            li.nav-item(class=(page=='pricing') ? 'active' : '')
-              a.nav-link(href='/pricing') Pricing
-                if page === 'pricing'
-                  span.sr-only (current)
+
+            li.nav-item.dropdown(class=(page=='dog-walking-and-pet-sitting-services' || page=='training-services') ? 'active' : '')
+              a.nav-link.dropdown-toggle(href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false') Pricing
+              div.dropdown-menu(aria-labeledby='navbarDropdown')
+                a.dropdown-item(href='/dog-walking-and-pet-sitting-services') Dog Walking and Pet Sitting
+                  if page === 'dog-walking-and-pet-sitting-services'
+                    span.sr-only (current)
+                a.dropdown-item(href='/training') Dog Training
+                  if page === 'training-services'
+                    span.sr-only (current)
+                
             li.nav-item(class=(page=='team') ? 'active' : '')
               a.nav-link(href='/team') Our Team
                 if page === 'team'
