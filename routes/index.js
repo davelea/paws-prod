@@ -7,7 +7,16 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/pricing', function(req, res, next) {
-  res.render('pricing', { title: 'Paws Around Motown: Pricing', page: 'pricing'});
+  res.redirect(301, '/dog-walking-and-pet-sitting-services')
+});
+
+router.get('/dog-walking-and-pet-sitting-services', function(req, res, next) {
+  req.path = 'dog-walking-and-pet-sitting-services';
+  res.render('pricing', { title: 'Paws Around Motown: Dog Walking and Pet Sitting Services', page: 'dog-walking-and-pet-sitting-services'});
+});
+
+router.get('/training*', function(req, res, next) {
+  res.render('training', { title: 'Paws Around Motown: Training Services', page: 'training'});
 });
 
 router.get('/about', function(req, res, next) {
