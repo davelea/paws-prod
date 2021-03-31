@@ -1,52 +1,69 @@
-//- components/footer.pug
-footer.py-5.bg-dark
-  div.container
-    div.row
-      div.paws-footer__links.col-sm.col-md-6.col-lg-8
-        h2 Links
-        div.container
-          div.row
-            div.col-sm-6.col-lg-6
-              ul.navbar-nav.ml-auto
-                li.nav-item
-                  a(href='/') Home
-                li.nav-item
-                  a(href='/about') About
-                li.nav-item
-                  a(href='/dog-walking-and-pet-sitting-services') Dog Walking and Pet Sitting Services
-                li.nav-item
-                  a(href='/training') Dog Training
-            div.col-sm-6.col-lg-6
-              ul.navbar-nav.ml-auto
-                li.nav-item
-                  a(href='/team') Our Team
-                li.nav-item
-                  a(href='/faq') FAQ
-                li.nav-item
-                  a(href='https://www.timetopet.com/portal/pawsaroundmotown') Existing Client Login
-      div.paws-footer__contact.col-sm.col-md-6.col-lg-4
-        h2 Contact Information
-        address
-          i.fas.fa-map-marker-alt 
-          | &nbsp;834 W. 14 Mile Rd.
-          br
-          | &nbsp;&nbsp;&nbsp; Clawson, MI 48017
-          br
-        address
-          i.fas.fa-phone
+div(style="background-color:#252F3F")
+  footer.grid.grid-cols-1.py-16.px-8.gap-y-8.text-gray-200.text-opacity-75(class="2xl:container xl:px-16")
+    section.grid.grid-cols-2.gap-y-8.pb-8.text-lg.border-b.border-gray-500.border-opacity-50(class="md:grid-cols-4")
+      div
+        h3.text-base.uppercase.tracking-wider Company
+        ul.mt-4.space-y-4
+          li 
+            a(href="/about") About Us
+          li 
+            a(href="/team") Team 
+      div
+        h3.text-base.uppercase.tracking-wider Support
+        ul.mt-4.space-y-4
+          li
+            a(href="/faq") Frequent Questions
+          li
+            a(href="https://www.timetopet.com/portal/pawsaroundmotown") Client Login
+      div
+        h3.text-base.uppercase.tracking-wider Pet Services
+        ul.mt-4.space-y-4
+          li
+            a(href="/dog-walking-and-pet-sitting-services") Dog Walking 
+          li
+            a(href="/dog-walking-and-pet-sitting-services#pooper-scooper") Yard Cleanup 
+          li 
+            a(href="/dog-walking-and-pet-sitting-services#visiting-walker-cat-sitter") Pet Sitting 
+          li
+            a(href="/dog-walking-and-pet-sitting-services#small-dog-yappy-hour") Dog Socials
+      div
+        h3.text-base.uppercase.tracking-wider Dog Training
+        ul.mt-4.space-y-4
+          li
+            a(href="/training#in-home-obedience-training-package") Individual Training 
+          li
+            a(href="/training#Dog-Training-at-our-Center") Group Sessions 
+          li
+            a(href="/training#Live-Online-Pet-Training-Program") Virtual Training  
+          li
+            a(href="/training#Training-for-Pet-Parents") First Aid and CPR Classes
+    section.grid.grid-cols-1.gap-y-8.pb-8.text-lg.border-b.border-gray-500.border-opacity-50(class="md:grid-cols-2")
+      div
+        h3.text-opacity-75.text-base.uppercase.tracking-wider Office &amp; Training Location 
+        div.flex.mt-4
+          i.fas.fa-map-marker-alt.mr-1.py-1.text-red-500
+          address
+            a(href="https://www.google.com/maps/place/Paws+Around+Motown/@42.533522,-83.1603216,17z/data=!4m13!1m7!3m6!1s0x8824c5d099c24583:0xeb395567d4f3728!2s834+W+14+Mile+Rd,+Clawson,+MI+48017!3b1!8m2!3d42.5334519!4d-83.1579906!3m4!1s0x8824c8983d8552bb:0x7472c4eee8976dcc!8m2!3d42.5336934!4d-83.1579661")
+              | 834 W. 14 Mile Rd.
+              br
+              | Clawson, MI 48017
+      div
+        h3.text-opacity-75.text-base.uppercase.tracking-wider Contact Information
+        div.flex.mt-4
+          i.fas.fa-phone.mr-1.py-1.text-purple-500
           a(href='tel:248-729-6772')  248-729-6772
-          br
-          i.far.fa-envelope
-          a(href='mailto:support@pawsaroundmotown.com')  support@pawsaroundmotown.com
-    p.m-0.text-center.text-white Paws Around Motown LLC &copy; 2014-#{new Date().getFullYear()}
-    div.paws-footer__social.container.text-center
-      ul.list-inline
-        li.list-inline-item
-          a.paws-footer__social-link_facebook(href='https://www.facebook.com/pawsaroundmotown')
-            i.fab.fa-facebook-f
-        li.list-inline-item
-          a.paws-footer__social-link_instagram(href='https://www.instagram.com/pawsaroundmotown')
-            i.fab.fa-instagram
-        li.list-inline-item
-          a.paws-footer__social-link_google(href='https://goo.gl/maps/9ac8XNrH7NJ2')
-            i.fab.fa-google
+        div.flex
+          i.far.fa-envelope.mr-1.py-1.text-pink-500
+          a(href='mailto:support@pawsaroundmotown.com')  support@pawsaroundmotown.com 
+    section.grid.grid-cols-1.gap-y-8.text-lg(class="md:grid-cols-2")
+      div.mr-8
+        p &copy; 2014 - #{new Date().getFullYear()} Paws Around Motown LLC. All rights reserved.
+      div.text-4xl.space-x-12
+        a(href='https://www.facebook.com/pawsaroundmotown')
+          i.fab.fa-facebook
+        a(href='https://www.instagram.com/pawsaroundmotown')
+          i.fab.fa-instagram
+        a(href='https://www.twitter.com/motownpaws')
+          i.fab.fa-twitter
+        a(href='https://goo.gl/maps/9ac8XNrH7NJ2')
+          i.fab.fa-google
