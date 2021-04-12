@@ -9,17 +9,17 @@
     "tailwind:css": "postcss public/styles/tailwind.css -o public/styles/styles.css"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.3",
+    "autoprefixer": "^10.2.5",
     "cookie-parser": "^1.4.5",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "mongoose": "^5.11.13",
+    "mongoose": "^5.12.3",
     "morgan": "~1.9.1",
-    "postcss": "^8.2.4",
+    "postcss": "^8.2.10",
     "postcss-cli": "^8.3.1",
     "pug": "2.0.0-beta11",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
