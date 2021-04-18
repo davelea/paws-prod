@@ -1,0 +1,15 @@
+mixin summary(article)
+  article.mt-6
+    div.px-10.py-6.bg-white.rounded-lg.shadow-lg
+      div.flex.justify-between.items-center
+        span.font-light.text-gray-600 #{article.createdDate.toLocaleDateString()}
+        a.px-2.py-1.bg-gray-600.text-gray-100.font-bold.rounded(class="hover:bg-gray-500" href="#") #{article.category}
+      div.mt-2
+        a.text-2xl.text-gray-700.font-bold(class="hover:underline" href=`/blog/${article.slug}`) #{article.title}
+        p.mt-2.text-gray-600 #{article.description}
+      div.flex.justify-between.items-center.mt-4
+        a.text-blue-500(class="hover:underline" href=`/blog/${article.slug}`) Read more
+          div 
+            a.flex.items-center(href="#")
+              img.mx-4.w-10.h-10.object-cover.rounded-full.hidden(src=`${article.authorAvatar}` alt="avatar" class="sm:block")
+              h1.text-gray-700.font-bold(class="hover:underline") #{article.author}
