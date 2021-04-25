@@ -3,9 +3,16 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
 const mongoose = require('mongoose');
+mongoose.connect(process.env.DATABASE_URL, {useNewUrlParser: true, useUnifiedTopology: true});
 
 const indexRouter = require('./routes/index');
+const blogRouter = require('./routes/blog');
 
 const app = express();
 
@@ -19,6 +26,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// router setup
+app.use('/blog', blogRouter);
 app.use('/', indexRouter);
 
 // catch 404 and forward to error handler
