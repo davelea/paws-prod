@@ -11,7 +11,7 @@ block content
       div.flex.items-center
         span.font-light Posted on #{article.createdDate.toLocaleDateString()} by
         div.flex.items-center
-          img.mx-1.w-10.h-10.object-cover.rounded-full.hidden(src=`${article.authorAvatar}` alt="avatar" class="sm:block")
+          img.mx-1.w-10.h-10.object-cover.rounded-full(src=`${article.authorAvatarUrl}` alt="avatar" class="sm:block")
           span.font-light.text-gray-700(class="hover:underline") #{article.author}
 
       section.space-y-4 !{article.sanitizedHtml}
