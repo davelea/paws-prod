@@ -14,7 +14,7 @@ block content
           img.mx-1.w-10.h-10.object-cover.rounded-full(src=`${article.authorAvatarUrl}` alt="avatar" class="sm:block")
           span.font-light.text-gray-700(class="hover:underline") #{article.author}
 
-      section.space-y-4 !{article.sanitizedHtml}
+      section.prose !{article.sanitizedHtml}
 
 block footer
   include ../components/footer.pug
