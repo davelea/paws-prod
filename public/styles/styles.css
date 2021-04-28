@@ -1143,6 +1143,10 @@ video {
   margin-left: auto;
 }
 
+.max-w-none {
+  max-width: none;
+}
+
 .min-w-full {
   min-width: 100%;
 }
