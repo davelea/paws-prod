@@ -4,7 +4,8 @@ const Article = require('../models/article');
 const router = express.Router();
 
 router.get('/', async (req, res) => {
-  const articles = await Article.find();
+  const articles = await Article.find({}).sort({createdDate: 'desc'}).exec();
+  
   res.render('blog/index', { title: 'Paws Around Motown: Blog', articles: articles});
 });
 
