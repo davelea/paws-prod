@@ -26,7 +26,11 @@ header
                 a.dropdown-item(href='/training') Dog Training
                   if page === 'training-services'
                     span.sr-only (current)
-                
+            
+            li.nav-item(class=(page=='blog') ? 'active' : '')
+              a.nav-link(href='/blog') Blog
+                if page === 'blog'
+                  span.sr-only (current)
             li.nav-item(class=(page=='team') ? 'active' : '')
               a.nav-link(href='/team') Our Team
                 if page === 'team'
