@@ -5,18 +5,75 @@ block header
 
 block content
   div.container
-    h1.text-4xl.mt-4.mb-3 Accredited In-Home and Center-Based Dog Training
+    <section class="text-blueGray-700 ">
+      <div class="flex flex-col items-center py-8 md:flex-row">
+        <div class="flex flex-col items-start mb-4 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0">
+          <h1 class="mb-8 text-4xl font-black tracking-tighter text-black md:text-5xl title-font">Accredited In-Home and Center-Based Dog Training</h1>
+          <p class="mb-8 text-base leading-relaxed text-left text-blueGray-600 ">Our owner, Becky and our general manager, Megan are Certified Dog Obedience Trainers. Schedule training as a one-on-one session with you and your dog or register for one of our classes.</p>
+          <div class="flex flex-col justify-center lg:flex-row gap-x-2">
+            <p class="flex mb-2 text-blueGray-600"><span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+              <i class="far fa-building text-blue-500"></i>
+            </span>Office Hours: 10am - 6pm</p>
 
-    div.container.space-y-4
-      div.row
-        section
-          p 
-            span.font-weight-bold Office Hours: 
-            | 10 AM - 6 PM 
-      div.row.space-y-4
-        p Our owner, Becky, and our general manager, Megan, are Certified Dog Obedience Trainers. Schedule 
-          | training as a one-on-one session with your dog or with you and your dog.
-        img.img-fluid(style='max-height:200px' src='/images/abc-certified-dog-trainer.png' alt='Animal Behavior College Certified Dog Trainer')
+            <p class="flex mb-2 text-blueGray-600"><span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+              <i class="fas fa-dog text-blue-500"></i>
+            </span>Training Hours: 10am - 8pm</p>
+          </div>
+        </div>
+        <div class="max-w-sm lg:max-w-md">
+          <img class="object-cover object-center rounded-lg " alt="" src="/images/abc-certified-dog-trainer.png">
+        </div>
+      </div>
+    </section>
+
+    div.space-y-4
+      <section class="text-blueGray-700 ">
+        <div class="items-center py-12">
+          <div class="flex flex-wrap flex-grow lg:flex-nowrap items-center justify-center w-full gap-2 md:gap-0">
+            div(class="w-full xl:w-2/6 md:w-2/6")
+              div.relative.flex.flex-col.h-full.transition.duration-500.ease-in-out.transform.bg-white.border.rounded-lg.shadow-xl
+                img(class="p-4 object-center w-full rounded-t-lg h-44 h-36" src="/images/dog.svg" alt="")
+                div.p-6
+                  h2.mb-4.text-base.uppercase.tracking-wider.text-blueGray-700 Puppy Preschool Class
+                  strong(class="flex items-end mb-8 text-3xl font-black leading-none text-black lg:text-4xl") $350.00
+                  p.flex.items-center.mb-4.text-base.font-medium.leading-relaxed.text-blueGray-700 For dogs under six months old!
+                  ul.list-disc.list-inside
+                    li 5 week course
+                    li Learn basic commands
+                    li Socialization principles and right start guide
+                    li Weekly practice guides
+                  a(class="block w-full px-4 py-2 mt-6 text-base text-center font-medium text-blue-600 transition duration-500 ease-in-out transform bg-blue-100 rounded-lg hover:bg-blue-300 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2" href="https://app.acuityscheduling.com/schedule.php?owner=22813151&appointmentType=24420575" target="_blank") Register Now
+
+            div(class="w-full xl:w-2/6 md:w-2/6")
+              div.relative.flex.flex-col.h-full.transition.duration-500.ease-in-out.transform.bg-white.border.rounded-lg.shadow-xl
+                img(class="p-4 object-center w-full rounded-t-lg h-44 h-36" src="/images/dog_2.svg" alt="")
+                div.p-6
+                  h2.mb-4.text-base.uppercase.tracking-wider.text-blueGray-700 Basic Obedience Class
+                  strong(class="flex items-end mb-8 text-3xl font-black leading-none text-black lg:text-4xl") $350.00
+                  p.flex.items-center.mb-4.text-base.font-medium.leading-relaxed.text-blueGray-700 For dogs six months and older.
+                  ul.list-disc.list-inside
+                    li 5 week course
+                    li Learn basic obedience cues
+                    li Weekly practice guides
+                    li Full access to your trainer via email
+                  a(class="block w-full px-4 py-2 mx-auto mt-6 text-base text-center font-medium text-white transition duration-500 ease-in-out transform bg-blue-600 border-blue-600 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-700" href="https://app.acuityscheduling.com/schedule.php?owner=22813151&appointmentType=24421068" target="_blank") Register Now
+
+            div(class="w-full xl:w-2/6 md:w-2/6")
+              div.relative.flex.flex-col.h-full.transition.duration-500.ease-in-out.transform.bg-white.border.rounded-lg.shadow-xl
+                img(class="p-4 object-center w-full rounded-t-lg h-44 h-36" src="/images/dog_3.svg" alt="")
+                div.p-6
+                  h2.mb-4.text-base.uppercase.tracking-wider.text-blueGray-700 Private Virtual Basic Obedience
+                  strong(class="flex items-end mb-8 text-3xl font-black leading-none text-black lg:text-4xl") $700.00
+                  p.flex.items-center.mb-4.text-base.font-medium.leading-relaxed.text-blueGray-700 Private training for your pup!
+                  ul.list-disc.list-inside
+                    li Weekly private sessions (5 weeks on Zoom)
+                    li Socialization principles and right start guide
+                    li Crate and potty training
+                    li Access to our virtual training library
+                  a(class="block w-full px-4 py-2 mt-6 text-base text-center font-medium text-blue-600 transition duration-500 ease-in-out transform bg-blue-100 rounded-lg hover:bg-blue-300 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2" href="https://app.acuityscheduling.com/schedule.php?owner=22813151&appointmentType=23969381" target="_blank") Register Now
+          </div>
+        </div>
+      </section>
 
     div.container
       div.row.py-3
