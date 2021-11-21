@@ -1,0 +1,12 @@
+mixin classCard(img, title, price, description, ctaName, ctaLink)
+  div(class="flex flex-col xl:w-2/6 md:w-2/6 bg-white border rounded-lg shadow-xl")
+    img(class="p-4 object-center rounded-t-lg h-44 h-36" src=img alt="")
+    div.flex.flex-col.flex-grow.p-6
+      h2.mb-4.text-base.uppercase.tracking-wider.text-blueGray-700= title
+      strong(class="flex mb-8 text-3xl font-black leading-none text-black lg:text-4xl")= price
+      p.flex.items-center.mb-4.text-base.font-medium.leading-relaxed.text-blueGray-700= description
+      ul.list-disc.list-outside.mx-3
+        if block 
+          block
+    div.px-4.pb-4
+      a(class="block w-full px-2 py-2 mt-6 text-base text-center font-medium text-blue-600 transition duration-500 ease-in-out transform bg-blue-100 rounded-lg hover:bg-blue-300 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2" href=ctaLink target="_blank")= ctaName
