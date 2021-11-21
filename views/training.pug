@@ -1,5 +1,7 @@
 extends layout
 
+include mixins/classCard.pug
+
 block header
   include components/header.pug
 
@@ -28,49 +30,29 @@ block content
 
     div.space-y-4
       <section class="text-blueGray-700 ">
-        <div class="items-center py-12">
-          <div class="flex flex-wrap flex-grow lg:flex-nowrap items-center justify-center w-full gap-2 md:gap-0">
-            div(class="w-full xl:w-2/6 md:w-2/6")
-              div.relative.flex.flex-col.h-full.transition.duration-500.ease-in-out.transform.bg-white.border.rounded-lg.shadow-xl
-                img(class="p-4 object-center w-full rounded-t-lg h-44 h-36" src="/images/dog.svg" alt="")
-                div.p-6
-                  h2.mb-4.text-base.uppercase.tracking-wider.text-blueGray-700 Puppy Preschool Class
-                  strong(class="flex items-end mb-8 text-3xl font-black leading-none text-black lg:text-4xl") $350.00
-                  p.flex.items-center.mb-4.text-base.font-medium.leading-relaxed.text-blueGray-700 For dogs under six months old!
-                  ul.list-disc.list-inside
-                    li 5 week course
-                    li Learn basic commands
-                    li Socialization principles and right start guide
-                    li Weekly practice guides
-                  a(class="block w-full px-4 py-2 mt-6 text-base text-center font-medium text-blue-600 transition duration-500 ease-in-out transform bg-blue-100 rounded-lg hover:bg-blue-300 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2" href="https://app.acuityscheduling.com/schedule.php?owner=22813151&owner=22813151&appointmentType=category:Training%20Center%20Classes" target="_blank") Register Now
+        <div class="py-12">
+          <div class="flex flex-wrap lg:flex-nowrap gap-2 md:gap-0">
+            +classCard('/images/dog.svg', 'Puppy Right Start Program', '$350', 'For puppies under six months old. Includes:', 'Register Now', 'https://app.acuityscheduling.com/schedule.php?owner=22813151&owner=22813151&appointmentType=category:Training%20Center%20Classes')
+              li Six week course
+              li Learn basic commands, polite greetings, catching your puppy getting it right before they have a chance to get it wrong, and more
+              li Socialization principles
+              li Working through distractions and real life situations
+              li Weekly practice guides
+              li Access to your trainer during office hours for the length of your program via phone or email
 
-            div(class="w-full xl:w-2/6 md:w-2/6")
-              div.relative.flex.flex-col.h-full.transition.duration-500.ease-in-out.transform.bg-white.border.rounded-lg.shadow-xl
-                img(class="p-4 object-center w-full rounded-t-lg h-44 h-36" src="/images/dog_2.svg" alt="")
-                div.p-6
-                  h2.mb-4.text-base.uppercase.tracking-wider.text-blueGray-700 Basic Obedience Class
-                  strong(class="flex items-end mb-8 text-3xl font-black leading-none text-black lg:text-4xl") $350.00
-                  p.flex.items-center.mb-4.text-base.font-medium.leading-relaxed.text-blueGray-700 For dogs six months and older.
-                  ul.list-disc.list-inside
-                    li 5 week course
-                    li Learn basic obedience cues
-                    li Weekly practice guides
-                    li Full access to your trainer via email
-                  a(class="block w-full px-4 py-2 mx-auto mt-6 text-base text-center font-medium text-white transition duration-500 ease-in-out transform bg-blue-600 border-blue-600 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-700" href="https://app.acuityscheduling.com/schedule.php?owner=22813151&owner=22813151&appointmentType=category:Basic%20Obedience%20Classes" target="_blank") Register Now
+            +classCard('/images/dog_2.svg', 'Basic Manners Program', '$350', 'For dogs six months and older. Includes:', 'Register Now', 'https://app.acuityscheduling.com/schedule.php?owner=22813151&owner=22813151&appointmentType=category:Basic%20Obedience%20Classes')
+              li Five week course
+              li Learn how to teach your dog basic manners, loose leash walking, and more
+              li Working through distractions and real life situations
+              li Weekly practice guides
+              li Access to your trainer during office hours for the length of your program via phone or email
 
-            div(class="w-full xl:w-2/6 md:w-2/6")
-              div.relative.flex.flex-col.h-full.transition.duration-500.ease-in-out.transform.bg-white.border.rounded-lg.shadow-xl
-                img(class="p-4 object-center w-full rounded-t-lg h-44 h-36" src="/images/dog_3.svg" alt="")
-                div.p-6
-                  h2.mb-4.text-base.uppercase.tracking-wider.text-blueGray-700 Private Virtual Basic Obedience
-                  strong(class="flex items-end mb-8 text-3xl font-black leading-none text-black lg:text-4xl") $700.00
-                  p.flex.items-center.mb-4.text-base.font-medium.leading-relaxed.text-blueGray-700 Private training for your pup!
-                  ul.list-disc.list-inside
-                    li Weekly private sessions (5 weeks on Zoom)
-                    li Socialization principles and right start guide
-                    li Crate and potty training
-                    li Access to our virtual training library
-                  a(class="block w-full px-4 py-2 mt-6 text-base text-center font-medium text-blue-600 transition duration-500 ease-in-out transform bg-blue-100 rounded-lg hover:bg-blue-300 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2" href="https://app.acuityscheduling.com/schedule.php?owner=22813151&owner=22813151&appointmentType=category:Private%20Online%20Training" target="_blank") Register Now
+            +classCard('/images/dog_3.svg', 'In-home Private Training', '$1,200', 'For dogs of all ages. Includes:', 'Schedule Now', 'https://app.acuityscheduling.com/schedule.php?owner=22813151&owner=22813151&appointmentType=category:Basic%20Obedience%20Classes')
+              li Training in the comfort of your home
+              li Six sessions of customized training curriculum
+              li Working through distractions and real life situations
+              li Weekly practice guides
+              li Access to your trainer during office hours for the length of your program via phone or email
           </div>
         </div>
       </section>
