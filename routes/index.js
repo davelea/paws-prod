@@ -7,16 +7,24 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/pricing', function(req, res, next) {
-  res.redirect(301, '/dog-walking-and-pet-sitting-services')
+  res.redirect(301, '/dog-walking');
 });
 
 router.get('/dog-walking-and-pet-sitting-services', function(req, res, next) {
-  req.path = 'dog-walking-and-pet-sitting-services';
-  res.render('pricing', { title: 'Paws Around Motown: Dog Walking and Pet Sitting Services', page: 'dog-walking-and-pet-sitting-services'});
+  res.redirect(301, '/dog-walking');
+});
+
+router.get('/dog-walking', function(req, res, next) {
+  req.path = 'dog-walking';
+  res.render('dog-walking', { title: 'Paws Around Motown: Dog Walking Services', page: 'dog-walking'});
 });
 
 router.get('/training*', function(req, res, next) {
-  res.render('training', { title: 'Paws Around Motown: Training Services', page: 'training'});
+  res.redirect(301, '/dog-training');
+});
+
+router.get('/dog-training', function(req, res, next) {
+  res.render('dog-training', { title: 'Paws Around Motown: Dog Training Services', page: 'dog-training'});
 });
 
 router.get('/about', function(req, res, next) {
@@ -24,7 +32,7 @@ router.get('/about', function(req, res, next) {
 });
 
 router.get('/team', function(req, res, next) {
-  res.render('team', { title: 'Paws Around Motown: Our Team', page: 'team'});
+  res.redirect(301, '/about');
 });
 
 router.get('/faq', function(req, res, next) {
