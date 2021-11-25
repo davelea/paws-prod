@@ -43,4 +43,8 @@ router.get('/request-more-information', function(req, res, next) {
   res.render('request-more-information', { title: 'Paws Around Motown: Request More Information'});
 });
 
+router.get('/black-friday-2021', function(req, res, next) {
+  res.render('landing-page', { title: 'Paws Around Motown: Black Friday Sale'});
+});
+
 module.exports = router;
