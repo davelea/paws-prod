@@ -1,0 +1,105 @@
+extends layout
+
+block append head
+  <meta property="og:title" content="Shop Small Saturday at Paws Around Motown">
+  <meta property="og:site_name" content="Paws Around Motown">
+  <meta property="og:url" content="https://pawsaroundmotown.com/shop-small-saturday">
+  <meta property="og:description" content="Shop in-person and online at Paws Around Motown's Small Business Saturday Sale">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://pawsaroundmotown.com/images/dog-shopping.webp">
+
+block header
+  include components/header.pug
+
+block content
+  div.container.px-4
+    <section class="text-blueGray-700 ">
+      <div class="flex flex-col items-center py-8 md:flex-row">
+        <div class="flex flex-col items-start mb-4 text-left lg:flex-grow lg:w-1/2 lg:pr-24 md:mb-0">
+          <h1 class="mb-8 text-6xl font-black tracking-tighter text-black title-font">Shop Small Business Saturday</h1>
+          <p class="mb-8 text-base leading-relaxed text-left text-blueGray-600 ">We're offering great deals on some of our most popular services. The best part? Shop in-person or online! These deals will go as fast as your dogs can pull you to our training center.</p>
+        </div>
+        <div class="max-w-sm lg:max-w-md">
+          <img class="object-cover object-center rounded-lg " alt="" src="/images/shop-small.png">
+        </div>
+      </div>
+
+      <div>
+        <h2 id="deals" class="mt-4 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          | Paws Around Motown Small Business Saturday Deals
+        </h2>
+
+        <p class="mx-auto mt-4 text-base text-gray-500">All deals are available through midnight on Sunday, November 28, 2021. Need help? Contact <a href="mailto:support@pawsaroundmotown.com">support@pawsaroundmotown.com</a> for assistance.</p>
+
+        <div class="sbs-content_in-person">
+          <h3 class="mt-4 text-xl leading-8 tracking-tight text-gray-900 sm:text-4xl py-4">In-Person</h3>
+
+          <p>Visit our Training Center at 834 W. 14 Mile Rd., Clawson, MI from 1:00 pm to 7:00 pm and receive a free gift! Take advantage of these special deals:</p>
+
+          <dl class="py-8 md:grid md:grid-cols-1 md:gap-x-8 md:gap-y-10">
+            <div class="relative">
+              <dt>
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
+                  <img src="/images/sale.svg"/>
+                </div>
+              </dt>
+              <dd class="mt-2 ml-16 text-lg font-medium text-gray-500">Purchase a Gift Certificate and receive 15% off the purchase price! A fantastic holiday gift and a deal for you!</dd>
+            </div>
+
+            <div class="relative">
+              <dt>
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
+                  <img src="/images/sale.svg"/>
+                </div>
+              </dt>
+              <dd class="mt-2 ml-16 text-base text-gray-500">Live in our service area? Book any <a class="text-blue-500" href="/dog-training">training program</a> and receive your first week of <a class="text-blue-500" href="/dog-walking">dog walking services</a> free of charge within our service area. *Must be used within three weeks of Training Package purchase</dd>
+              div.py-4.ml-16
+                a.btn.paws-btn_primary(href='/dog-training') Dog Training Services
+            </div>
+          </dl>
+        </div>
+
+        <div class="sbs-content_online">
+          <h3 class="text-xl leading-8 tracking-tight text-gray-900 sm:text-4xl py-4">Online</h3>
+
+          <p>Take advantage of these special online deals:</p>
+
+          <dl class="py-8 md:grid md:grid-cols-1 md:gap-x-8 md:gap-y-10">
+            <div class="relative">
+              <dt>
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
+                  <img src="/images/sale.svg"/>
+                </div>
+              </dt>
+              <dd class="mt-2 ml-16 text-lg font-medium text-gray-500">10% Off Gift Card Purchases</dd>
+
+              <ol class="ml-16 mt-2 ml-16 text-base text-gray-500 list-decimal">
+                <li>Log into Portal</li>
+                <li>Click Invoices in top menu bar</li>
+                <li>Click Purple “Buy Gift Card” button</li>
+                <li>You can choose $20, $50, or $100 options OR you can click “Custom” and choose any amount.</li>
+                <li>For every Gift Card you purchase, we will credit your account by 10% of the purchase amount</li>
+              </ol>
+            </div>
+
+            <div class="relative">
+              <dt>
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
+                  <img src="/images/sale.svg"/>
+                </div>
+              </dt>
+              <dd class="mt-2 ml-16 text-base text-gray-500">Live in our service area? Book any <a class="text-blue-500" href="/dog-training">training program</a> and receive one <a class="text-blue-500" href="/dog-walking">dog walking service</a> free of charge within our service area *Must be used within three weeks of Training Package purchase</dd>
+              div.py-4.ml-16
+                a.btn.paws-btn_primary(href='/dog-training') Dog Training Services
+            </div>
+          </dl>
+        </div>
+
+      <div>
+        <img src="/images/dog-shopping.webp" />
+      </div>
+  </div>
+    </section>
+
+block footer
+  include components/footer.pug

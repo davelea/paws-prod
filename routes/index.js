@@ -47,4 +47,8 @@ router.get('/black-friday-2021', function(req, res, next) {
   res.render('landing-page', { title: 'Paws Around Motown: Black Friday Sale'});
 });
 
+router.get('/shop-small-business-saturday', function(req, res, next) {
+  res.render('sbs', { title: 'Paws Around Motown: Shop Small Business Saturday'});
+});
+
 module.exports = router;
