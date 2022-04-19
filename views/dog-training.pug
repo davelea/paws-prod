@@ -1,6 +1,7 @@
 extends layout
 
 include mixins/classCard.pug
+include mixins/hours.pug
 
 block header
   include components/header.pug
@@ -12,15 +13,7 @@ block content
         <div class="flex flex-col items-start mb-4 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0">
           <h1 class="mb-8 text-4xl font-black tracking-tighter text-black md:text-5xl title-font">Accredited In-Home and Center-Based Dog Training</h1>
           <p class="mb-8 text-base leading-relaxed text-left text-blueGray-600 ">Our owner, Becky and our general manager, Megan are Certified Dog Obedience Trainers. Schedule training as a one-on-one session with you and your dog or register for one of our classes.</p>
-          <div class="flex flex-col justify-center lg:flex-row gap-x-2">
-            <p class="flex mb-2 text-blueGray-600"><span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
-              <i class="far fa-building text-blue-500"></i>
-            </span>Office Hours Monday through Saturday: 9am - 7pm</p>
-
-            <p class="flex mb-2 text-blueGray-600"><span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
-              <i class="fas fa-dog text-blue-500"></i>
-            </span>Training Hours Every Day 9am - 9pm</p>
-          </div>
+          +hours('training')
         </div>
         <div class="max-w-sm lg:max-w-md">
           <img class="object-cover object-center rounded-lg " alt="" src="/images/abc-certified-dog-trainer.png">

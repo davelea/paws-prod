@@ -1,5 +1,7 @@
 extends layout
 
+include mixins/hours.pug
+
 block header
   include components/header.pug
 
@@ -8,14 +10,7 @@ block content
     h1.text-4xl.mt-4.mb-3 Dog Walking &amp; Pet Sitting Services
     .container.mb-4.space-y-4
       .row
-        section
-          p 
-            span.font-weight-bold Office Hours: 
-            | 10 AM - 6 PM 
-            span.font-weight-bold.ml-1 Walk Hours: 
-            | 9 AM - 4 PM*
-      .row
-        p.font-italic *Need a walk outside our walk hours? Give us a call! We’ll find a way to make it work!
+        +hours('walking')
 
     div.container.pricing-container.mb-3
       ul.pricing-list
