@@ -1,13 +1,15 @@
 :root {
-  --brand-background_light: #F5F4F5;
-  --brand-background_dark: #20273E;
+  --brand-background_light: #f5f4f5;
+  --brand-background_dark: #20273e;
   --brand-background_dark-faded: rgba(32, 39, 62, 0.7);
-  --brand-accent_light: #75A2B0;
+  --brand-accent_light: #75a2b0;
   --brand-accent_light-faded: rgba(117, 162, 176, 0.7);
-  --brand-accent_dark: #D23D3F;
-  --brand-primary: #E5D315;
+  --brand-accent_dark: #d23d3f;
+  --brand-primary: #e5d315;
   --brand-primary_faded: rgba(229, 211, 21, 0.7);
-  --brand-primary_dark: #C8B912;
+  --brand-primary_dark: #c8b912;
+  --brand-secondary: #008b83;
+  --brand-secondary_faded: rgba(0, 139, 131, 0.7);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -40,13 +42,12 @@ nav {
   color: var(--brand-background_dark-faded);
 }
 
-.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .show > .nav-link {
   color: var(--brand-background_dark-faded);
 }
-
 
 .paws-header__logo {
   height: 100px;
@@ -64,7 +65,7 @@ nav {
 
 .paws-hero__container {
   width: 100%;
-  background-color: rgba(0, 0, 0, .25);
+  background-color: rgba(0, 0, 0, 0.25);
   color: var(--brand-background_light);
   display: flex;
   justify-content: start;
@@ -106,13 +107,19 @@ nav {
 }
 
 .paws-btn_secondary {
-  background-color: var(--brand-accent_light-faded);
-  border: 1px solid var(--brand-accent_light-faded);
-  color: var(--brand-background_light);
+  background-color: var(--brand-secondary);
+  border: 1px solid var(--brand-secondary);
+  color: #fff;
 }
 
 .paws-btn_secondary:hover {
-  background-color: var(--brand-accent_light);
+  background-color: var(--brand-secondary_faded);
+  color: #fff;
+}
+
+.paws-btn_large {
+  padding: 0.5rem 2rem;
+  font-size: 1.25rem;
 }
 
 .paws__pricing-card {
@@ -120,9 +127,9 @@ nav {
 }
 
 .btn-primary {
-  background-color: #2292A4;
-  border-color: #2292A4;
-  color: #F5EFED;
+  background-color: #2292a4;
+  border-color: #2292a4;
+  color: #f5efed;
 }
 
 .featurette-divider {
@@ -137,7 +144,7 @@ nav {
 }
 
 .paws-footer__contact {
-  color: #fff
+  color: #fff;
 }
 
 .paws-footer__social {
@@ -147,7 +154,7 @@ nav {
 
 .paws-footer__social-link_facebook {
   background-color: #3b5998;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   display: block;
   width: 50px;
   height: 50px;
@@ -159,7 +166,7 @@ nav {
 
 .paws-footer__social-link_instagram {
   background-color: #3f729b;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   display: block;
   width: 50px;
   height: 50px;
@@ -171,7 +178,7 @@ nav {
 
 .paws-footer__social-link_google {
   background-color: #dd4b39;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   display: block;
   width: 50px;
   height: 50px;
@@ -188,11 +195,11 @@ nav {
 .paws__pricing-card-image {
   align-items: flex-start;
   display: flex;
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .paws__pricing-card img {
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   height: auto;
   max-width: 100%;
 }
@@ -221,7 +228,7 @@ nav {
 .paws-testimonial__quote {
   color: var(--brand-background_dark);
   font-size: 1.25rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .paws-testimonial__name {
@@ -258,12 +265,12 @@ nav {
   list-style: none;
   padding: 0;
   border: 1px solid #dddbda;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1)
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
 .pricing-list h3 {
   font-size: 1.25rem;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
   font-weight: 500;
 }
 
@@ -273,7 +280,7 @@ nav {
 }
 
 .pricing-list__section {
-  padding: .75rem;
+  padding: 0.75rem;
 }
 
 .pricing-list__summary {
@@ -318,8 +325,8 @@ nav {
 }
 
 .pricing-list__content-cta a {
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width: 768px) {

@@ -1,0 +1,24 @@
+mixin hours(type)
+  - const isTraining = type === 'training'
+  - const isWalking = type === 'walking'
+
+  <div class="flex flex-col justify-center lg:flex-row gap-x-2">
+    <p class="flex mb-2 text-blueGray-600">
+      <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+      <i class="far fa-building text-blue-500"></i>
+      </span>Office Hours: Sunday - Friday: 10am - 6pm, Closed Saturday
+    </p>
+
+    <p class="flex mb-2 text-blueGray-600">
+      <span class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full">
+      <i class="fas fa-dog text-blue-500"></i>
+      </span>
+      if isTraining 
+        span Training Hours: Vary based on class schedules
+      else if isWalking
+        span Walk Hours: Every Day 9am - 4pm*
+    </p>
+  </div>
+
+  if isWalking
+      <p><em>*Need a walk outside our walk hours? Give us a call! We'll find a way to make it work!</em></p>
