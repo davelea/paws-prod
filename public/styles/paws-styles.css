@@ -53,6 +53,10 @@ nav {
   height: 100px;
 }
 
+.paws-banner {
+  background-color: var(--brand-primary);
+}
+
 .paws-hero {
   background: url('/images/becky-running-with-dogs_split.jpg') center center no-repeat scroll;
   -webkit-background-size: cover;
