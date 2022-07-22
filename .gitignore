@@ -21,3 +21,5 @@ node_modules/
 
 # local dev scripts
 scripts
+
+.svelte-kit

@@ -13,8 +13,7 @@
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
-    "serverstart": "DEBUG=express-paws:* npm run devstart",
-    "tailwind:css": "postcss public/styles/tailwind.css -o public/styles/styles.css"
+    "serverstart": "DEBUG=express-paws:* npm run devstart"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.0",
