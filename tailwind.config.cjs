@@ -18,5 +18,9 @@ module.exports = {
       '6xl': ['4rem', '1']
     }
   },
+  purge: [
+    './src/**/*.html',
+    './src/**/*.svelte',
+  ],
   plugins: []
 };
