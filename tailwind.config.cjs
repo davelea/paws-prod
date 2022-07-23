@@ -1,9 +1,5 @@
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ['./views/**/*.pug'],
-  },
-  darkMode: false, // or 'media' or 'class'
+  content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {},
     fontFamily: {
@@ -22,10 +18,9 @@ module.exports = {
       '6xl': ['4rem', '1']
     }
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [
-    require('@tailwindcss/typography')
+  purge: [
+    './src/**/*.html',
+    './src/**/*.svelte',
   ],
-}
+  plugins: []
+};
