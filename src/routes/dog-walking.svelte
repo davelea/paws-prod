@@ -99,14 +99,14 @@
               <button class="pricing-list__summary-action"
                 ><i class="fas fa-chevron-right mr-2 paws-rotate-90" aria-hidden="true" /><span
                   class="pricing-list__summary-title"
-                  title="Dog Walking Services">Dog Walking Services</span
+                  title="Dog Walking Services">Dog Walking Services - Starting at $30</span
                 ></button
               >
             </h2>
             <div class="pricing-list__summary-description">
               <p>
-                No worries when your pup is out and about with a Paws Around Motown Certified Dog
-                Walker!
+                No worries when your pup is out and about with a Paws Around Motown certified dog
+                walker!
               </p>
             </div>
           </div>
@@ -114,24 +114,10 @@
             <p>
               Your fur baby will have fresh water, undivided attention, positive reinforcement, and
               a safe environment to smell the smells and stretch those muscles! All walks are
-              private on-leash experiences and are offered between 9 am and 4 pm, but early and late
-              walks are available for a small fee.
+              private on-leash experiences and are offered between 9 am and 4 pm. Our base walk is
+              30 minutes, and then $20 for each additional 30 minutes.
             </p>
-            <ul class="list-disc list-inside ml-4">
-              <li>20-minute walk - $23</li>
-              <li>30-minute walk - $30</li>
-              <li>45-minute walk - $35</li>
-              <li>60-minute walk - $40</li>
-              <li>90-minute walk - $55</li>
-            </ul>
-            <div class="pricing-list__content-addons">
-              <h3 class="text-2xl">Add-Ons</h3>
-              <ul class="list-disc list-inside ml-4">
-                <li>$10 for before or after-hours walks</li>
-                <li>$5 per dog for walks with more than two dogs</li>
-                <li>$10 for walks on Saturdays and Sundays</li>
-              </ul>
-            </div>
+
             <div class="pricing-list__content-cta">
               <a
                 class="btn paws-btn_primary mx-1"
@@ -141,45 +127,43 @@
           </div>
         </section>
       </li>
+
       <li class="pricing-list__item">
         <section class="pricing-list__section space-y-4">
           <div class="pricing-list__summary space-y-4">
             <h2
               class="pricing-list__summary-heading text-3xl"
-              id="potty-breaks"
-              name="Potty Breaks"
+              id="doggy-day-camp"
+              name="Doggy Day Camp"
             >
               <button class="pricing-list__summary-action"
                 ><i class="fas fa-chevron-right mr-2" aria-hidden="true" /><span
                   class="pricing-list__summary-title"
-                  title="Potty Breaks">Potty Breaks</span
+                  title="Doggy Day Camp">Doggy Day Camp</span
                 ></button
               >
             </h2>
+
             <div class="pricing-list__summary-description">
-              <p>
-                No need to make your pup do the potty dance when you’re at work. Let Paws Around
-                Motown give your fur baby a bladder break!
-              </p>
+              <p>A special day just for your baby</p>
             </div>
           </div>
+
           <div class="pricing-list__content paws-hide space-y-4">
             <p>
-              Along with the potty break, your furry friend will have some supervised time in your
-              backyard with light play, a wellness check, and a water refill during each visit.
+              Who doesn't want to have a special day out, being pampered and loved? Well, now your
+              dog can do just that! Introducing… DOGGY DAY CAMP!
             </p>
+
+            Your dog's day at camp will start at pick up in the morning. We will head out for a
+            hike, make a pit stop for a puppacino, and end with a shopping trip to the pet store
+            where your dog can pick out a toy and a special treat to take home and enjoy later.
+            Perfect for special occasions or just because!
+
             <ul class="list-disc list-inside ml-4">
-              <li>15-minute potty break in your backyard - $20</li>
-              <li>20-minute potty break in your backyard - $23</li>
+              <li>$200</li>
             </ul>
-            <div class="pricing-list__content-addons">
-              <h3 class="text-2xl">Add-Ons</h3>
-              <ul class="list-disc list-inside ml-4">
-                <li>$10 for before and after-hours potty breaks</li>
-                <li>$5 per dog for potty breaks with more than two dogs</li>
-                <li>$10 for potty breaks on Saturdays and Sundays</li>
-              </ul>
-            </div>
+
             <div class="pricing-list__content-cta">
               <a
                 class="btn paws-btn_primary mx-1"
@@ -189,51 +173,7 @@
           </div>
         </section>
       </li>
-      <li class="pricing-list__item">
-        <section class="pricing-list__section space-y-4">
-          <div class="pricing-list__summary space-y-4">
-            <h2
-              class="pricing-list__summary-heading text-3xl"
-              id="pooper-scooper"
-              name="Pooper Scooper"
-            >
-              <button class="pricing-list__summary-action"
-                ><i class="fas fa-chevron-right mr-2" aria-hidden="true" /><span
-                  class="pricing-list__summary-title"
-                  title="Pooper Scooper">Pooper Scooper</span
-                ></button
-              >
-            </h2>
-            <div class="pricing-list__summary-description">
-              <p>
-                The last thing you want to do after work is head outside and clean up the pet
-                messes.
-              </p>
-            </div>
-          </div>
-          <div class="pricing-list__content paws-hide space-y-4">
-            <p>Let us do the dirty work for you with weekly pet-waste clean-ups!</p>
-            <h3 class="text-2xl">First Service or Monthly Clean Up</h3>
-            <ul class="list-disc list-inside ml-4">
-              <li>One dog - $80</li>
-              <li>Two dogs - $100</li>
-              <li>Three or more dogs - $125</li>
-            </ul>
-            <h3 class="text-2xl">Weekly Recurring Services</h3>
-            <ul class="list-disc list-inside ml-4">
-              <li>One dog - $20</li>
-              <li>Two dogs - $26</li>
-              <li>Three or more dogs - $32</li>
-            </ul>
-            <div class="pricing-list__content-cta">
-              <a
-                class="btn paws-btn_primary mx-1"
-                href="https://www.timetopet.com/portal/pawsaroundmotown/create-account">Book Now</a
-              >
-            </div>
-          </div>
-        </section>
-      </li>
+
       <li class="pricing-list__item">
         <section class="pricing-list__section space-y-4">
           <div class="pricing-list__summary space-y-4">
@@ -241,36 +181,23 @@
               <button class="pricing-list__summary-action"
                 ><i class="fas fa-chevron-right mr-2" aria-hidden="true" /><span
                   class="pricing-list__summary-title"
-                  title="Pet Sitting">Pet Sitting</span
+                  title="Pet Sitting">Pet Sitting - Starting at $40</span
                 ></button
               >
             </h2>
             <div class="pricing-list__summary-description">
               <p>
-                Are you spending time away from home? Paws Around Motown can drop by for a visit and
-                a walk!
+                Are you spending time away from home? Paws Around Motown can drop by for a visit!
               </p>
             </div>
           </div>
+
           <div class="pricing-list__content paws-hide space-y-4">
             <p>
               Your pet will enjoy some time with a new friend between the hours of 8 am and 8 pm. A
               minimum of 3x per day for dogs and 1x per day for cats.
             </p>
-            <ul class="list-disc list-inside ml-4">
-              <li>30-minute cat sitting visit - $35</li>
-              <li>30-minute visit with a walk for up to two pets - $35</li>
-              <li>45-minute visit with a walk for up to two pets - $40</li>
-              <li>60-minute visit with a walk for up to two pets - $45</li>
-              <li>90-minute visit with a walk for up to two pets - $60</li>
-            </ul>
-            <div class="pricing-list__content-addons">
-              <h3 class="text-2xl">Add-Ons</h3>
-              <ul class="list-disc list-inside ml-4">
-                <li>$10 before or after-hours visits</li>
-                <li>$5 for each additional pet over two</li>
-              </ul>
-            </div>
+
             <div class="pricing-list__content-cta">
               <a
                 class="btn paws-btn_primary mx-1"
@@ -280,52 +207,7 @@
           </div>
         </section>
       </li>
-      <li class="pricing-list__item">
-        <section class="pricing-list__section space-y-4">
-          <div class="pricing-list__summary space-y-4">
-            <h2
-              class="pricing-list__summary-heading text-3xl"
-              id="small-dog-yappy-hour"
-              name="Small Dog Yappy Hour"
-            >
-              <button class="pricing-list__summary-action"
-                ><i class="fas fa-chevron-right mr-2" aria-hidden="true" /><span
-                  class="pricing-list__summary-title"
-                  title="Small Dog Yappy Hour">Small Dog Yappy Hour</span
-                ></button
-              >
-            </h2>
-            <div class="pricing-list__summary-description">
-              <p>
-                We’ve had a lot more time at home with our pets lately. But maybe they’re ready to
-                meet some new friends for a rigorous romp in our center!
-              </p>
-            </div>
-          </div>
-          <div class="pricing-list__content paws-hide space-y-4">
-            <p>
-              This socialization club for small dogs is a great way to get them some indoor playtime
-              with other pups and humans from Paws Around Motown!
-            </p>
-            <p>
-              We pick them up, transport them safely in individual crates for the ride there and
-              back, and bring them home ready to relax!
-            </p>
-            <ul class="list-disc list-inside ml-4">
-              <li>
-                2-3 hours of playtime, including safe transportation to and from our center - $60
-              </li>
-              <li>Members receive a 10% discount</li>
-            </ul>
-            <div class="pricing-list__content-cta">
-              <a
-                class="btn paws-btn_primary mx-1"
-                href="https://www.timetopet.com/portal/pawsaroundmotown/create-account">Book Now</a
-              >
-            </div>
-          </div>
-        </section>
-      </li>
+
       <li class="pricing-list__item">
         <section class="pricing-list__section space-y-4">
           <div class="pricing-list__summary space-y-4">
@@ -348,19 +230,17 @@
           </div>
           <div class="pricing-list__content paws-hide space-y-4">
             <p>It can still be a party without an overnight guest!</p>
+
             <p>
               Your pet gets three hours of undivided attention in the evening, and we return first
-              thing in the morning for a two-hour breakfast, private walk, and playtime.
+              thing in the morning for a one-hour breakfast plus a one-hour private mid-day walk and
+              play session.
             </p>
+
             <ul class="list-disc list-inside ml-4">
-              <li>Pet sitting for up to two pets - $150</li>
+              <li>$200</li>
             </ul>
-            <div class="pricing-list__content-addons">
-              <h3 class="text-2xl">Add-Ons</h3>
-              <ul class="list-disc list-inside ml-4">
-                <li>$5 for each additional pet over two</li>
-              </ul>
-            </div>
+
             <div class="pricing-list__content-cta">
               <a
                 class="btn paws-btn_primary mx-1"
@@ -370,6 +250,7 @@
           </div>
         </section>
       </li>
+
       <li class="pricing-list__item">
         <section class="pricing-list__section space-y-4">
           <div class="pricing-list__summary space-y-4">
@@ -412,15 +293,15 @@
             <ul class="list-disc list-inside ml-4">
               <li>Focused and dedicated care from 10pm-8am</li>
               <li>Long, loving walks two times per day</li>
-              <li>Daily, GPS tracked communication (you’ll know we came!)</li>
+              <li>Daily, GPS tracked communication (you'll know we came!)</li>
               <li>Back-up staff to cover in the event of ALL emergencies!</li>
             </ul>
             <p>Pricing:</p>
             <ul class="list-disc list-inside ml-4">
-              <li>All this for a flat rate of $250 per night (no hidden fees!)</li>
+              <li>All this for a flat rate of $300 per day (no hidden fees!)</li>
             </ul>
             <p class="font-italic">
-              *This service is booked on a first come first serve basis and fill up quickly. We
+              *This service is booked on a first come first serve basis and we fill up quickly. We
               recommend booking as soon as possible!
             </p>
             <div class="pricing-list__content-cta">
