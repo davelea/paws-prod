@@ -158,7 +158,7 @@
             Your dog's day at camp will start at pick up in the morning. We will head out for a
             hike, make a pit stop for a puppacino, and end with a shopping trip to the pet store
             where your dog can pick out a toy and a special treat to take home and enjoy later.
-            Perfect for special occasions or just because! $200
+            Perfect for special occasions or just because!
 
             <ul class="list-disc list-inside ml-4">
               <li>$200</li>
