@@ -1,3 +1,7 @@
+<script>
+  import FeaturedProduct from '$lib/FeaturedProduct.svelte';
+</script>
+
 <div class="container">
   <section class="text-blueGray-700 ">
     <div class="flex flex-col items-center pt-4 md:flex-row">
@@ -50,146 +54,105 @@
     <section class="text-blueGray-700 ">
       <div class="py-12">
         <div class="flex flex-wrap lg:flex-nowrap gap-2 md:gap-0">
-          <div class="flex flex-col xl:w-2/6 md:w-2/6 bg-white border rounded-lg shadow-xl">
-            <img class="p-4 object-center rounded-t-lg h-44 h-36" src="/images/dog.svg" alt="" />
-            <div class="flex flex-col flex-grow p-6">
-              <h2 class="mb-4 text-base uppercase tracking-wider text-blueGray-700">
-                Puppy Right Start
-              </h2>
-              <strong class="flex mb-8 text-3xl font-black leading-none text-black lg:text-4xl"
-                >$350</strong
-              >
-              <p
-                class="flex items-center mb-4 text-base font-medium leading-relaxed text-blueGray-700"
-              >
-                For puppies 2-5 months. This course is everything you need to get your puppy set up
-                in their new home and get started on the right paw. Includes:
+          <FeaturedProduct
+            heading="Puppy Kindergarten"
+            price="$350"
+            image="/images/dog.svg"
+            feature="For dogs 5-12 months. Includes:"
+            ctalink="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Kindergarten"
+            ctalabel="Register Now"
+            ><span slot="content"
+              ><li>Five week course.</li>
+              <li>
+                The first session is our orientation without dogs which is an important catalyst of
+                any training program.
+              </li>
+              <li>
+                Learn how to teach your puppy basic manners including, sit, down, go to your place,
+                loose leash walking, and more!
+              </li>
+              <li>Working through distractions and real life situations.</li>
+              <li>Weekly practice guides.</li>
+              <li>
+                Access to your trainer during office hours for the length of your program via phone
+                or email.
+              </li>
+              <li>
+                Move up to our next level of training, Basic Manners, after graduation and receive
+                $50 off.
+              </li></span
+            >
+          </FeaturedProduct>
+
+          <FeaturedProduct
+            heading="Basic Manners"
+            price="$350"
+            image="/images/dog_2.svg"
+            feature="For dogs 12 months and older. Includes:"
+            ctalink="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Manners"
+            ctalabel="Register Now"
+            ><span slot="content"
+              ><li>Five week course</li>
+              <li>
+                The first session is our orientation without dogs which is an important catalyst of
+                any training program.
+              </li>
+              <li>
+                Learn how to teach your dog basic manners including stay, heel, recall, and more
+              </li>
+              <li>Working through distractions and real life situations.</li>
+              <li>Weekly practice guides.</li>
+              <li>
+                Access to your trainer during office hours for the length of your program via phone
+                or email.
+              </li>
+              <li>
+                Move up to our next level of training, Intermediate Manners, after graduation and
+                receive $50 off.
+              </li></span
+            >
+          </FeaturedProduct>
+
+          <FeaturedProduct
+            heading="Day Training Package"
+            price="$1500 per dog"
+            image="/images/dog_3.svg"
+            ctalink="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Manners"
+            ctalabel="Register Now"
+          >
+            <span slot="feature">
+              <div class="space-y-4 pb-4">
+                <p>
+                  We take your pup on the learning experience of a lifetime! You drop your best
+                  friend off at our training center between 9 am and 10 am. We do four hours of
+                  training and socialization exercises.
+                </p>
+
+                <p>
+                  In between training we do play sessions, rest sessions, and lots of walks. Then
+                  you pick up your best friend between 3 pm and 4 pm.
+                </p>
+
+                <p>This package includes:</p>
+              </div>
+            </span>
+            <span slot="content">
+              <li>Five full days of training</li>
+              <li>
+                Files containing communication videos and written handouts to know how to keep your
+                pup trained at home
+              </li>
+              <li>Access to your trainer during business hours to answer all of your questions</li>
+              <li>A transfer session to go over training with you</li>
+            </span>
+
+            <span slot="subcontent">
+              <p class="pt-4">
+                We require an orientation and your first session will include a training and
+                behavioral assessment.
               </p>
-              <ul class="list-disc list-outside mx-3">
-                <li>Five week course.</li>
-                <li>
-                  The first week is an in-home orientation, where we will help you set up your potty
-                  training and confinement areas. We will also teach you how puppies learn and other
-                  important items.<em
-                    >*If you do not want in-home orientation, the orientation may be booked over
-                    Zoom.</em
-                  >
-                </li>
-                <li>
-                  Learn the basics like sit, polite greetings, teaching your puppy to share,
-                  catching your puppy getting it right before they have a chance to get it wrong,
-                  and more!
-                </li>
-                <li>
-                  Potty training, crate training, victorious vet visits, and everything else you
-                  need to get you and your puppy started off on the right paw.
-                </li>
-                <li>Socialization principles.</li>
-                <li>
-                  Access to your trainer during office hours for the length of your program via
-                  phone or email.
-                </li>
-                <li>
-                  Move up to our next level of training, Puppy Kindergarten, after graduation and
-                  receive $50 off.
-                </li>
-              </ul>
-            </div>
-            <div class="px-4 pb-4 text-center">
-              <a
-                class="btn paws-btn_secondary paws-btn_large"
-                href="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Right%20Start%20"
-                target="_blank">Register Now</a
-              >
-            </div>
-          </div>
-          <div class="flex flex-col xl:w-2/6 md:w-2/6 bg-white border rounded-lg shadow-xl">
-            <img class="p-4 object-center rounded-t-lg h-44 h-36" src="/images/dog_2.svg" alt="" />
-            <div class="flex flex-col flex-grow p-6">
-              <h2 class="mb-4 text-base uppercase tracking-wider text-blueGray-700">
-                Puppy Kindergarten
-              </h2>
-              <strong class="flex mb-8 text-3xl font-black leading-none text-black lg:text-4xl"
-                >$350</strong
-              >
-              <p
-                class="flex items-center mb-4 text-base font-medium leading-relaxed text-blueGray-700"
-              >
-                For dogs 6-12 months. Includes:
-              </p>
-              <ul class="list-disc list-outside mx-3">
-                <li>Five week course.</li>
-                <li>
-                  The first session is our orientation without dogs, where you will learn many
-                  important things like the science behind learning.
-                </li>
-                <li>
-                  Learn how to teach your puppy basic manners including, sit, down, go to your
-                  place, loose leash walking, and more!
-                </li>
-                <li>Working through distractions and real life situations.</li>
-                <li>Weekly practice guides.</li>
-                <li>
-                  Access to your trainer during office hours for the length of your program via
-                  phone or email.
-                </li>
-                <li>
-                  Move up to our next level of training, Basic Manners, after graduation and receive
-                  $50 off.
-                </li>
-              </ul>
-            </div>
-            <div class="px-4 pb-4 text-center">
-              <a
-                class="btn paws-btn_secondary paws-btn_large"
-                href="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Kindergarten"
-                target="_blank">Register Now</a
-              >
-            </div>
-          </div>
-          <div class="flex flex-col xl:w-2/6 md:w-2/6 bg-white border rounded-lg shadow-xl">
-            <img class="p-4 object-center rounded-t-lg h-44 h-36" src="/images/dog_3.svg" alt="" />
-            <div class="flex flex-col flex-grow p-6">
-              <h2 class="mb-4 text-base uppercase tracking-wider text-blueGray-700">
-                Basic Manners
-              </h2>
-              <strong class="flex mb-8 text-3xl font-black leading-none text-black lg:text-4xl"
-                >$350</strong
-              >
-              <p
-                class="flex items-center mb-4 text-base font-medium leading-relaxed text-blueGray-700"
-              >
-                For dogs 12 months and older. Includes:
-              </p>
-              <ul class="list-disc list-outside mx-3">
-                <li>Five week course</li>
-                <li>
-                  The first session is our orientation without dogs which is an important catalyst
-                  of any training program.
-                </li>
-                <li>
-                  Learn how to teach your dog basic manners including stay, heel, recall, and more
-                </li>
-                <li>Working through distractions and real life situations.</li>
-                <li>Weekly practice guides.</li>
-                <li>
-                  Access to your trainer during office hours for the length of your program via
-                  phone or email.
-                </li>
-                <li>
-                  Move up to our next level of training, Intermediate Manners, after graduation and
-                  receive $50 off.
-                </li>
-              </ul>
-            </div>
-            <div class="px-4 pb-4 text-center">
-              <a
-                class="btn paws-btn_secondary paws-btn_large"
-                href="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Manners"
-                target="_blank">Register Now</a
-              >
-            </div>
-          </div>
+            </span>
+          </FeaturedProduct>
         </div>
       </div>
     </section>
