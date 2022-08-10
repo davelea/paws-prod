@@ -117,7 +117,7 @@
             heading="Day Training Package"
             price="$1500 per dog"
             image="/images/dog_3.svg"
-            ctalink="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Manners"
+            ctalink="https://pamtrainingschedule.as.me/schedule.php?appointmentType=category%3ADay+Training"
             ctalabel="Register Now"
           >
             <span slot="feature">
