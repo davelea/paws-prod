@@ -3,7 +3,7 @@
 </script>
 
 <section class="bg-inherit text-black text-md sm:text-lg">
-  <ul class="list-none block md:flex md:flex-wrap md:space-x-4">
+  <ul class="list-none block md:flex md:flex-wrap md:justify-evenly md:space-x-4">
     <li>
       <i class="far fa-envelope mr-1 py-1" /><a href="mailto:{$info.email}">
         {$info.email}
