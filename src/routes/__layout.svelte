@@ -1,6 +1,7 @@
 <script>
   import '../app.css';
   import Banner from '$lib/banner.svelte';
+  import { info } from '../stores.js';
 </script>
 
 <svelte:head>
@@ -179,12 +180,12 @@
       <div class="mr-8">
         <p>&copy; 2014 - 2022 Paws Around Motown LLC. All rights reserved.</p>
       </div>
-      <div class="text-4xl space-x-12">
-        <a href="https://www.facebook.com/pawsaroundmotown"><i class="fab fa-facebook" /></a><a
-          href="https://www.instagram.com/pawsaroundmotown"><i class="fab fa-instagram" /></a
-        ><a href="https://www.twitter.com/motownpaws"><i class="fab fa-twitter" /></a><a
-          href="https://goo.gl/maps/9ac8XNrH7NJ2"><i class="fab fa-google" /></a
-        >
+      <div class="text-2xl lg:text-4xl space-x-12">
+        <a href={$info.socials.facebook}><i class="fab fa-facebook" /></a>
+        <a href={$info.socials.instagram}><i class="fab fa-instagram" /></a>
+        <a href={$info.socials.tiktok}><i class="fab fa-tiktok" /></a>
+        <a href={$info.socials.youtube}><i class="fab fa-youtube" /></a>
+        <a href={$info.socials.google}><i class="fab fa-google" /></a>
       </div>
     </section>
   </footer>
