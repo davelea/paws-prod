@@ -18,7 +18,8 @@
       <div class="space-x-4">
         <a href={$info.socials.facebook}><i class="fab fa-facebook" /></a>
         <a href={$info.socials.instagram}><i class="fab fa-instagram" /></a>
-        <a href={$info.socials.twitter}><i class="fab fa-twitter" /></a>
+        <a href={$info.socials.tiktok}><i class="fab fa-tiktok" /></a>
+        <a href={$info.socials.youtube}><i class="fab fa-youtube" /></a>
         <a href={$info.socials.google}><i class="fab fa-google" /></a>
       </div>
     </li>
