@@ -1,5 +1,6 @@
 <script>
   import '../app.css';
+  import Banner from '$lib/banner.svelte';
 </script>
 
 <svelte:head>
@@ -56,6 +57,12 @@
     gtag('config', 'UA-60585727-1');
   </script>
 </svelte:head>
+
+<div style="background-color: #e5d315">
+  <div class="container mx-auto">
+    <Banner />
+  </div>
+</div>
 
 <header>
   <nav class="navbar navbar-expand-md navbar-light sticky-top">
