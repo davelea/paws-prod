@@ -18,7 +18,7 @@
   </div>
 </div>
 
-<div class="paws-content-container_mobile">
+<div class="paws-content-container_mobile pt-4">
   <div class="paws-content_mobile">
     <h1 class="text-4xl mb-2">
       Award Winning Dog Walkers &amp; Dog Trainers in Oakland County, Michigan!
