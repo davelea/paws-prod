@@ -58,12 +58,12 @@ nav {
 }
 
 .paws-hero {
-  background: url('/images/becky-running-with-dogs_split.jpg') center center no-repeat scroll;
+  background: url('/images/hero-dog-sunflowers.jpeg') top center no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 500px;
+  height: 680px;
   display: flex;
 }
 
