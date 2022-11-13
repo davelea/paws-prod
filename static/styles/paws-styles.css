@@ -102,23 +102,24 @@ nav {
 
 .paws-btn_primary {
   background-color: var(--brand-primary);
-  border: var(--brand-primary);
+  border: 2px solid black;
 }
 
 .paws-btn_primary:hover {
   background-color: var(--brand-primary_dark);
-  border: var(--brand-primary_dark);
+  border: 2px solid black;
 }
 
 .paws-btn_secondary {
-  background-color: var(--brand-secondary);
-  border: 1px solid var(--brand-secondary);
-  color: #fff;
+  background-color: black;
+  border: 1px solid var(--brand-primary);
+  color: var(--brand-primary);
 }
 
 .paws-btn_secondary:hover {
-  background-color: var(--brand-secondary_faded);
-  color: #fff;
+  background-color: var(--brand-background_dark-faded);
+  border: 1px solid var(--brand-primary);
+  color: var(--brand-primary);
 }
 
 .paws-btn_large {

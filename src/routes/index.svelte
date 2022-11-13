@@ -2,16 +2,17 @@
   <div class="paws-hero__container">
     <div class="paws-hero__content mt-6">
       <h1 class="text-4xl">
-        Award Winning Dog Walkers &amp; Dog Trainers in Oakland County, Michigan!
+        The Only Triple Certified, Veterinarian Endorsed Dog Walker, Pet Sitter, &amp; Dog Trainer
+        In Oakland County, Michigan
       </h1>
-      <h3 class="text-3xl pt-1">All for the love of pets!</h3>
       <div class="paws-hero__action-items pt-2">
-        <a class="btn paws-btn_secondary paws-btn_large mx-1 my-2" href="/dog-training"
-          >Register for Dog Training</a
-        ><a
+        <a
           class="btn paws-btn_primary paws-btn_large mx-1 my-2"
           href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
-          >Register for Dog Walking</a
+          >Book Dog Walking Now</a
+        >
+        <a class="btn paws-btn_secondary paws-btn_large mx-1 my-2" href="/dog-training"
+          >Book Dog Training Now</a
         >
       </div>
     </div>
@@ -21,16 +22,17 @@
 <div class="paws-content-container_mobile pt-4">
   <div class="paws-content_mobile">
     <h1 class="text-4xl mb-2">
-      Award Winning Dog Walkers &amp; Dog Trainers in Oakland County, Michigan!
+      The Only Triple Certified, Veterinarian Endorsed Dog Walker, Pet Sitter, &amp; Dog Trainer In
+      Oakland County, Michigan
     </h1>
-    <h3 class="text-3xl pt-1 mb-2">All for the love of pets!</h3>
     <div class="paws-hero__action-items pt-2">
-      <a class="btn paws-btn_secondary paws-btn_large mx-1 my-2" href="/dog-training"
-        >Register for Dog Training</a
-      ><a
+      <a
         class="btn paws-btn_primary paws-btn_large mx-1 my-2"
         href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
-        >Register for Dog Walking</a
+        >Book Dog Walking Now</a
+      >
+      <a class="btn paws-btn_secondary paws-btn_large mx-1 my-2" href="/dog-training"
+        >Book Dog Training Now</a
       >
     </div>
   </div>
