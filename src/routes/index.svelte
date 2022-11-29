@@ -58,7 +58,7 @@
           </ul>
         </div>
         <div class="card-footer">
-          <a class="btn paws-btn_primary" href="/pricing#dog-walking">Find Out More »</a>
+          <a class="btn paws-btn_primary" href="/dog-walking">Find Out More »</a>
         </div>
       </div>
     </div>
@@ -81,7 +81,7 @@
           </ul>
         </div>
         <div class="card-footer">
-          <a class="btn paws-btn_primary" href="/training">Find Out More »</a>
+          <a class="btn paws-btn_primary" href="/dog-training">Find Out More »</a>
         </div>
       </div>
     </div>
