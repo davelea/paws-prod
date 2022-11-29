@@ -261,7 +261,7 @@
               assistance you may need
             </li>
           </ul>
-          <p>Starting at $1300</p>
+          <p>Starting at $1600</p>
           <a
             class="btn paws-btn_secondary"
             href="https://PAMtrainingschedule.as.me/?appointmentType=31294470">Schedule Now</a
