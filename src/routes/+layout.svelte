@@ -2,6 +2,16 @@
   import '../app.css';
   import Banner from '$lib/banner.svelte';
   import { info } from '../stores.js';
+
+  import Envelope from 'virtual:icons/fa/envelope';
+  import Phone from 'virtual:icons/fa/phone';
+  import MapMarker from 'virtual:icons/fa/map-marker';
+
+  import Facebook from 'virtual:icons/fa-brands/facebook';
+  import Instagram from 'virtual:icons/fa-brands/instagram';
+  import Tiktok from 'virtual:icons/fa-brands/tiktok';
+  import Youtube from 'virtual:icons/fa-brands/youtube';
+  import Google from 'virtual:icons/fa-brands/google';
 </script>
 
 <svelte:head>
@@ -151,7 +161,7 @@
           Office &amp; Training Location
         </h3>
         <div class="flex mt-4">
-          <i class="fas fa-map-marker-alt mr-1 py-1 text-red-500" />
+          <MapMarker class="inline text-sm text-red-500 mr-1" />
           <address>
             <a
               href="https://www.google.com/maps/place/Paws+Around+Motown/@42.533522,-83.1603216,17z/data=!4m13!1m7!3m6!1s0x8824c5d099c24583:0xeb395567d4f3728!2s834+W+14+Mile+Rd,+Clawson,+MI+48017!3b1!8m2!3d42.5334519!4d-83.1579906!3m4!1s0x8824c8983d8552bb:0x7472c4eee8976dcc!8m2!3d42.5336934!4d-83.1579661"
@@ -163,14 +173,14 @@
       <div>
         <h3 class="text-opacity-75 text-base uppercase tracking-wider">Contact Information</h3>
         <div class="flex mt-4">
-          <i class="fas fa-phone mr-1 py-1 text-purple-500" /><a href="tel:248-729-6772">
+          <a href="tel:248-729-6772">
+            <Phone class="inline text-sm text-purple-500 mr-1" />
             248-729-6772</a
           >
         </div>
         <div class="flex">
-          <i class="far fa-envelope mr-1 py-1 text-pink-500" /><a
-            href="mailto:support@pawsaroundmotown.com"
-          >
+          <a href="mailto:support@pawsaroundmotown.com">
+            <Envelope class="inline text-sm text-pink-500 mr-1" />
             support@pawsaroundmotown.com
           </a>
         </div>
@@ -181,11 +191,11 @@
         <p>&copy; 2014 - 2022 Paws Around Motown LLC. All rights reserved.</p>
       </div>
       <div class="text-2xl lg:text-4xl space-x-12">
-        <a href={$info.socials.facebook}><i class="fab fa-facebook" /></a>
-        <a href={$info.socials.instagram}><i class="fab fa-instagram" /></a>
-        <a href={$info.socials.tiktok}><i class="fab fa-tiktok" /></a>
-        <a href={$info.socials.youtube}><i class="fab fa-youtube" /></a>
-        <a href={$info.socials.google}><i class="fab fa-google" /></a>
+        <a href={$info.socials.facebook}><Facebook class="inline" /></a>
+        <a href={$info.socials.instagram}><Instagram class="inline" /></a>
+        <a href={$info.socials.tiktok}><Tiktok class="inline" /></a>
+        <a href={$info.socials.youtube}><Youtube class="inline" /></a>
+        <a href={$info.socials.google}><Google class="inline" /></a>
       </div>
     </section>
   </footer>

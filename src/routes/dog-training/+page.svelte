@@ -1,3 +1,8 @@
+<script>
+  import Building from 'virtual:icons/fa/building';
+  import Dog from 'virtual:icons/fa-solid/dog';
+</script>
+
 <div class="container">
   <section class="text-blueGray-700 ">
     <div class="flex flex-col items-center pt-4 md:flex-row">
@@ -12,14 +17,14 @@
             <span
               class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full"
             >
-              <i class="far fa-building text-blue-500" aria-hidden="true" />
+              <Building class="inline text-sm text-blue-500" />
             </span>Office Hours: Sunday - Friday: 10am - 6pm, Closed Saturday
           </p>
           <p class="flex mb-2 text-blueGray-600">
             <span
               class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full"
             >
-              <i class="fas fa-dog text-blue-500" aria-hidden="true" />
+              <Dog class="inline text-sm text-blue-500" />
             </span><span>Training Hours: Vary based on class schedules</span>
           </p>
         </div>
