@@ -72,7 +72,7 @@
             class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full"
           >
             <Building class="inline text-sm text-blue-500" />
-          </span>Office Hours: Sunday - Friday: 10am - 6pm, Closed Saturday
+          </span>Office Hours: Tuesday - Friday: 10am - 6pm
         </p>
         <p class="flex mb-2 text-blueGray-600">
           <span
