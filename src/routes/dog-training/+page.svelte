@@ -228,7 +228,7 @@
 
           <ul class="list-disc list-inside ml-4">
             <li>Includes 5 to 10 days of training with dog and trainer</li>
-            <li>Includes 2 transfer sessions trainer and pet parent</li>
+            <li>Includes 2 transfer sessions with trainer and pet parent</li>
             <li>
               A manageable training plan that includes teaching your dog impulse control, loose
               leash walking, polite greetings, and more.
