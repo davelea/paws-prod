@@ -1,6 +1,7 @@
 <script>
   import Building from 'virtual:icons/fa/building';
   import Dog from 'virtual:icons/fa-solid/dog';
+  import ServiceSection from '$lib/serviceSection.svelte';
 </script>
 
 <div class="container">
@@ -32,15 +33,16 @@
         </div>
         <div class="text-base leading-relaxed text-left text-blueGray-600">
           <p class="pt-2">
-            We have three certified trainers on staff to assist you with all of your training needs.
-            Our trainers are invested in your success and our mission is to provide positive
-            reinforcement, force-free training to keep dogs in harmonious homes, and strengthen the
-            bond between pet and pet parent.
+            Transform your furry friend into a well-behaved companion with our expert dog training
+            services. Our dedicated trainers are invested in your success and committed to
+            strengthening the bond between you and your pet. Through a combination of treats, toys,
+            and positive reinforcement, we aim to create a harmonious home for every pet and parent.
           </p>
           <p class="pt-2">
-            Smaller class sizes ensure you and your pet receive more individualized attention. Our
-            classes work fluidly together to provide a well-rounded training experience, but are
-            great individually as well.
+            Enjoy personalized attention in our small-group classes, designed for a more
+            individualized training experience. Our comprehensive curriculum covers all aspects of
+            dog behavior and obedience, ensuring a well-rounded education for you and your pet. Join
+            us and watch your furry friend thrive!
           </p>
         </div>
       </div>
@@ -204,6 +206,40 @@
   <div class="container">
     <div class="row py-3">
       <div class="pricing-container">
+        <ServiceSection
+          heading="Day Training"
+          price="Starting at $1500"
+          link="https://PAMtrainingschedule.as.me/?appointmentType=category:Day%20Training"
+          cta="Register Now"
+        >
+          <p>
+            We take your pup on the learning experience of a lifetime! You drop your best friend off
+            at our training center between 9am and 10am where we will do intensive training and
+            socialization exercises.
+          </p>
+
+          <p>
+            In between training we do play sessions, rest sessions, and lots of walks. Then you pick
+            up your best friend between 3pm and 4pm. This program is great for pet parents who do
+            not have the time to invest in working with their dogs daily on the repetition that is
+            required during practicing their training cues or that struggle with the patience that
+            successful training requires.
+          </p>
+
+          <ul class="list-disc list-inside ml-4">
+            <li>Includes 5 to 10 days of training with dog and trainer</li>
+            <li>Includes 2 transfer sessions trainer and pet parent</li>
+            <li>
+              A manageable training plan that includes teaching your dog impulse control, loose
+              leash walking, polite greetings, and more.
+            </li>
+            <li>We teach you and your dog cues like sit, down, stay, leave it, heel, and more.</li>
+            <li>Access to our online learning library</li>
+            <li>Pet taxis if you need assistance with transport</li>
+            <li>Discounts on maintenance walks</li>
+          </ul>
+        </ServiceSection>
+
         <div class="mb-4 space-y-4">
           <h2 class="text-3xl" id="Private-One-On-One-Training">Private One-On-One Training</h2>
           <p>For dogs of all ages. Includes:</p>
@@ -221,36 +257,6 @@
           <a
             class="btn paws-btn_secondary"
             href="https://PAMtrainingschedule.as.me/?appointmentType=31294431">Schedule Now</a
-          >
-        </div>
-        <div class="mb-4 space-y-4">
-          <h2 class="text-3xl" id="Day-Training">Day Training</h2>
-          <p>
-            We take your pup on the learning experience of a lifetime! You drop your best friend off
-            at our training center between 9 am and 11 am. We do five hours of training and
-            socialization exercises with a maximum of three other dogs.
-          </p>
-          <p>
-            In between training we do play sessions, rest sessions, and lots of walks. Then you pick
-            up your best friend between 4 pm and 5:30 pm.
-          </p>
-          <p>
-            For each day of training you will receive a file containing demo videos from our
-            training library and written handouts to work with your pup at home.
-          </p>
-          <p>
-            Each week a transfer session is required so we can be sure you are set up for training
-            success!
-          </p>
-          <p>
-            We require an orientation and a minimum of five sessions per dog and your first session
-            will include a training and behavioral assessment.
-          </p>
-          <p>Package price: $1250</p>
-          <a
-            class="btn paws-btn_secondary"
-            href="https://PAMtrainingschedule.as.me/?appointmentType=category:Day%20Training"
-            >Schedule Now</a
           >
         </div>
         <div class="mb-4 space-y-4">
