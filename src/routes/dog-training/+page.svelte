@@ -108,7 +108,8 @@
               <a
                 class="btn paws-btn_secondary paws-btn_large"
                 href="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Right%20Start%20"
-                target="_blank">Register Now</a
+                target="_blank"
+                rel="noreferrer">Register Now</a
               >
             </div>
           </div>
@@ -152,7 +153,8 @@
               <a
                 class="btn paws-btn_secondary paws-btn_large"
                 href="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Kindergarten"
-                target="_blank">Register Now</a
+                target="_blank"
+                rel="noreferrer">Register Now</a
               >
             </div>
           </div>
@@ -195,7 +197,8 @@
               <a
                 class="btn paws-btn_secondary paws-btn_large"
                 href="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Manners"
-                target="_blank">Register Now</a
+                target="_blank"
+                rel="noreferrer">Register Now</a
               >
             </div>
           </div>
