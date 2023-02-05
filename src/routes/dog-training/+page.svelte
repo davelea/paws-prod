@@ -240,11 +240,25 @@
           </ul>
         </ServiceSection>
 
-        <div class="mb-4 space-y-4">
-          <h2 class="text-3xl" id="Private-One-On-One-Training">Private One-On-One Training</h2>
-          <p>For dogs of all ages. Includes:</p>
+        <ServiceSection
+          heading="Private Training"
+          price="Starting at $1100"
+          link="https://PAMtrainingschedule.as.me/?appointmentType=category:Private%20Training"
+          cta="Register Now"
+        >
+          <p>
+            Whether you come to us for private training in our training center or we come to you for
+            private in-home training, allowing you and your pup to work on your own turf, our
+            private training programs offer a customized training experience for you and your dog.
+            These programs start at four week intervals, are for dogs of all ages, and include:
+          </p>
+
           <ul class="list-disc list-inside ml-4">
-            <li>Five sessions in our Training Center of customized training curriculum</li>
+            <li>A manageable training plan</li>
+            <li>Orientation and goal planning</li>
+            <li>
+              Private lessons with a certified trainer at our training facility or in your home
+            </li>
             <li>Working through distractions and real life situations</li>
             <li>Weekly practice guides</li>
             <li>
@@ -252,13 +266,14 @@
               email
             </li>
             <li>One free training tune-up session, redeemable within six months of graduation</li>
+            <li>Discounts on continued training maintenance walks</li>
+            <li>
+              Plus, we can spend as much time as you like on each training cue, because you can
+              continue training in four-week intervals
+            </li>
           </ul>
-          <p>$700</p>
-          <a
-            class="btn paws-btn_secondary"
-            href="https://PAMtrainingschedule.as.me/?appointmentType=31294431">Schedule Now</a
-          >
-        </div>
+        </ServiceSection>
+
         <div class="mb-4 space-y-4">
           <h2 class="text-3xl" id="In-Home-Private-Training">In-Home Private Training</h2>
           <p>
