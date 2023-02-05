@@ -274,21 +274,31 @@
           </ul>
         </ServiceSection>
 
-        <div class="mb-4 space-y-4">
-          <h2 class="text-3xl" id="Training-for-Pet-Parents">
-            Pet Parents - Pet First-Aid and CPR
-          </h2>
+        <ServiceSection
+          heading="Pet Parents - Pet First Aid and CPR"
+          price="$135"
+          link="https://PAMtrainingschedule.as.me/?appointmentType=category:Pet%20First%20Aid%20and%20CPR"
+          cta="Register Now"
+        >
           <p>
-            There is no 911 for pets. This course leads to certification in Pet First Aid and CPR so
-            that you can save your pet's life in an emergency.
+            There is no 911 for pets, so you have to be their emergency response team! This
+            human-only class prepares you to do that in just 5 hours. You will feel empowered and
+            able to provide potentially life saving aid to a pet in need!
           </p>
-          <h4>Live online five-hour pet first-aid and CPR class</h4>
+
+          <p>
+            During this course we will cover CPR techniques, trauma responses such as bleeding
+            protocols, treating shock, splinting fractures, and more!
+          </p>
+
           <ul class="list-disc list-inside ml-4">
-            <li>General Course - $75</li>
-            <li>Certification Course - $135</li>
+            <li>
+              Looking for certification for the staff of your pet related business? <a
+                href="tel:248-729-6772">Contact us</a
+              > to discuss special bulk rates
+            </li>
           </ul>
-          <a class="btn paws-btn_secondary" href="tel:248-729-6772">Call now</a>
-        </div>
+        </ServiceSection>
       </div>
     </div>
   </div>
