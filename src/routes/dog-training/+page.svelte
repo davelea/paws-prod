@@ -275,53 +275,6 @@
         </ServiceSection>
 
         <div class="mb-4 space-y-4">
-          <h2 class="text-3xl" id="In-Home-Private-Training">In-Home Private Training</h2>
-          <p>
-            Our private in-home training program is done in your home and customized for you and
-            your dog. This is a five week program and includes:
-          </p>
-          <ul class="list-disc list-inside ml-4">
-            <li>Five to ten private sessions in your home depending on your needs</li>
-            <li>One orientation and goal planning session in your home</li>
-            <li>One free training tune-up session, redeemable within six months of graduation</li>
-            <li>
-              Full access to your trainer by phone or email during your program for any questions or
-              assistance you may need
-            </li>
-          </ul>
-          <p>Starting at $1600</p>
-          <a
-            class="btn paws-btn_secondary"
-            href="https://PAMtrainingschedule.as.me/?appointmentType=31294470">Schedule Now</a
-          >
-        </div>
-        <div class="mb-4 space-y-4">
-          <h2 class="text-3xl" id="Lunch-and-Learn-Training">Lunch and Learn Training</h2>
-          <p>
-            Are you currently enrolled in one of our training programs or have graduated from one of
-            our training programs and need consistency in walk training to reinforce and keep your
-            training on track? Book a walk with a certified trainer to fine tune and consistently
-            practice polite walking skills (heel and loose leash walking for example). Perfect for
-            the busy pet parent!
-          </p>
-          <p>
-            <span class="font-italic"
-              >*Prerequisite: Current enrollment or graduation from any Paws Around Motown training
-              program</span
-            >
-          </p>
-          <p>45-60 minute walk $55</p>
-          <p>Purchase more and save!</p>
-          <ul class="list-disc list-inside ml-4">
-            <li>Package of 10: $500 <span class="font-italic">(save $50)</span></li>
-            <li>Package of 20: $950 <span class="font-italic">(save $150)</span></li>
-          </ul>
-          <a
-            class="btn paws-btn_secondary"
-            href="https://www.timetopet.com/portal/pawsaroundmotown/create-account">Schedule Now</a
-          >
-        </div>
-        <div class="mb-4 space-y-4">
           <h2 class="text-3xl" id="Training-for-Pet-Parents">
             Pet Parents - Pet First-Aid and CPR
           </h2>
