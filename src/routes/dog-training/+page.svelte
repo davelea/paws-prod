@@ -73,7 +73,7 @@
       />
       <HorizontalCard
         heading="Puppy Kindergarten"
-        description="Learn how to teach your puppy basic manners like, sit, stay, loose leash walking, and more."
+        description="Learn how to teach your puppy basic manners like, sit, come, loose leash walking, and more."
         imageSrc="/images/illustrations/woman-dog-selfie.png"
         age="5-12 months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Kindergarten"
