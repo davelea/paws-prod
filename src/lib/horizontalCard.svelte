@@ -14,11 +14,11 @@
   style="background-color: rgba(229, 211, 21, 0.40)"
 >
   <img
-    class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+    class="object-cover h-48 w-auto rounded-t-lg md:w-48 md:w-full md:rounded-none md:rounded-l-lg"
     src={imageSrc}
     alt={imageAlt}
   />
-  <div class="flex flex-col justify-between p-4 space-y-2 leading-normal">
+  <div class="flex flex-col justify-between px-4 py-2 md:py-4 space-y-2 leading-normal">
     <h3 class="text-2xl font-bold tracking-tight text-gray-900">
       {heading}
     </h3>

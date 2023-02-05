@@ -62,7 +62,8 @@
 <Container backgroundColor="var(--brand-background_light)">
   <section class="py-8">
     <h2 class="text-3xl pb-4">Group Training Classes</h2>
-    <div class="grid grid-cols-2 gap-4">
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <HorizontalCard
         heading="Puppy Right Start"
         description="This course is everything you need to get your puppy set up in their new home and get started on the right foot."
@@ -91,6 +92,30 @@
         age="12+ months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Intermediate%20Training"
       />
+    </div>
+
+    <div class="pt-4 space-y-4">
+      <h3 class="text-2xl">All classes include:</h3>
+
+      <ul class="list-disc list-inside ml-4">
+        <li>Five weeks of training on a set schedule</li>
+        <li>
+          The first session is our orientation without dogs, which is an important catalyst of any
+          training program
+        </li>
+        <li>Each class teaches a set of different commands</li>
+        <li>We teach you how to work through distractions and real life situations</li>
+        <li>Weekly practice guides</li>
+        <li>
+          Access to your trainer during office hours for the length of your program via phone or
+          email
+        </li>
+        <li>After each level's graduation, receive $50 off of the next level</li>
+        <li>
+          Learn how to teach your puppy basic manners including, sit, down, go to your place, loose
+          leash walking, and more!
+        </li>
+      </ul>
     </div>
   </section>
 </Container>
