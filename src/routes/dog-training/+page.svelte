@@ -38,7 +38,7 @@
             Transform your furry friend into a well-behaved companion with our expert dog training
             services. Our dedicated trainers are invested in your success and committed to
             strengthening the bond between you and your pet. Through a combination of treats, toys,
-            and positive reinforcement, we aim to create a harmonious home for every pet and parent.
+            and praise, we aim to create a harmonious home for every pet and parent.
           </p>
           <p class="pt-2">
             Enjoy personalized attention in our small-group classes, designed for a more
