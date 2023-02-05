@@ -121,7 +121,7 @@
 </Container>
 
 <Container>
-  <div class="row py-8">
+  <div class="py-8">
     <div class="pricing-container">
       <ServiceSection
         heading="Day Training"
