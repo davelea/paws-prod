@@ -87,7 +87,7 @@
       />
       <HorizontalCard
         heading="Intermediate"
-        description="Build upon the foundation of our basic manners training course."
+        description="Build upon the foundation of our basic manners training course by adding duration and distraction."
         imageSrc="/images/illustrations/woman-walking-dog.png"
         age="12+ months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Intermediate%20Training"
@@ -111,10 +111,6 @@
           email
         </li>
         <li>After each level's graduation, receive $50 off of the next level</li>
-        <li>
-          Learn how to teach your puppy basic manners including, sit, down, go to your place, loose
-          leash walking, and more!
-        </li>
       </ul>
     </div>
   </section>
