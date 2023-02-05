@@ -2,9 +2,11 @@
   import Building from 'virtual:icons/fa/building';
   import Dog from 'virtual:icons/fa-solid/dog';
   import ServiceSection from '$lib/serviceSection.svelte';
+  import HorizontalCard from '$lib/horizontalCard.svelte';
+  import Container from '$lib/container.svelte';
 </script>
 
-<div class="container">
+<Container>
   <section class="text-blueGray-700 ">
     <div class="flex flex-col items-center pt-4 md:flex-row">
       <div
@@ -55,254 +57,138 @@
       </div>
     </div>
   </section>
-  <div class="space-y-4">
-    <section class="text-blueGray-700 ">
-      <div class="py-12">
-        <div class="flex flex-wrap lg:flex-nowrap gap-2 md:gap-0">
-          <div class="flex flex-col xl:w-2/6 md:w-2/6 bg-white border rounded-lg shadow-xl">
-            <img class="p-4 object-center rounded-t-lg h-44 h-36" src="/images/dog.svg" alt="" />
-            <div class="flex flex-col flex-grow p-6">
-              <h2 class="mb-4 text-base uppercase tracking-wider text-blueGray-700">
-                Puppy Right Start
-              </h2>
-              <strong class="flex mb-8 text-3xl font-black leading-none text-black lg:text-4xl"
-                >$350</strong
-              >
-              <p
-                class="flex items-center mb-4 text-base font-medium leading-relaxed text-blueGray-700"
-              >
-                For puppies 2-5 months. This course is everything you need to get your puppy set up
-                in their new home and get started on the right paw. Includes:
-              </p>
-              <ul class="list-disc list-outside mx-3">
-                <li>Five week course.</li>
-                <li>
-                  The first week is an in-home orientation, where we will help you set up your potty
-                  training and confinement areas. We will also teach you how puppies learn and other
-                  important items.<em
-                    >*If you do not want in-home orientation, the orientation may be booked over
-                    Zoom.</em
-                  >
-                </li>
-                <li>
-                  Learn the basics like sit, polite greetings, teaching your puppy to share,
-                  catching your puppy getting it right before they have a chance to get it wrong,
-                  and more!
-                </li>
-                <li>
-                  Potty training, crate training, victorious vet visits, and everything else you
-                  need to get you and your puppy started off on the right paw.
-                </li>
-                <li>Socialization principles.</li>
-                <li>
-                  Access to your trainer during office hours for the length of your program via
-                  phone or email.
-                </li>
-                <li>
-                  Move up to our next level of training, Puppy Kindergarten, after graduation and
-                  receive $50 off.
-                </li>
-              </ul>
-            </div>
-            <div class="px-4 pb-4 text-center">
-              <a
-                class="btn paws-btn_secondary paws-btn_large"
-                href="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Right%20Start%20"
-                target="_blank"
-                rel="noreferrer">Register Now</a
-              >
-            </div>
-          </div>
-          <div class="flex flex-col xl:w-2/6 md:w-2/6 bg-white border rounded-lg shadow-xl">
-            <img class="p-4 object-center rounded-t-lg h-44 h-36" src="/images/dog_2.svg" alt="" />
-            <div class="flex flex-col flex-grow p-6">
-              <h2 class="mb-4 text-base uppercase tracking-wider text-blueGray-700">
-                Puppy Kindergarten
-              </h2>
-              <strong class="flex mb-8 text-3xl font-black leading-none text-black lg:text-4xl"
-                >$350</strong
-              >
-              <p
-                class="flex items-center mb-4 text-base font-medium leading-relaxed text-blueGray-700"
-              >
-                For dogs 6-12 months. Includes:
-              </p>
-              <ul class="list-disc list-outside mx-3">
-                <li>Five week course.</li>
-                <li>
-                  The first session is our orientation without dogs, where you will learn many
-                  important things like the science behind learning.
-                </li>
-                <li>
-                  Learn how to teach your puppy basic manners including, sit, down, go to your
-                  place, loose leash walking, and more!
-                </li>
-                <li>Working through distractions and real life situations.</li>
-                <li>Weekly practice guides.</li>
-                <li>
-                  Access to your trainer during office hours for the length of your program via
-                  phone or email.
-                </li>
-                <li>
-                  Move up to our next level of training, Basic Manners, after graduation and receive
-                  $50 off.
-                </li>
-              </ul>
-            </div>
-            <div class="px-4 pb-4 text-center">
-              <a
-                class="btn paws-btn_secondary paws-btn_large"
-                href="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Kindergarten"
-                target="_blank"
-                rel="noreferrer">Register Now</a
-              >
-            </div>
-          </div>
-          <div class="flex flex-col xl:w-2/6 md:w-2/6 bg-white border rounded-lg shadow-xl">
-            <img class="p-4 object-center rounded-t-lg h-44 h-36" src="/images/dog_3.svg" alt="" />
-            <div class="flex flex-col flex-grow p-6">
-              <h2 class="mb-4 text-base uppercase tracking-wider text-blueGray-700">
-                Basic Manners
-              </h2>
-              <strong class="flex mb-8 text-3xl font-black leading-none text-black lg:text-4xl"
-                >$350</strong
-              >
-              <p
-                class="flex items-center mb-4 text-base font-medium leading-relaxed text-blueGray-700"
-              >
-                For dogs 12 months and older. Includes:
-              </p>
-              <ul class="list-disc list-outside mx-3">
-                <li>Five week course</li>
-                <li>
-                  The first session is our orientation without dogs which is an important catalyst
-                  of any training program.
-                </li>
-                <li>
-                  Learn how to teach your dog basic manners including stay, heel, recall, and more
-                </li>
-                <li>Working through distractions and real life situations.</li>
-                <li>Weekly practice guides.</li>
-                <li>
-                  Access to your trainer during office hours for the length of your program via
-                  phone or email.
-                </li>
-                <li>
-                  Move up to our next level of training, Intermediate Manners, after graduation and
-                  receive $50 off.
-                </li>
-              </ul>
-            </div>
-            <div class="px-4 pb-4 text-center">
-              <a
-                class="btn paws-btn_secondary paws-btn_large"
-                href="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Manners"
-                target="_blank"
-                rel="noreferrer">Register Now</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <div class="container">
-    <div class="row py-3">
-      <div class="pricing-container">
-        <ServiceSection
-          heading="Day Training"
-          price="Starting at $1500"
-          link="https://PAMtrainingschedule.as.me/?appointmentType=category:Day%20Training"
-          cta="Register Now"
-        >
-          <p>
-            We take your pup on the learning experience of a lifetime! You drop your best friend off
-            at our training center between 9am and 10am where we will do intensive training and
-            socialization exercises.
-          </p>
+</Container>
 
-          <p>
-            In between training we do play sessions, rest sessions, and lots of walks. Then you pick
-            up your best friend between 3pm and 4pm. This program is great for pet parents who do
-            not have the time to invest in working with their dogs daily on the repetition that is
-            required during practicing their training cues or that struggle with the patience that
-            successful training requires.
-          </p>
+<Container backgroundColor="var(--brand-background_light)">
+  <section class="py-8">
+    <h2 class="text-3xl pb-4">Group Training Classes</h2>
+    <div class="grid grid-cols-2 gap-4">
+      <HorizontalCard
+        heading="Puppy Right Start"
+        description="This course is everything you need to get your puppy set up in their new home and get started on the right foot."
+        imageSrc="/images/illustrations/woman-dog-desk.png"
+        age="2-5 months"
+        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Right%20Start%20"
+      />
+      <HorizontalCard
+        heading="Puppy Kindergarten"
+        description="Learn how to teach your puppy basic manners like, sit, stay, loose leash walking, and more."
+        imageSrc="/images/illustrations/woman-dog-selfie.png"
+        age="5-12 months"
+        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Kindergarten"
+      />
+      <HorizontalCard
+        heading="Basic Manners"
+        description="Learn how to teach your dog basic manners like, stay, heel, down, and more."
+        imageSrc="/images/illustrations/woman-training-dog.png"
+        age="12+ months"
+        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Manners%20"
+      />
+      <HorizontalCard
+        heading="Intermediate"
+        description="Build upon the foundation of our basic manners training course."
+        imageSrc="/images/illustrations/woman-walking-dog.png"
+        age="12+ months"
+        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Intermediate%20Training"
+      />
+    </div>
+  </section>
+</Container>
 
-          <ul class="list-disc list-inside ml-4">
-            <li>Includes 5 to 10 days of training with dog and trainer</li>
-            <li>Includes 2 transfer sessions with trainer and pet parent</li>
-            <li>
-              A manageable training plan that includes teaching your dog impulse control, loose
-              leash walking, polite greetings, and more.
-            </li>
-            <li>We teach you and your dog cues like sit, down, stay, leave it, heel, and more.</li>
-            <li>Access to our online learning library</li>
-            <li>Pet taxis if you need assistance with transport</li>
-            <li>Discounts on maintenance walks</li>
-          </ul>
-        </ServiceSection>
+<Container>
+  <div class="row py-8">
+    <div class="pricing-container">
+      <ServiceSection
+        heading="Day Training"
+        price="Starting at $1500"
+        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Day%20Training"
+        cta="Register Now"
+      >
+        <p>
+          We take your pup on the learning experience of a lifetime! You drop your best friend off
+          at our training center between 9am and 10am where we will do intensive training and
+          socialization exercises.
+        </p>
 
-        <ServiceSection
-          heading="Private Training"
-          price="Starting at $1100"
-          link="https://PAMtrainingschedule.as.me/?appointmentType=category:Private%20Training"
-          cta="Register Now"
-        >
-          <p>
-            Whether you come to us for private training in our training center or we come to you for
-            private in-home training, allowing you and your pup to work on your own turf, our
-            private training programs offer a customized training experience for you and your dog.
-            These programs start at four week intervals, are for dogs of all ages, and include:
-          </p>
+        <p>
+          In between training we do play sessions, rest sessions, and lots of walks. Then you pick
+          up your best friend between 3pm and 4pm. This program is great for pet parents who do not
+          have the time to invest in working with their dogs daily on the repetition that is
+          required during practicing their training cues or that struggle with the patience that
+          successful training requires.
+        </p>
 
-          <ul class="list-disc list-inside ml-4">
-            <li>A manageable training plan</li>
-            <li>Orientation and goal planning</li>
-            <li>
-              Private lessons with a certified trainer at our training facility or in your home
-            </li>
-            <li>Working through distractions and real life situations</li>
-            <li>Weekly practice guides</li>
-            <li>
-              Access to your trainer during office hours for the length of your program via phone or
-              email
-            </li>
-            <li>One free training tune-up session, redeemable within six months of graduation</li>
-            <li>Discounts on continued training maintenance walks</li>
-            <li>
-              Plus, we can spend as much time as you like on each training cue, because you can
-              continue training in four-week intervals
-            </li>
-          </ul>
-        </ServiceSection>
+        <ul class="list-disc list-inside ml-4">
+          <li>Includes 5 to 10 days of training with dog and trainer</li>
+          <li>Includes 2 transfer sessions with trainer and pet parent</li>
+          <li>
+            A manageable training plan that includes teaching your dog impulse control, loose leash
+            walking, polite greetings, and more.
+          </li>
+          <li>We teach you and your dog cues like sit, down, stay, leave it, heel, and more.</li>
+          <li>Access to our online learning library</li>
+          <li>Pet taxis if you need assistance with transport</li>
+          <li>Discounts on maintenance walks</li>
+        </ul>
+      </ServiceSection>
 
-        <ServiceSection
-          heading="Pet Parents - Pet First Aid and CPR"
-          price="$135"
-          link="https://PAMtrainingschedule.as.me/?appointmentType=category:Pet%20First%20Aid%20and%20CPR"
-          cta="Register Now"
-        >
-          <p>
-            There is no 911 for pets, so you have to be their emergency response team! This
-            human-only class prepares you to do that in just 5 hours. You will feel empowered and
-            able to provide potentially life saving aid to a pet in need!
-          </p>
+      <ServiceSection
+        heading="Private Training"
+        price="Starting at $1100"
+        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Private%20Training"
+        cta="Register Now"
+      >
+        <p>
+          Whether you come to us for private training in our training center or we come to you for
+          private in-home training, allowing you and your pup to work on your own turf, our private
+          training programs offer a customized training experience for you and your dog. These
+          programs start at four week intervals, are for dogs of all ages, and include:
+        </p>
 
-          <p>
-            During this course we will cover CPR techniques, trauma responses such as bleeding
-            protocols, treating shock, splinting fractures, and more!
-          </p>
+        <ul class="list-disc list-inside ml-4">
+          <li>A manageable training plan</li>
+          <li>Orientation and goal planning</li>
+          <li>Private lessons with a certified trainer at our training facility or in your home</li>
+          <li>Working through distractions and real life situations</li>
+          <li>Weekly practice guides</li>
+          <li>
+            Access to your trainer during office hours for the length of your program via phone or
+            email
+          </li>
+          <li>One free training tune-up session, redeemable within six months of graduation</li>
+          <li>Discounts on continued training maintenance walks</li>
+          <li>
+            Plus, we can spend as much time as you like on each training cue, because you can
+            continue training in four-week intervals
+          </li>
+        </ul>
+      </ServiceSection>
 
-          <ul class="list-disc list-inside ml-4">
-            <li>
-              Looking for certification for the staff of your pet related business? <a
-                href="tel:248-729-6772">Contact us</a
-              > to discuss special bulk rates
-            </li>
-          </ul>
-        </ServiceSection>
-      </div>
+      <ServiceSection
+        heading="Pet Parents - Pet First Aid and CPR"
+        price="$135"
+        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Pet%20First%20Aid%20and%20CPR"
+        cta="Register Now"
+      >
+        <p>
+          There is no 911 for pets, so you have to be their emergency response team! This human-only
+          class prepares you to do that in just 5 hours. You will feel empowered and able to provide
+          potentially life saving aid to a pet in need!
+        </p>
+
+        <p>
+          During this course we will cover CPR techniques, trauma responses such as bleeding
+          protocols, treating shock, splinting fractures, and more!
+        </p>
+
+        <ul class="list-disc list-inside ml-4">
+          <li>
+            Looking for certification for the staff of your pet related business? <a
+              href="tel:248-729-6772">Contact us</a
+            > to discuss special bulk rates
+          </li>
+        </ul>
+      </ServiceSection>
     </div>
   </div>
-</div>
+</Container>
