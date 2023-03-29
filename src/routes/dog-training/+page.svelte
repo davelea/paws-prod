@@ -67,28 +67,28 @@
       <HorizontalCard
         heading="Puppy Right Start"
         description="This course is everything you need to get your puppy set up in their new home and get started on the right foot."
-        imageSrc="/images/illustrations/woman-dog-desk.png"
+        imageSrc="/images/illustrations/vet-holding-dog.jpeg"
         age="2-5 months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Right%20Start%20"
       />
       <HorizontalCard
         heading="Puppy Kindergarten"
         description="Learn how to teach your puppy basic manners like, sit, come, loose leash walking, and more."
-        imageSrc="/images/illustrations/woman-dog-selfie.png"
+        imageSrc="/images/illustrations/woman-petting-dog.jpeg"
         age="5-12 months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Kindergarten"
       />
       <HorizontalCard
         heading="Basic Manners"
         description="Learn how to teach your dog basic manners like, stay, heel, down, and more."
-        imageSrc="/images/illustrations/woman-training-dog.png"
+        imageSrc="/images/illustrations/man-walking-dog.jpeg"
         age="12+ months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Manners%20"
       />
       <HorizontalCard
         heading="Intermediate"
         description="Build upon the foundation of our basic manners training course by adding duration and distraction."
-        imageSrc="/images/illustrations/woman-walking-dog.png"
+        imageSrc="/images/illustrations/man-shaking-dog-hand.jpeg"
         age="12+ months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Intermediate%20Training"
       />
