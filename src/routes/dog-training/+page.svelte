@@ -155,7 +155,7 @@
 
       <ServiceSection
         heading="Private Training"
-        price="Starting at $1100"
+        price="Starting at $900"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Private%20Training"
         cta="Register Now"
       >
