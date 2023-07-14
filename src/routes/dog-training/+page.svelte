@@ -7,7 +7,7 @@
 </script>
 
 <Container>
-  <section class="text-blueGray-700 ">
+  <section class="text-blueGray-700">
     <div class="flex flex-col items-center pt-4 md:flex-row">
       <div
         class="flex flex-col items-start mb-4 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0"
@@ -50,7 +50,7 @@
       </div>
       <div class="max-w-sm lg:max-w-md">
         <img
-          class="object-cover object-center rounded-lg "
+          class="object-cover object-center rounded-lg"
           alt=""
           src="/images/abc-certified-dog-trainer.png"
         />
