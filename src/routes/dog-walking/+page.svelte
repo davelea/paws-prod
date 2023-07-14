@@ -102,7 +102,7 @@
               <button class="pricing-list__summary-action"
                 ><i class="fas fa-chevron-right mr-2 paws-rotate-90" aria-hidden="true" /><span
                   class="pricing-list__summary-title"
-                  title="Dog Walking Services">Dog Walking Services - Starting at $30</span
+                  title="Dog Walking Services">Dog Walking Services - Starting at $25</span
                 ></button
               >
             </h2>
@@ -184,7 +184,7 @@
               <button class="pricing-list__summary-action"
                 ><i class="fas fa-chevron-right mr-2" aria-hidden="true" /><span
                   class="pricing-list__summary-title"
-                  title="Pet Sitting">Pet Sitting - Starting at $40</span
+                  title="Pet Sitting">Pet Sitting - Starting at $30</span
                 ></button
               >
             </h2>

@@ -67,28 +67,28 @@
       <HorizontalCard
         heading="Puppy Preschool"
         description="This course is everything you need to get your puppy set up in their new home and get started on the right foot."
-        imageSrc="/images/illustrations/woman-dog-desk.png"
+        imageSrc="/images/illustrations/vet-holding-dog.jpeg"
         age="2-5 months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Training%202-5%20Months"
       />
       <HorizontalCard
         heading="K9 Kindergarten"
         description="Learn how to teach your puppy basic manners like, sit, come, loose leash walking, and more."
-        imageSrc="/images/illustrations/woman-dog-selfie.png"
+        imageSrc="/images/illustrations/woman-petting-dog.jpeg"
         age="5-12 months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Training%206-12%20Months"
       />
       <HorizontalCard
         heading="Sit, Stay, Succeed!"
         description="Learn how to teach your dog basic manners like, stay, heel, down, and more."
-        imageSrc="/images/illustrations/woman-training-dog.png"
+        imageSrc="/images/illustrations/man-walking-dog.jpeg"
         age="12+ months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Obedience%20for%20the%20Family%20Dog%2012%2B%20Months"
       />
       <HorizontalCard
         heading="Top Dog Academy"
         description="Build upon the foundation of our basic manners training course by adding duration and distraction."
-        imageSrc="/images/illustrations/woman-walking-dog.png"
+        imageSrc="/images/illustrations/man-shaking-dog-hand.jpeg"
         age="12+ months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Intermediate%20Training"
       />
@@ -111,7 +111,7 @@
     <div class="pricing-container">
       <ServiceSection
         heading="Private Training"
-        price="Starting at $1100"
+        price="Starting at $900"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Private%20Training"
         cta="Register Now"
       >
