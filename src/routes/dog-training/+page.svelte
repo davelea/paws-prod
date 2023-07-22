@@ -7,7 +7,7 @@
 </script>
 
 <Container>
-  <section class="text-blueGray-700 ">
+  <section class="text-blueGray-700">
     <div class="flex flex-col items-center pt-4 md:flex-row">
       <div
         class="flex flex-col items-start mb-4 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0"
@@ -21,7 +21,7 @@
               class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full"
             >
               <Building class="inline text-sm text-blue-500" />
-            </span>Office Hours: Tuesday - Friday: 10am - 6pm
+            </span>Office Hours: Monday - Friday: 10am - 6pm
           </p>
           <p class="flex mb-2 text-blueGray-600">
             <span
@@ -50,7 +50,7 @@
       </div>
       <div class="max-w-sm lg:max-w-md">
         <img
-          class="object-cover object-center rounded-lg "
+          class="object-cover object-center rounded-lg"
           alt=""
           src="/images/abc-certified-dog-trainer.png"
         />
@@ -61,34 +61,34 @@
 
 <Container backgroundColor="var(--brand-background_light)">
   <section class="py-8">
-    <h2 class="text-3xl pb-4">Group Training Classes</h2>
+    <h2 class="text-3xl pb-4">Private Training Classes</h2>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <HorizontalCard
-        heading="Puppy Right Start"
-        description="This course is everything you need to get your puppy set up in their new home and get started on the right foot."
-        imageSrc="/images/illustrations/vet-holding-dog.jpeg"
+        heading="Puppy Preschool"
+        description="Bringing home a new furry member of the family? Our Puppy Preschool Private Class will teach you everything you need to know to set up your new puppy for success."
+        imageSrc="/images/illustrations/woman-dog-desk.png"
         age="2-5 months"
-        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Right%20Start%20"
+        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Training%202-5%20Months"
       />
       <HorizontalCard
-        heading="Puppy Kindergarten"
-        description="Learn how to teach your puppy basic manners like, sit, come, loose leash walking, and more."
-        imageSrc="/images/illustrations/woman-petting-dog.jpeg"
+        heading="K9 Kindergarten"
+        description="Whether continuing your education from Puppy Preschool or bringing home a new puppy, our three week K9 Kindergarten private class teaches you and your new best friend the basics like stay, down, loose leash walking, and more!"
+        imageSrc="/images/illustrations/woman-dog-selfie.png"
         age="5-12 months"
-        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Kindergarten"
+        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Training%206-12%20Months"
       />
       <HorizontalCard
-        heading="Basic Manners"
-        description="Learn how to teach your dog basic manners like, stay, heel, down, and more."
-        imageSrc="/images/illustrations/man-walking-dog.jpeg"
+        heading="Sit, Stay, Succeed!"
+        description="Whether continuing your education from K9 Kindergarten private class or bringing home a new best friend, our three week Sit, Stay, Succeed! private class teaches you how to train your new best friend the essential manners needed to live a harmonious life together."
+        imageSrc="/images/illustrations/woman-training-dog.png"
         age="12+ months"
-        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Manners%20"
+        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Obedience%20for%20the%20Family%20Dog%2012%2B%20Months"
       />
       <HorizontalCard
-        heading="Intermediate"
-        description="Build upon the foundation of our basic manners training course by adding duration and distraction."
-        imageSrc="/images/illustrations/man-shaking-dog-hand.jpeg"
+        heading="Top Dog Academy"
+        description="Everything you need to work with your pup in the face of real life distractions with real life dogs, while learning some new and fun skills."
+        imageSrc="/images/illustrations/woman-walking-dog.png"
         age="12+ months"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Intermediate%20Training"
       />
@@ -98,19 +98,9 @@
       <h3 class="text-2xl">All classes include:</h3>
 
       <ul class="list-disc list-inside ml-4">
-        <li>Five weeks of training on a set schedule</li>
-        <li>
-          The first session is our orientation without dogs, which is an important catalyst of any
-          training program
-        </li>
-        <li>Each class teaches a set of different commands</li>
+        <li>Three to four weeks of training on a set schedule</li>
         <li>We teach you how to work through distractions and real life situations</li>
         <li>Weekly practice guides</li>
-        <li>
-          Access to your trainer during office hours for the length of your program via phone or
-          email
-        </li>
-        <li>After each level's graduation, receive $50 off of the next level</li>
       </ul>
     </div>
   </section>
@@ -120,50 +110,15 @@
   <div class="py-8">
     <div class="pricing-container">
       <ServiceSection
-        heading="Day Training"
-        price="Starting at $1500"
-        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Day%20Training"
-        cta="Register Now"
-      >
-        <p>
-          We take your pup on the learning experience of a lifetime! You drop your best friend off
-          at our training center between 9am and 10am where we will do intensive training and
-          socialization exercises.
-        </p>
-
-        <p>
-          In between training we do play sessions, rest sessions, and lots of walks. Then you pick
-          up your best friend between 3pm and 4pm. This program is great for pet parents who do not
-          have the time to invest in working with their dogs daily on the repetition that is
-          required during practicing their training cues or that struggle with the patience that
-          successful training requires.
-        </p>
-
-        <ul class="list-disc list-inside ml-4">
-          <li>Includes 5 to 10 days of training with dog and trainer</li>
-          <li>Includes 2 transfer sessions with trainer and pet parent</li>
-          <li>
-            A manageable training plan that includes teaching your dog impulse control, loose leash
-            walking, polite greetings, and more.
-          </li>
-          <li>We teach you and your dog cues like sit, down, stay, leave it, heel, and more.</li>
-          <li>Access to our online learning library</li>
-          <li>Pet taxis if you need assistance with transport</li>
-          <li>Discounts on maintenance walks</li>
-        </ul>
-      </ServiceSection>
-
-      <ServiceSection
         heading="Private Training"
         price="Starting at $900"
         link="https://PAMtrainingschedule.as.me/?appointmentType=category:Private%20Training"
         cta="Register Now"
       >
         <p>
-          Whether you come to us for private training in our training center or we come to you for
-          private in-home training, allowing you and your pup to work on your own turf, our private
-          training programs offer a customized training experience for you and your dog. These
-          programs start at four week intervals, are for dogs of all ages, and include:
+          Need a more customizable experience? Our private training program is tailored to suit your
+          individual needs. This program starts at four week intervals, are for dogs of all ages,
+          and include:
         </p>
 
         <ul class="list-disc list-inside ml-4">
@@ -181,32 +136,6 @@
           <li>
             Plus, we can spend as much time as you like on each training cue, because you can
             continue training in four-week intervals
-          </li>
-        </ul>
-      </ServiceSection>
-
-      <ServiceSection
-        heading="Pet Parents - Pet First Aid and CPR"
-        price="$135"
-        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Pet%20First%20Aid%20and%20CPR"
-        cta="Register Now"
-      >
-        <p>
-          There is no 911 for pets, so you have to be their emergency response team! This human-only
-          class prepares you to do that in just 5 hours. You will feel empowered and able to provide
-          potentially life saving aid to a pet in need!
-        </p>
-
-        <p>
-          During this course we will cover CPR techniques, trauma responses such as bleeding
-          protocols, treating shock, splinting fractures, and more!
-        </p>
-
-        <ul class="list-disc list-inside ml-4">
-          <li>
-            Looking for certification for the staff of your pet related business? <a
-              href="tel:248-729-6772">Contact us</a
-            > to discuss special bulk rates
           </li>
         </ul>
       </ServiceSection>
