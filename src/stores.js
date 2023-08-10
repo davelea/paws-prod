@@ -3,7 +3,7 @@ import { readable } from 'svelte/store';
 export const info = readable({
   phone: '248-729-6772',
   email: 'support@pawsaroundmotown.com',
-  address: { street: '834 W. 14 Mile Rd.', city: 'Clawson', state: 'MI', postalCode: '48017' },
+  address: { street: '135 N. Old Woodward Ave.', streetTwo: 'Suite 200', city: 'Birnmingham', state: 'MI', postalCode: '48009' },
   socials: {
     facebook: 'https://www.facebook.com/pawsaroundmotown',
     instagram: 'https://www.instagram.com/pawsaroundmotown',
