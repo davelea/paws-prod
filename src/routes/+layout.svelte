@@ -167,7 +167,7 @@
           <MapMarker class="inline text-sm text-red-500 mr-1" />
           <address>
             <a
-              href="https://www.google.com/maps/place/Paws+Around+Motown/@42.533522,-83.1603216,17z/data=!4m13!1m7!3m6!1s0x8824c5d099c24583:0xeb395567d4f3728!2s834+W+14+Mile+Rd,+Clawson,+MI+48017!3b1!8m2!3d42.5334519!4d-83.1579906!3m4!1s0x8824c8983d8552bb:0x7472c4eee8976dcc!8m2!3d42.5336934!4d-83.1579661"
+              href="https://www.google.com/maps/place/Paws+Around+Motown/@42.5469868,-83.2148034,15z/data=!4m6!3m5!1s0x8824c8983d8552bb:0x7472c4eee8976dcc!8m2!3d42.5469868!4d-83.2148034!16s%2Fg%2F11bv2gz9j0?entry=ttu"
               >135 N. Old Woodward Ave.<br />Suite 200<br />Birmingham, MI 48009</a
             >
           </address>
