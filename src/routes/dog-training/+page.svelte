@@ -4,6 +4,8 @@
   import ServiceSection from '$lib/serviceSection.svelte';
   import HorizontalCard from '$lib/horizontalCard.svelte';
   import Container from '$lib/container.svelte';
+
+  const bookNowUrl = 'https://www.timetopet.com/portal/pawsaroundmotown/create-account';
 </script>
 
 <Container>
@@ -69,28 +71,28 @@
         description="Bringing home a new furry member of the family? Our Puppy Preschool Private Class will teach you everything you need to know to set up your new puppy for success."
         imageSrc="/images/illustrations/woman-dog-desk.png"
         age="2-5 months"
-        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Training%202-5%20Months"
+        link={bookNowUrl}
       />
       <HorizontalCard
         heading="K9 Kindergarten"
         description="Whether continuing your education from Puppy Preschool or bringing home a new puppy, our three week K9 Kindergarten private class teaches you and your new best friend the basics like stay, down, loose leash walking, and more!"
         imageSrc="/images/illustrations/woman-dog-selfie.png"
         age="5-12 months"
-        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Puppy%20Training%206-12%20Months"
+        link={bookNowUrl}
       />
       <HorizontalCard
         heading="Sit, Stay, Succeed!"
         description="Whether continuing your education from K9 Kindergarten private class or bringing home a new best friend, our three week Sit, Stay, Succeed! private class teaches you how to train your new best friend the essential manners needed to live a harmonious life together."
         imageSrc="/images/illustrations/woman-training-dog.png"
         age="12+ months"
-        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Basic%20Obedience%20for%20the%20Family%20Dog%2012%2B%20Months"
+        link={bookNowUrl}
       />
       <HorizontalCard
         heading="Top Dog Academy"
         description="Everything you need to work with your pup in the face of real life distractions with real life dogs, while learning some new and fun skills."
         imageSrc="/images/illustrations/woman-walking-dog.png"
         age="12+ months"
-        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Intermediate%20Training"
+        link={bookNowUrl}
       />
     </div>
 
