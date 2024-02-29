@@ -7,12 +7,8 @@
       </h1>
       <div class="paws-hero__action-items pt-2">
         <a
-          class="btn paws-btn_primary paws-btn_large mx-1 my-2"
-          href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
-          >Book Dog Walking Now</a
-        >
-        <a class="btn paws-btn_secondary paws-btn_large mx-1 my-2" href="/dog-training"
-          >Book Dog Training Now</a
+          class="btn paws-btn_primary paws-btn_large mx-1 my-2 px-12"
+          href="https://www.timetopet.com/portal/pawsaroundmotown/create-account">Book Now</a
         >
       </div>
     </div>
@@ -27,12 +23,9 @@
     </h1>
     <div class="paws-hero__action-items pt-2">
       <a
-        class="btn paws-btn_primary paws-btn_large mx-1 my-2"
+        class="btn paws-btn_primary paws-btn_large mx-1 my-2 px-12"
         href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
         >Book Dog Walking Now</a
-      >
-      <a class="btn paws-btn_secondary paws-btn_large mx-1 my-2" href="/dog-training"
-        >Book Dog Training Now</a
       >
     </div>
   </div>
