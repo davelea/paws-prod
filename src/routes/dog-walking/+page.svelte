@@ -63,7 +63,9 @@
 </script>
 
 <div class="container">
-  <h1 class="text-4xl mt-4 mb-3">Dog Walking &amp; Pet Sitting Services</h1>
+  <h1 class="mt-4 mb-3 text-4xl font-black tracking-tighter text-black md:text-5xl title-font">
+    Dog Walking &amp; Pet Sitting Services
+  </h1>
   <div class="container mb-4 space-y-4">
     <div class="row">
       <div class="flex flex-col justify-center lg:flex-row gap-x-2">
