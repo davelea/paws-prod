@@ -184,6 +184,7 @@
         </div>
         <div class="col-md-5 embed-responsive embed-responsive-16by9">
           <iframe
+            loading="lazy"
             class="embed-responsive-item"
             src="https://www.youtube.com/embed/7FhwCYasLX8?rel=0&amp;amp;showinfo=0"
             allowfullscreen
