@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Paws Around Motown | Our Team</title>
+</svelte:head>
+
 <div class="container">
   <h1 class="text-4xl mt-4 mb-3">Our Team</h1>
   <div class="flex flex-wrap justify-around">

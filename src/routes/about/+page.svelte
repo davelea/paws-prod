@@ -8,6 +8,10 @@
   const teamMembers = data?.teamMembers.data;
 </script>
 
+<svelte:head>
+  <title>Paws Around Motown | About Us</title>
+</svelte:head>
+
 <Container>
   <h1 class="pt-4 mb-8 text-4xl font-black tracking-tighter text-black md:text-5xl title-font">
     About Paws Around Motown

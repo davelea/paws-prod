@@ -62,6 +62,10 @@
   }
 </script>
 
+<svelte:head>
+  <title>Paws Around Motown | Dog Walking</title>
+</svelte:head>
+
 <div class="container">
   <h1 class="mt-4 mb-3 text-4xl font-black tracking-tighter text-black md:text-5xl title-font">
     Dog Walking &amp; Pet Sitting Services
