@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Paws Around Motown | Frequently Asked Questions</title>
+</svelte:head>
+
 <div class="container">
   <h1 class="text-4xl mt-4 mb-3">Frequently Asked Questions</h1>
   <div class="container">

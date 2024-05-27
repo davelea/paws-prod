@@ -8,6 +8,10 @@
   const bookNowUrl = 'https://www.timetopet.com/portal/pawsaroundmotown/create-account';
 </script>
 
+<svelte:head>
+  <title>Paws Around Motown | Dog Training</title>
+</svelte:head>
+
 <Container>
   <section class="text-blueGray-700">
     <div class="flex flex-col items-center pt-4 md:flex-row">

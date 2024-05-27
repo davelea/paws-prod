@@ -15,6 +15,7 @@
 </script>
 
 <svelte:head>
+  <title>Paws Around Motown</title>
   <meta
     name="description"
     content="Paws Around Motown - Professional Dog Walking and Pet Services around Metro Detroit"
