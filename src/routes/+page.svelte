@@ -1,37 +1,33 @@
-<div class="paws-hero">
-  <div class="paws-hero__container">
-    <div class="paws-hero__content mt-6">
-      <h1 class="text-4xl">
-        The Only Triple Certified, Veterinarian Endorsed Dog Walker, Pet Sitter, &amp; Dog Trainer
-        In Oakland County, Michigan
-      </h1>
-      <div class="paws-hero__action-items pt-2">
-        <a
-          class="btn paws-btn_primary paws-btn_large mx-1 my-2 px-12"
-          href="https://www.timetopet.com/portal/pawsaroundmotown/create-account">Book Now</a
-        >
-      </div>
-    </div>
-  </div>
-</div>
+<script>
+  import { Section, News, HeroHeader, HeroBody } from 'flowbite-svelte-blocks';
+  import { Button } from 'flowbite-svelte';
+  import { ArrowRightOutline } from 'flowbite-svelte-icons';
+</script>
 
-<div class="paws-content-container_mobile pt-4">
-  <div class="paws-content_mobile">
-    <h1 class="text-4xl mb-2">
-      The Only Triple Certified, Veterinarian Endorsed Dog Walker, Pet Sitter, &amp; Dog Trainer In
-      Oakland County, Michigan
-    </h1>
-    <div class="paws-hero__action-items pt-2">
-      <a
-        class="btn paws-btn_primary paws-btn_large mx-1 my-2 px-12"
-        href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
-        >Book Dog Walking Now</a
+<Section name="heroVisual">
+  <div class="mr-auto place-self-center lg:col-span-7">
+    <HeroHeader
+      h1Class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
+      pClass="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+    >
+      <svelte:fragment slot="h1">Paws Around Motown</svelte:fragment>
+      <svelte:fragment slot="paragraph"
+        >The Only Triple Certified, Veterinarian Endorsed Dog Walker, Pet Sitter, & Dog Trainer In
+        Oakland County, Michigan</svelte:fragment
       >
-    </div>
+      <a href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
+        ><Button size="xl" color="red" class="inline-flex items-center justify-center mr-3"
+          >Book Now<ArrowRightOutline size="md" class="ml-2 -mr-1" /></Button
+        >
+      </a>
+    </HeroHeader>
   </div>
-</div>
+  <div class="mt-8 lg:mt-0 lg:col-span-5 flex">
+    <img src="/images/dog-hero1.webp" class="rounded-xl w-full h-auto" alt="Dog Walking" />
+  </div>
+</Section>
 
-<div class="container">
+<div class="px-4">
   <div class="row">
     <h2 class="text-3xl ml-3 mt-4">Paws Around Motown Dog Walking &amp; Accredited Dog Training</h2>
     <div class="col-sm-12 col-md-6 col-lg-6 my-4">

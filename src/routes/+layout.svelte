@@ -1,7 +1,10 @@
 <script>
   import '../app.css';
+  import { page } from '$app/stores';
   import Banner from '$lib/banner.svelte';
   import { info } from '../stores.js';
+
+  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 
   import Envelope from 'virtual:icons/fa/envelope';
   import Phone from 'virtual:icons/fa/phone';
@@ -12,6 +15,8 @@
   import Tiktok from 'virtual:icons/fa-brands/tiktok';
   import Youtube from 'virtual:icons/fa-brands/youtube';
   import Google from 'virtual:icons/fa-brands/google';
+
+  $: activeUrl = $page.url.pathname;
 </script>
 
 <svelte:head>
@@ -29,12 +34,12 @@
 
   <link rel="stylesheet" href="/styles/paws-styles.css" />
 
-  <link
+  <!-- <link
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous"
-  />
+  /> -->
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
@@ -65,42 +70,28 @@
   </div>
 </div>
 
-<header>
-  <nav class="navbar navbar-expand-md navbar-light sticky-top">
-    <div class="container">
-      <a class="navbar-brand" href="/"
-        ><img
-          class="paws-header__logo"
-          src="/images/pawsaroundmotown-horizontal-crop.png"
-          alt="Paws Around Motown"
-        /></a
-      ><button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarResponsive"
-        aria-controls="navbarResponsive"
-        aria-expanded="false"
-        aria-label="Toggle navigation"><span class="navbar-toggler-icon" /></button
-      >
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="/dog-training">Dog Training</a></li>
-          <li class="nav-item"><a class="nav-link" href="/dog-walking">Dog Walking</a></li>
-          <!-- <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li> -->
-          <li class="nav-item"><a class="nav-link" href="/faq">FAQ</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.timetopet.com/portal/pawsaroundmotown"
-              >Existing Client Login</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+<Navbar>
+  <NavBrand href="/">
+    <img
+      src="/images/pawsaroundmotown-horizontal-crop.png"
+      class="me-3 h-24"
+      alt="Paws Around Motown Logo"
+    />
+  </NavBrand>
+  <NavHamburger />
+  <NavUl
+    {activeUrl}
+    ulClass="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:text-base md:font-medium"
+  >
+    <NavLi href="/">Home</NavLi>
+    <NavLi href="/about">About</NavLi>
+    <NavLi href="/dog-training">Dog Training</NavLi>
+    <NavLi href="/dog-walking">Dog Walking</NavLi>
+    <NavLi href="/blog">Blog</NavLi>
+    <NavLi href="/faq">FAQ</NavLi>
+    <NavLi href="https://www.timetopet.com/portal/pawsaroundmotown">Existing Client Login</NavLi>
+  </NavUl>
+</Navbar>
 
 <slot />
 
