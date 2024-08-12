@@ -65,7 +65,7 @@
 </svelte:head>
 
 <div style="background-color: #e5d315">
-  <div class="container mx-auto">
+  <div class="px-4 py-2 md:px-0 md:py-0">
     <Banner />
   </div>
 </div>
