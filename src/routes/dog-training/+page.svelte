@@ -4,6 +4,7 @@
   import ServiceSection from '$lib/serviceSection.svelte';
   import HorizontalCard from '$lib/horizontalCard.svelte';
   import Container from '$lib/container.svelte';
+  import { Section } from 'flowbite-svelte-blocks';
 
   const bookNowUrl = 'https://www.timetopet.com/portal/pawsaroundmotown/create-account';
 </script>
@@ -12,8 +13,8 @@
   <title>Paws Around Motown | Dog Training</title>
 </svelte:head>
 
-<Container>
-  <section class="text-blueGray-700">
+<Section sectionClass="relative" classDiv="px-4 py-4 mx-auto max-w-screen-xl lg:py-6 lg:px-6">
+  <div class="text-blueGray-700">
     <div class="flex flex-col items-center pt-4 md:flex-row">
       <div
         class="flex flex-col items-start mb-4 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0"
@@ -62,52 +63,54 @@
         />
       </div>
     </div>
-  </section>
-</Container>
+  </div>
+</Section>
 
-<Container backgroundColor="var(--brand-background_light)">
-  <section class="py-8">
-    <h2 class="text-3xl pb-4">Private Training Classes</h2>
+<div style="background-color: var(--brand-background_light)">
+  <Section sectionClass="relative" classDiv="px-4 py-4 mx-auto max-w-screen-xl lg:py-6 lg:px-6">
+    <div class="py-8">
+      <h2 class="text-3xl pb-4">Private Training Classes</h2>
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <HorizontalCard
-        heading="Puppy Preschool"
-        description="Bringing home a new furry member of the family? Our Puppy Preschool Private Class will teach you everything you need to know to set up your new puppy for success."
-        imageSrc="/images/illustrations/woman-dog-desk.png"
-        age="2-5 months"
-        link={bookNowUrl}
-      />
-      <HorizontalCard
-        heading="K9 Kindergarten"
-        description="Whether continuing your education from Puppy Preschool or bringing home a new puppy, our three week K9 Kindergarten private class teaches you and your new best friend the basics like stay, down, loose leash walking, and more!"
-        imageSrc="/images/illustrations/woman-dog-selfie.png"
-        age="5-12 months"
-        link={bookNowUrl}
-      />
-      <HorizontalCard
-        heading="Sit, Stay, Succeed!"
-        description="Whether continuing your education from K9 Kindergarten private class or bringing home a new best friend, our three week Sit, Stay, Succeed! private class teaches you how to train your new best friend the essential manners needed to live a harmonious life together."
-        imageSrc="/images/illustrations/woman-training-dog.png"
-        age="12+ months"
-        link={bookNowUrl}
-      />
-      <HorizontalCard
-        heading="Top Dog Academy"
-        description="Everything you need to work with your pup in the face of real life distractions with real life dogs, while learning some new and fun skills."
-        imageSrc="/images/illustrations/woman-walking-dog.png"
-        age="12+ months"
-        link="https://PAMtrainingschedule.as.me/?appointmentType=category:Intermediate%20Training"
-      />
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <HorizontalCard
+          heading="Puppy Preschool"
+          description="Bringing home a new furry member of the family? Our Puppy Preschool Private Class will teach you everything you need to know to set up your new puppy for success."
+          imageSrc="/images/illustrations/woman-dog-desk.png"
+          age="2-5 months"
+          link={bookNowUrl}
+        />
+        <HorizontalCard
+          heading="K9 Kindergarten"
+          description="Whether continuing your education from Puppy Preschool or bringing home a new puppy, our three week K9 Kindergarten private class teaches you and your new best friend the basics like stay, down, loose leash walking, and more!"
+          imageSrc="/images/illustrations/woman-dog-selfie.png"
+          age="5-12 months"
+          link={bookNowUrl}
+        />
+        <HorizontalCard
+          heading="Sit, Stay, Succeed!"
+          description="Whether continuing your education from K9 Kindergarten private class or bringing home a new best friend, our three week Sit, Stay, Succeed! private class teaches you how to train your new best friend the essential manners needed to live a harmonious life together."
+          imageSrc="/images/illustrations/woman-training-dog.png"
+          age="12+ months"
+          link={bookNowUrl}
+        />
+        <HorizontalCard
+          heading="Top Dog Academy"
+          description="Everything you need to work with your pup in the face of real life distractions with real life dogs, while learning some new and fun skills."
+          imageSrc="/images/illustrations/woman-walking-dog.png"
+          age="12+ months"
+          link="https://PAMtrainingschedule.as.me/?appointmentType=category:Intermediate%20Training"
+        />
+      </div>
+
+      <div class="pt-4 space-y-4">
+        <h3 class="text-2xl">All classes include:</h3>
+
+        <ul class="list-disc list-inside ml-4">
+          <li>Three to four weeks of training on a set schedule</li>
+          <li>We teach you how to work through distractions and real life situations</li>
+          <li>Weekly practice guides</li>
+        </ul>
+      </div>
     </div>
-
-    <div class="pt-4 space-y-4">
-      <h3 class="text-2xl">All classes include:</h3>
-
-      <ul class="list-disc list-inside ml-4">
-        <li>Three to four weeks of training on a set schedule</li>
-        <li>We teach you how to work through distractions and real life situations</li>
-        <li>Weekly practice guides</li>
-      </ul>
-    </div>
-  </section>
-</Container>
+  </Section>
+</div>
