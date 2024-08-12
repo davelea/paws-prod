@@ -126,8 +126,7 @@
             <p>
               Your fur baby will have fresh water, undivided attention, positive reinforcement, and
               a safe environment to smell the smells and stretch those muscles! All walks are
-              private on-leash experiences and are offered between 9 am and 4 pm. Our base walk is
-              30 minutes, and then $20 for each additional 30 minutes.
+              private on-leash experiences and are offered between 9 am and 4 pm.
             </p>
 
             <div class="pricing-list__content-cta">
