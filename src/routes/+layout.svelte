@@ -1,5 +1,5 @@
 <script>
-  import '../app.css';
+  import '../output.css';
   import { page } from '$app/stores';
   import Banner from '$lib/banner.svelte';
   import { info } from '../stores.js';
