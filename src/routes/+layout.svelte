@@ -1,7 +1,10 @@
 <script>
-  import '../app.css';
+  import '../output.css';
+  import { page } from '$app/stores';
   import Banner from '$lib/banner.svelte';
   import { info } from '../stores.js';
+
+  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 
   import Envelope from 'virtual:icons/fa/envelope';
   import Phone from 'virtual:icons/fa/phone';
@@ -12,6 +15,8 @@
   import Tiktok from 'virtual:icons/fa-brands/tiktok';
   import Youtube from 'virtual:icons/fa-brands/youtube';
   import Google from 'virtual:icons/fa-brands/google';
+
+  $: activeUrl = $page.url.pathname;
 </script>
 
 <svelte:head>
@@ -26,14 +31,15 @@
     content="Dogs,Walking,Metro Detroit,Puppies,Dog Walkers,Dog Walking,Berkley,Royal Oak,Ferndale,Huntington Woods,Pleasant Ridge,Oak Park, West Bloomfield,Waterford,Lathrup Village,Franklin,Beverly Hills,Detroit"
   />
   <meta name="google-site-verification" content="4MW2Yc1iry7pSGIfxv86ruYNMnBaBHNztJS2Q7Q7WDE" />
-  <link
+
+  <link rel="stylesheet" href="/styles/paws-styles.css" />
+
+  <!-- <link
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous"
-  />
-  <link rel="stylesheet" href="/styles/styles.css" />
-  <link rel="stylesheet" href="/styles/paws-styles.css" />
+  /> -->
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
@@ -46,21 +52,6 @@
   <meta name="theme-color" content="#ffffff" />
 
   <script src="https://kit.fontawesome.com/d2e9fa292e.js" crossorigin="anonymous"></script>
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"
-  ></script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60585727-1"></script>
   <script>
@@ -74,47 +65,33 @@
 </svelte:head>
 
 <div style="background-color: #e5d315">
-  <div class="container mx-auto">
+  <div class="px-4 py-2 md:px-0 md:py-0">
     <Banner />
   </div>
 </div>
 
-<header>
-  <nav class="navbar navbar-expand-md navbar-light sticky-top">
-    <div class="container">
-      <a class="navbar-brand" href="/"
-        ><img
-          class="paws-header__logo"
-          src="/images/pawsaroundmotown-horizontal-crop.png"
-          alt="Paws Around Motown"
-        /></a
-      ><button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarResponsive"
-        aria-controls="navbarResponsive"
-        aria-expanded="false"
-        aria-label="Toggle navigation"><span class="navbar-toggler-icon" /></button
-      >
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="/dog-training">Dog Training</a></li>
-          <li class="nav-item"><a class="nav-link" href="/dog-walking">Dog Walking</a></li>
-          <!-- <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li> -->
-          <li class="nav-item"><a class="nav-link" href="/faq">FAQ</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.timetopet.com/portal/pawsaroundmotown"
-              >Existing Client Login</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+<Navbar>
+  <NavBrand href="/">
+    <img
+      src="/images/pawsaroundmotown-horizontal-crop.png"
+      class="me-3 h-24"
+      alt="Paws Around Motown Logo"
+    />
+  </NavBrand>
+  <NavHamburger />
+  <NavUl
+    {activeUrl}
+    ulClass="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:text-base md:font-medium"
+  >
+    <NavLi href="/">Home</NavLi>
+    <NavLi href="/about">About</NavLi>
+    <NavLi href="/dog-training">Dog Training</NavLi>
+    <NavLi href="/dog-walking">Dog Walking</NavLi>
+    <!-- <NavLi href="/blog">Blog</NavLi> -->
+    <NavLi href="/faq">FAQ</NavLi>
+    <NavLi href="https://www.timetopet.com/portal/pawsaroundmotown">Existing Client Login</NavLi>
+  </NavUl>
+</Navbar>
 
 <slot />
 

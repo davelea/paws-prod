@@ -1,6 +1,9 @@
 <script>
   import Building from 'virtual:icons/fa/building';
   import Dog from 'virtual:icons/fa-solid/dog';
+  import { Section } from 'flowbite-svelte-blocks';
+  import { Button } from 'flowbite-svelte';
+  import { ArrowRightOutline } from 'flowbite-svelte-icons';
 
   import { onMount } from 'svelte';
 
@@ -66,13 +69,13 @@
   <title>Paws Around Motown | Dog Walking</title>
 </svelte:head>
 
-<div class="container">
+<Section sectionClass="relative" classDiv="px-4 py-4 mx-auto max-w-screen-xl lg:py-6 lg:px-6">
   <h1 class="mt-4 mb-3 text-4xl font-black tracking-tighter text-black md:text-5xl title-font">
     Dog Walking &amp; Pet Sitting Services
   </h1>
   <div class="container mb-4 space-y-4">
     <div class="row">
-      <div class="flex flex-col justify-center lg:flex-row gap-x-2">
+      <div class="flex flex-col justify-center gap-x-2">
         <p class="flex mb-2 text-blueGray-600">
           <span
             class="inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 rounded-full"
@@ -123,15 +126,15 @@
             <p>
               Your fur baby will have fresh water, undivided attention, positive reinforcement, and
               a safe environment to smell the smells and stretch those muscles! All walks are
-              private on-leash experiences and are offered between 9 am and 4 pm. Our base walk is
-              30 minutes, and then $20 for each additional 30 minutes.
+              private on-leash experiences and are offered between 9 am and 4 pm.
             </p>
 
             <div class="pricing-list__content-cta">
-              <a
-                class="btn paws-btn_primary mx-1"
-                href="https://www.timetopet.com/portal/pawsaroundmotown/create-account">Book Now</a
-              >
+              <a href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
+                ><Button size="md" color="red" class="inline-flex items-center justify-center mr-3"
+                  >Book Now<ArrowRightOutline size="md" class="ml-2 -mr-1" /></Button
+                >
+              </a>
             </div>
           </div>
         </section>
@@ -174,10 +177,11 @@
             </ul>
 
             <div class="pricing-list__content-cta">
-              <a
-                class="btn paws-btn_primary mx-1"
-                href="https://www.timetopet.com/portal/pawsaroundmotown/create-account">Book Now</a
-              >
+              <a href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
+                ><Button size="md" color="red" class="inline-flex items-center justify-center mr-3"
+                  >Book Now<ArrowRightOutline size="md" class="ml-2 -mr-1" /></Button
+                >
+              </a>
             </div>
           </div>
         </section>
@@ -208,10 +212,11 @@
             </p>
 
             <div class="pricing-list__content-cta">
-              <a
-                class="btn paws-btn_primary mx-1"
-                href="https://www.timetopet.com/portal/pawsaroundmotown/create-account">Book Now</a
-              >
+              <a href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
+                ><Button size="md" color="red" class="inline-flex items-center justify-center mr-3"
+                  >Book Now<ArrowRightOutline size="md" class="ml-2 -mr-1" /></Button
+                >
+              </a>
             </div>
           </div>
         </section>
@@ -251,10 +256,11 @@
             </ul>
 
             <div class="pricing-list__content-cta">
-              <a
-                class="btn paws-btn_primary mx-1"
-                href="https://www.timetopet.com/portal/pawsaroundmotown/create-account">Book Now</a
-              >
+              <a href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
+                ><Button size="md" color="red" class="inline-flex items-center justify-center mr-3"
+                  >Book Now<ArrowRightOutline size="md" class="ml-2 -mr-1" /></Button
+                >
+              </a>
             </div>
           </div>
         </section>
@@ -314,14 +320,15 @@
               recommend booking as soon as possible!
             </p>
             <div class="pricing-list__content-cta">
-              <a
-                class="btn paws-btn_primary mx-1"
-                href="https://www.timetopet.com/portal/pawsaroundmotown/create-account">Book Now</a
-              >
+              <a href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
+                ><Button size="md" color="red" class="inline-flex items-center justify-center mr-3"
+                  >Book Now<ArrowRightOutline size="md" class="ml-2 -mr-1" /></Button
+                >
+              </a>
             </div>
           </div>
         </section>
       </li>
     </ul>
   </div>
-</div>
+</Section>

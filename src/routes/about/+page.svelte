@@ -2,6 +2,7 @@
   import { each } from 'svelte/internal';
   import TeamMemberCard from '$lib/teamMemberCard.svelte';
   import Container from '$lib/container.svelte';
+  import { Section } from 'flowbite-svelte-blocks';
 
   export let data;
 
@@ -12,11 +13,11 @@
   <title>Paws Around Motown | About Us</title>
 </svelte:head>
 
-<Container>
-  <h1 class="pt-4 mb-8 text-4xl font-black tracking-tighter text-black md:text-5xl title-font">
+<Section sectionClass="relative" classDiv="px-4 py-4 mx-auto max-w-screen-xl lg:py-6 lg:px-6">
+  <h1 class="mb-8 text-4xl font-black tracking-tighter text-black md:text-5xl title-font">
     About Paws Around Motown
   </h1>
-  <section class="gap-16 items-center mx-auto max-w-screen-xl lg:grid lg:grid-cols-2">
+  <div class="gap-16 items-center mx-auto max-w-screen-xl lg:grid lg:grid-cols-2">
     <div class="font-light sm:text-lg">
       <p class="mb-4">
         The team at Paws Around Motown shares Becky's passion and expertise in pet care. Our staff
@@ -52,37 +53,31 @@
         alt="Megan (Paws Around Motown Manager) posing with a dog"
       />
     </div>
-  </section>
-</Container>
+  </div>
+</Section>
 
-<Container>
-  <section class="pt-8 mx-auto max-w-screen-xl">
-    <div class="max-w-screen-lg font-light sm:text-lg">
-      <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
-        Our Mission
-      </h2>
-      <p class="mb-4">
-        To provide a safe, stress-free, and quality pet care experience for pet and pet parent. We
-        do this through compassion, patience, honesty, open communication, and respect.
-      </p>
-    </div>
-  </section>
-</Container>
+<Section sectionClass="relative" classDiv="px-4 py-4 mx-auto max-w-screen-xl lg:py-6 lg:px-6">
+  <div class="max-w-screen-lg font-light sm:text-lg">
+    <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
+      Our Mission
+    </h2>
+    <p class="mb-4">
+      To provide a safe, stress-free, and quality pet care experience for pet and pet parent. We do
+      this through compassion, patience, honesty, open communication, and respect.
+    </p>
+  </div>
+</Section>
 
 {#if teamMembers}
-  <Container>
-    <section class="py-8 mx-auto max-w-screen-xl">
-      <div class="font-light sm:text-lg">
-        <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
-          Our Team
-        </h2>
+  <Section sectionClass="relative" classDiv="px-4 py-4 mx-auto max-w-screen-xl lg:py-6 lg:px-6">
+    <div class="font-light sm:text-lg">
+      <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Our Team</h2>
 
-        <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
-          {#each teamMembers as teamMember}
-            <TeamMemberCard teamMember={teamMember.attributes} />
-          {/each}
-        </div>
+      <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+        {#each teamMembers as teamMember}
+          <TeamMemberCard teamMember={teamMember.attributes} />
+        {/each}
       </div>
-    </section>
-  </Container>
+    </div>
+  </Section>
 {/if}
