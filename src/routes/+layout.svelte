@@ -87,7 +87,7 @@
     <NavLi href="/about">About</NavLi>
     <NavLi href="/dog-training">Dog Training</NavLi>
     <NavLi href="/dog-walking">Dog Walking</NavLi>
-    <!-- <NavLi href="/blog">Blog</NavLi> -->
+    <NavLi href="/blog">Blog</NavLi>
     <NavLi href="/faq">FAQ</NavLi>
     <NavLi href="https://www.timetopet.com/portal/pawsaroundmotown">Existing Client Login</NavLi>
   </NavUl>
@@ -107,7 +107,7 @@
         <ul class="mt-4 space-y-4">
           <li><a href="/about">About Us</a></li>
           <li><a href="/team">Team</a></li>
-          <!-- <li><a href="/blog">Blog</a></li> -->
+          <li><a href="/blog">Blog</a></li>
         </ul>
       </div>
       <div>
