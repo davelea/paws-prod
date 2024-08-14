@@ -17,7 +17,7 @@
       </h2>
       <p class="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
         We're never prouder than when our happy customers trust us enough to refer our services to
-        their friends and family. Here what some of them are saying about us.
+        their friends and family. Here's what some of them are saying about us.
       </p>
     </svelte:fragment>
   </TestimonialCard>
