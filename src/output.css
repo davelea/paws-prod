@@ -3356,6 +3356,18 @@ video {
   padding-left: 2.5rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -5840,8 +5852,21 @@ video {
     padding-bottom: 1.5rem;
   }
 
+  .lg\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .lg\:pr-24 {
     padding-right: 6rem;
+  }
+
+  .lg\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
+  .lg\:pt-16 {
+    padding-top: 4rem;
   }
 
   .lg\:text-2xl {
