@@ -1,5 +1,5 @@
 <script>
-  import { Section, BlogTemplate, Comment, CommentItem } from 'flowbite-svelte-blocks';
+  import { Section, BlogTemplate } from 'flowbite-svelte-blocks';
 
   export let data = [];
 
