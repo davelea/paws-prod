@@ -1,7 +1,5 @@
 <script>
   import { Section, BlogTemplate, Comment, CommentItem } from 'flowbite-svelte-blocks';
-  import { Button, Textarea, Label, Dropdown, DropdownItem } from 'flowbite-svelte';
-  import { DotsHorizontalOutline } from 'flowbite-svelte-icons';
 
   export let data = [];
 
