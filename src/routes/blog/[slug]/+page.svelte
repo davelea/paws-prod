@@ -27,6 +27,7 @@
   name="blogTemplate"
   sectionClass="relative"
   classSection="px-4 pt-4 pb-12 mx-auto max-w-screen-xl lg:py-6 lg:px-6"
+  articleCls="prose lg:prose-xl"
 >
   <BlogTemplate {blog} classArticle="dark:text-white" />
 </Section>
