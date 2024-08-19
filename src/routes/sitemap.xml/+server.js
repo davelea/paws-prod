@@ -30,6 +30,15 @@ export async function GET() {
             <url>
                 <loc>${domain}/team</loc>
             </url>
+            <url>
+                <loc>${domain}/blog</loc>
+            </url>
+            <url>
+                <loc>${domain}/blog/dog-harness-vs-collar-which-is-better</loc>
+            </url>
+            <url>
+                <loc>${domain}/blog/back-to-school-back-to-routine-tips-for-managing-separation-anxiety-in-pets</loc>
+            </url>
 		</urlset>`.trim(),
     {
       headers: {
