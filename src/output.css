@@ -2463,6 +2463,11 @@ input[type="range"].range-lg::-moz-range-thumb {
   width: 100%;
 }
 
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -6414,6 +6419,10 @@ input[type="range"].range-lg::-moz-range-thumb {
     display: grid;
   }
 
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:h-10 {
     height: 2.5rem;
   }
@@ -6897,6 +6906,11 @@ input[type="range"].range-lg::-moz-range-thumb {
     line-height: 1.25rem;
   }
 
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .md\:font-medium {
     font-weight: 500;
   }
@@ -6917,12 +6931,21 @@ input[type="range"].range-lg::-moz-range-thumb {
 }
 
 @media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+
   .lg\:col-span-5 {
     grid-column: span 5 / span 5;
   }
 
   .lg\:col-span-7 {
     grid-column: span 7 / span 7;
+  }
+
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .lg\:mb-12 {
@@ -6959,6 +6982,10 @@ input[type="range"].range-lg::-moz-range-thumb {
 
   .lg\:-mt-8 {
     margin-top: -2rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {
@@ -7088,6 +7115,11 @@ input[type="range"].range-lg::-moz-range-thumb {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
