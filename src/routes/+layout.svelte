@@ -66,8 +66,8 @@
 <Navbar>
   <NavBrand href="/">
     <img
-      src="/images/pawsaroundmotown-horizontal-crop.png"
-      class="me-3 h-24"
+      src="/images/logos/pam-logo_horizontal_no-text.png"
+      class="me-3 h-12"
       alt="Paws Around Motown Logo"
     />
   </NavBrand>
