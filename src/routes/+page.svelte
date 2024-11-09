@@ -6,7 +6,7 @@
   import Testimonial from '$lib/testimonial.svelte';
 </script>
 
-<Section name="heroVisual" sectionClass="relative" class="mr-auto">
+<Section name="heroVisual" sectionClass="relative lg:-mt-8" class="mr-auto">
   <div class="mr-auto place-self-center lg:col-span-7">
     <HeroHeader
       h1Class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
@@ -25,7 +25,11 @@
     </HeroHeader>
   </div>
   <div class="mt-8 lg:mt-0 lg:col-span-5 flex">
-    <img src="/images/dog-hero1.webp" class="rounded-xl w-full h-auto" alt="Dog Walking" />
+    <img
+      src="/images/hero/hero_dog-walking-park.jpg"
+      class="rounded-xl w-full h-auto"
+      alt="Dog Walking"
+    />
   </div>
 </Section>
 
