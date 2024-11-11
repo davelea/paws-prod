@@ -6,16 +6,25 @@
   import Testimonial from '$lib/testimonial.svelte';
 </script>
 
-<Section name="heroVisual" sectionClass="relative" class="mr-auto">
+<Section name="heroVisual" sectionClass="relative lg:-mt-8" class="mr-auto">
   <div class="mr-auto place-self-center lg:col-span-7">
+    <div class="hidden lg:block max-w-xs mx-auto">
+      <img src="/images/logos/pam-logo_curve_no-text.png" alt="Paws Around Motown Logo" />
+    </div>
+
     <HeroHeader
-      h1Class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
-      pClass="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+      h1Class="lg:mx-auto w-fit max-w-2xl mb-6 text-4xl lg:text-5xl font-extrabold tracking-tight leading-none"
+      h2Class="lg: max-auto w-fit mb-6 text-2xl tracking-tight leading-tight md:text-3xl"
+      pClass="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl"
     >
       <svelte:fragment slot="h1">Paws Around Motown</svelte:fragment>
+      <svelte:fragment slot="h2"
+        >Oakland County's Dog Walking, Dog Training, and Pet&nbsp;Sitting Professionals</svelte:fragment
+      >
       <svelte:fragment slot="paragraph"
-        >The Only Triple Certified, Veterinarian Endorsed Dog Walker, Pet Sitter, & Dog Trainer In
-        Oakland County, Michigan</svelte:fragment
+        >Welcome to the only triple-certified and award-winning pet care company in Oakland County,
+        Michigan. Because your best friend deserves the best – enjoy peace of mind knowing they're
+        in the paws of Oakland County's best.</svelte:fragment
       >
       <a href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
         ><Button size="xl" color="red" class="inline-flex items-center justify-center mr-3"
@@ -25,7 +34,11 @@
     </HeroHeader>
   </div>
   <div class="mt-8 lg:mt-0 lg:col-span-5 flex">
-    <img src="/images/dog-hero1.webp" class="rounded-xl w-full h-auto" alt="Dog Walking" />
+    <img
+      src="/images/hero/hero_dog-walking-park.jpg"
+      class="rounded-xl w-full h-auto"
+      alt="Dog Walking"
+    />
   </div>
 </Section>
 
