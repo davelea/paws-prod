@@ -76,6 +76,7 @@
     <NavUl
       {activeUrl}
       ulClass="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:text-base md:font-medium"
+      activeClass="text-white bg-red-700 md:bg-transparent md:text-red-700"
     >
       <NavLi href="/">Home</NavLi>
       <NavLi href="/about">About</NavLi>
