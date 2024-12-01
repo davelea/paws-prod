@@ -3752,6 +3752,11 @@ input[type="range"].range-lg::-moz-range-thumb {
   background-color: rgb(193 163 13 / var(--tw-bg-opacity));
 }
 
+.bg-yellow-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 249 143 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -4747,6 +4752,11 @@ input[type="range"].range-lg::-moz-range-thumb {
 .text-yellow-900 {
   --tw-text-opacity: 1;
   color: rgb(109 77 22 / var(--tw-text-opacity));
+}
+
+.text-red-200 {
+  --tw-text-opacity: 1;
+  color: rgb(255 192 192 / var(--tw-text-opacity));
 }
 
 .text-opacity-75 {
