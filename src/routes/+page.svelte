@@ -42,7 +42,7 @@
   </div>
 </Section>
 
-<Section name="feature" sectionClass="relative">
+<Section name="feature" sectionClass="relative bg-yellow-100">
   <HeroHeader
     class="max-w-screen-md mb-8 lg:mb-16"
     h2Class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
@@ -55,10 +55,10 @@
     >
   </HeroHeader>
   <FeatureDefault>
-    <FeatureItem divClass="override">
+    <FeatureItem divClass="override" pClass="text-gray-600">
       <svelte:fragment slot="icon">
         <img
-          class="h-20 w-auto -ml-2 -mt-2"
+          class="h-24 w-auto -ml-2 -mt-2"
           src="/images/illustrations/woman-walking-dog.png"
           alt=""
         />
@@ -69,11 +69,11 @@
         walking adventure for your pup! 🐶</svelte:fragment
       >
     </FeatureItem>
-    <FeatureItem divClass="override">
+    <FeatureItem divClass="override" pClass="text-gray-600">
       <svelte:fragment slot="icon"
         ><img
-          class="h-20 w-auto -ml-2 -mt-2"
-          src="/images/illustrations/woman-petting-dog.jpeg"
+          class="h-24 w-auto -ml-2 -mt-2"
+          src="/images/illustrations/woman-dog-trail-hike.png"
           alt=""
         /></svelte:fragment
       >
@@ -83,10 +83,10 @@
         Excursions! 🌿 Explore Oakland County's best spots today! 🐶🎉</svelte:fragment
       >
     </FeatureItem>
-    <FeatureItem divClass="override">
+    <FeatureItem divClass="override" pClass="text-gray-600">
       <svelte:fragment slot="icon"
         ><img
-          class="h-20 w-auto -ml-2 -mt-2"
+          class="h-24 w-auto -ml-2 -mt-2"
           src="/images/illustrations/woman-training-dog.png"
           alt=""
         /></svelte:fragment
@@ -97,11 +97,11 @@
         Puppy Preschool to Board and Train programs, we've got you covered.</svelte:fragment
       >
     </FeatureItem>
-    <FeatureItem divClass="override">
+    <FeatureItem divClass="override" pClass="text-gray-600">
       <svelte:fragment slot="icon"
         ><img
-          class="h-20 w-auto -ml-2 -mt-2"
-          src="/images/illustrations/man-shaking-dog-hand.jpeg"
+          class="h-24 w-auto -ml-2 -mt-2"
+          src="/images/illustrations/woman-snuggling-cat.png"
           alt=""
         /></svelte:fragment
       >
@@ -111,10 +111,10 @@
         weekly clients! 🐶🐱</svelte:fragment
       >
     </FeatureItem>
-    <FeatureItem divClass="override">
+    <FeatureItem divClass="override" pClass="text-gray-600">
       <svelte:fragment slot="icon"
         ><img
-          class="h-20 w-auto -ml-2 -mt-2"
+          class="h-24 w-auto -ml-2 -mt-2"
           src="/images/illustrations/woman-dog-selfie.png"
           alt=""
         /></svelte:fragment
@@ -125,10 +125,10 @@
         your cat's perfect visit covered! 😻</svelte:fragment
       >
     </FeatureItem>
-    <FeatureItem divClass="override">
+    <FeatureItem divClass="override" pClass="text-gray-600">
       <svelte:fragment slot="icon"
         ><img
-          class="h-20 w-auto -ml-2 -mt-2"
+          class="h-24 w-auto -ml-2 -mt-2"
           src="/images/illustrations/woman-question.png"
           alt=""
         /></svelte:fragment

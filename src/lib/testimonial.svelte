@@ -9,7 +9,7 @@
   import MdiFaceWoman from '~icons/mdi/face-woman';
 </script>
 
-<Section name="testimonial">
+<Section name="testimonial" sectionClass="override">
   <TestimonialCard>
     <svelte:fragment slot="header">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">

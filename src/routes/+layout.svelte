@@ -58,7 +58,7 @@
 </svelte:head>
 
 <div class="max-w-screen-2xl mx-auto">
-  <div style="background-color: #e5d315">
+  <div class="bg-yellow-500">
     <div class="px-4 py-2 md:px-0 md:py-0">
       <Banner />
     </div>
