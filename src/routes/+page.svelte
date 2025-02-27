@@ -26,9 +26,9 @@
         Michigan. Because your best friend deserves the best – enjoy peace of mind knowing they're
         in the paws of Oakland County's best.</svelte:fragment
       >
-      <a href="https://www.timetopet.com/portal/pawsaroundmotown/create-account"
+      <a href="https://hello.pawsaroundmotown.com/widget/form/ex6cbJOqJmlgOcl1QuaY"
         ><Button size="xl" color="red" class="inline-flex items-center justify-center mr-3"
-          >Book Now<ArrowRightOutline size="md" class="ml-2 -mr-1" /></Button
+          >Get Started<ArrowRightOutline size="md" class="ml-2 -mr-1" /></Button
         >
       </a>
     </HeroHeader>
